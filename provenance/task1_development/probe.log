@@ -1,0 +1,39 @@
+Q0
+   -0.7117    1.7515    2.0179    2.0216   -1.5443    2.0500    1.2752
+
+QT
+   -1.2928    1.3919    2.0976    0.7243   -1.8596    2.0500   -0.5912
+
+           Iterations: 58
+    NumRandomRestarts: 0
+        PoseErrorNorm: 2.9876e-08
+             ExitFlag: 4
+               Status: 'success'
+
+           Iterations: 28
+    NumRandomRestarts: 0
+        PoseErrorNorm: 2.9816e-08
+             ExitFlag: 1
+               Status: 'success'
+
+   0
+
+   0
+
+Body=ForeArm_Link patches=4
+tag=DO_NOT_EDIT_gikmt, vertices=4566
+   -0.0460   -0.2209   -0.0559
+    0.0460    0.0460    0.0286
+
+tag=DO_NOT_EDIT_gikmt, vertices=4566
+   -0.0460   -0.2209   -0.0559
+    0.0460    0.0460    0.0286
+
+tag=DO_NOT_EDIT_gikmt, vertices=153
+   -0.0055   -0.0055   -0.0055
+    0.0825    0.0825    0.0825
+
+tag=DO_NOT_EDIT_gikmt, vertices=102
+   -0.0033   -0.0033   -0.0033
+    0.1073    0.1073    0.1073
+

@@ -1,0 +1,6 @@
+restart 1, iteration 1, cost 327.493907, conservative voxel gap -0.051130 m
+restart 1, iteration 10, cost 145.467081, conservative voxel gap -0.051130 m
+Shared helperSTOMP finished: dense MATLAB mesh collision check satisfied
+Task 1 initial collisions 31 / 81; final states 375
+Task 1 world free 1; self free 1; minimum mesh separation 0.006899798 m
+Task 1 proxy margin satisfied 0 (original fixed goal is closer than 1 cm).

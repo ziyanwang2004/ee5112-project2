@@ -1,0 +1,7 @@
+*.mat binary
+*.fig binary
+*.avi binary
+*.png binary
+*.rar binary
+provenance/received_baseline/** -text
+matlab/** -text

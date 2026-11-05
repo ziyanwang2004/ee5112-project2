@@ -1,0 +1,10 @@
+Space/base frame: base_link
+End-effector: EndEffector_Link
+Twist order: [omega; v]
+1: Actuator1 -> Shoulder_Link
+2: Actuator2 -> HalfArm1_Link
+3: Actuator3 -> HalfArm2_Link
+4: Actuator4 -> ForeArm_Link
+5: Actuator5 -> Wrist1_Link
+6: Actuator6 -> Wrist2_Link
+7: Actuator7 -> Bracelet_Link

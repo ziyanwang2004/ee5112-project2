@@ -1,0 +1,80 @@
+{
+  "numeric": {
+    "referenceMaxMatrixError": 1.2212453270876722E-15,
+    "mixedTreeMaxMatrixError": 9.783840404509192E-16,
+    "twistExpMaxError": 5.3908603445469478E-15
+  },
+  "matlabVersion": "23.2.0.3097123 (R2023b) Update 11",
+  "release": "2023b",
+  "Task1": {
+    "worldCollisionFree": true,
+    "selfCollisionFree": true,
+    "initialCollidingStates": 31,
+    "initialStates": 81,
+    "denseStates": 375,
+    "minMeshSeparation": 0.0068997982092824858,
+    "minSphereClearance": -0.030216667989411056,
+    "minVoxelClearance": -0.051129872275690588,
+    "initialCost": 5265.596724653853,
+    "finalCost": 145.46708092215323,
+    "iterations": 10,
+    "plannerSeconds": 13.48877,
+    "replay": {
+      "checkpoints": 10,
+      "sampleReplay": true,
+      "probabilityReplay": true,
+      "acceptedUpdateReplay": true
+    },
+    "startPoseMatrixError": 6.9466958349532934E-9,
+    "goalPoseMatrixError": 2.7706197575906942E-8,
+    "proxyMarginSatisfied": false
+  },
+  "Task2": {
+    "worldCollisionFree": true,
+    "selfCollisionFree": true,
+    "initialCollidingStates": 26,
+    "initialStates": 81,
+    "denseStates": 142,
+    "minMeshSeparation": 0.086880329622400887,
+    "minSphereClearance": 0.057516612255656005,
+    "minVoxelClearance": 0.039952558023156406,
+    "initialCost": 6962.8079547741581,
+    "finalCost": 0.0805899900931791,
+    "iterations": 10,
+    "plannerSeconds": 11.666282,
+    "replay": {
+      "checkpoints": 10,
+      "sampleReplay": true,
+      "probabilityReplay": true,
+      "acceptedUpdateReplay": true
+    }
+  },
+  "Task3": {
+    "worldCollisionFree": true,
+    "selfCollisionFree": true,
+    "initialCollidingStates": 26,
+    "initialStates": 81,
+    "denseStates": 142,
+    "minMeshSeparation": 0.086880329622400887,
+    "minSphereClearance": 0.057516612255656047,
+    "minVoxelClearance": 0.039952558023156406,
+    "initialCost": 6962.807954774159,
+    "finalCost": 0.0805899900931791,
+    "iterations": 10,
+    "plannerSeconds": 1.080327,
+    "replay": {
+      "checkpoints": 10,
+      "sampleReplay": true,
+      "probabilityReplay": true,
+      "acceptedUpdateReplay": true
+    }
+  },
+  "task23MaxTrajectoryDifference": 0,
+  "fkValidation": {
+    "maxPositionError": 6.6472285765651351E-16,
+    "maxRotationFrobenius": 9.8219056661300025E-16,
+    "poeMedianSeconds": 0.006501,
+    "builtinMedianSeconds": 0.14857,
+    "allBodySpeedRatio": 22.853407168127983
+  }
+}

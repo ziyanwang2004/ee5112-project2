@@ -1,0 +1,14 @@
+received_file,status,final_implementation
+KINOVA_STOMP_Path_Planning.m,completed_or_adapted,matlab/KINOVA_STOMP_Path_Planning.m
+helperCreateObstaclesKINOVA.m,completed_or_adapted,matlab/helperCreateObstaclesKINOVA.m
+helperInitialVisualizerKINOVA.m,superseded_by_entrypoint_and_plotting,matlab/+memberB/plotComparison.m; matlab/+memberB/plotResults.m
+helperSTOMP.m,completed_or_adapted,matlab/helperSTOMP.m
+sEDT_3d.m,unchanged,matlab/sEDT_3d.m
+stompDTheta.m,completed_or_adapted,matlab/stompDTheta.m
+stompObstacleCost.m,completed_or_adapted,matlab/stompObstacleCost.m
+stompRobotSphere.m,completed_or_adapted,matlab/stompRobotSphere.m
+stompSamples.m,completed_or_adapted,matlab/stompSamples.m
+stompTrajCost.m,completed_or_adapted,matlab/stompTrajCost.m
+stompUpdateProb.m,completed_or_adapted,matlab/stompUpdateProb.m
+stompUpdateTheta.m,unchanged,matlab/stompUpdateTheta.m
+updateJointsWorldPosition.m,completed_or_adapted,matlab/updateJointsWorldPosition.m

@@ -1,0 +1,8 @@
+PoE max errors: position 6.65e-16 m, rotation Frobenius 9.82e-16
+All-body benchmark, builtin / PoE: 22.853x
+restart 1, iteration 1, cost 0.0805899901, conservative voxel gap 0.048325 m
+restart 1, iteration 10, cost 0.0805899901, conservative voxel gap 0.048325 m
+Shared helperSTOMP finished: dense voxel clearance satisfied
+Initial mesh collisions: 26 / 81; final dense states: 142
+Final exact sphere gap 0.057517 m, conservative voxel gap 0.039953 m
+World collision free 1; self collision free 1

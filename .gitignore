@@ -1,0 +1,10 @@
+# Personal MATLAB settings and future local reruns; recorded final runs are tracked.
+*.asv
+*.m~
+matlab/.DS_Store
+artifacts/local_runs/
+artifacts/latest_run.txt
+slprj/
+codegen/
+.env
+*.log.tmp

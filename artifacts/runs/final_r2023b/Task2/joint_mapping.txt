@@ -1,0 +1,9 @@
+Space/base frame: world
+End-effector: tool0
+Twist order: [omega; v]
+1: shoulder_pan_joint -> shoulder_link
+2: shoulder_lift_joint -> upper_arm_link
+3: elbow_joint -> forearm_link
+4: wrist_1_joint -> wrist_1_link
+5: wrist_2_joint -> wrist_2_link
+6: wrist_3_joint -> wrist_3_link

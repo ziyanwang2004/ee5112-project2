@@ -1,0 +1,53 @@
+restart 1, iteration 1, cost 327.493907, conservative voxel gap -0.051130 m
+restart 1, iteration 10, cost 145.467081, conservative voxel gap -0.051130 m
+Shared helperSTOMP finished: dense MATLAB mesh collision check satisfied
+Task 1 initial collisions 31 / 81; final states 375
+Task 1 world free 1; self free 1; minimum mesh separation 0.006899798 m
+Task 1 proxy margin satisfied 0 (original fixed goal is closer than 1 cm).
+restart 1, iteration 1, cost 0.0805899901, conservative voxel gap 0.048325 m
+restart 1, iteration 10, cost 0.0805899901, conservative voxel gap 0.048325 m
+Shared helperSTOMP finished: dense voxel clearance satisfied
+Initial mesh collisions: 26 / 81; final dense states: 142
+Final exact sphere gap 0.057517 m, conservative voxel gap 0.039953 m
+World collision free 1; self collision free 1
+PoE max errors: position 6.65e-16 m, rotation Frobenius 9.82e-16
+All-body benchmark, builtin / PoE: 22.853x
+restart 1, iteration 1, cost 0.0805899901, conservative voxel gap 0.048325 m
+restart 1, iteration 10, cost 0.0805899901, conservative voxel gap 0.048325 m
+Shared helperSTOMP finished: dense voxel clearance satisfied
+Initial mesh collisions: 26 / 81; final dense states: 142
+Final exact sphere gap 0.057517 m, conservative voxel gap 0.039953 m
+World collision free 1; self collision free 1
+All process files saved in /home/ziyan/Documents/Codex/2026-11-05/new-chat-2/outputs/EE5112_Project2_Task123/matlab/../artifacts/runs/final_r2023b
+    referenceMaxMatrixError: 1.2212e-15
+    mixedTreeMaxMatrixError: 9.7838e-16
+           twistExpMaxError: 5.3909e-15
+
+All numerical tests passed. Runtime: 23.2.0.3097123 (R2023b) Update 11
+Shared-helper tests passed under 23.2.0.3097123 (R2023b) Update 11
+Replayed 10 checkpoints: samples/RNG/probabilities/accepted updates passed.
+Replayed 10 checkpoints: samples/RNG/probabilities/accepted updates passed.
+Replayed 10 checkpoints: samples/RNG/probabilities/accepted updates passed.
+                          numeric: [1x1 struct]
+                    matlabVersion: '23.2.0.3097123 (R2023b) Update 11'
+                          release: '2023b'
+                            Task1: [1x1 struct]
+                            Task2: [1x1 struct]
+                            Task3: [1x1 struct]
+    task23MaxTrajectoryDifference: 0
+                     fkValidation: [1x1 struct]
+
+Task 1/2/3 verification passed.
+Replayed 10 checkpoints: samples/RNG/probabilities/accepted updates passed.
+[Warning: UI components will not be included in the output.] 
+[Warning: UI components will not be included in the output.] 
+Task1: verified video, 41 frames, 950 x 650 pixels.
+Replayed 10 checkpoints: samples/RNG/probabilities/accepted updates passed.
+[Warning: UI components will not be included in the output.] 
+[Warning: UI components will not be included in the output.] 
+Task2: verified video, 41 frames, 950 x 650 pixels.
+Replayed 10 checkpoints: samples/RNG/probabilities/accepted updates passed.
+[Warning: UI components will not be included in the output.] 
+[Warning: UI components will not be included in the output.] 
+Task3: verified video, 41 frames, 950 x 650 pixels.
+PoE cost profile passed: no getTransform calls.
