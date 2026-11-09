@@ -51,7 +51,7 @@ common successful workcell demonstration seed for adaptive and fixed50.
 A failed gate is reported. Other arm failures remain valid outcomes.
 
 Formal seeds: **5800-5804**, five arms x three scenarios = **75 runs**, accessed
-only after source/options/driver hashes are frozen. Two workers split seeds;
+only after source/options/driver and non-MATLAB source-asset hashes are frozen. Two workers split case/seed jobs;
 arm order rotates by seed and scenario. No formal-result-driven tuning.
 
 ## Fixed-state sampling ablation

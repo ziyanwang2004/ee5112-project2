@@ -71,7 +71,10 @@ def main():
             for seed in range(5760,5765):
                 a=probes[c,path,seed,'energy_control']['projectionCorrectionsPerWaypoint'];b=probes[c,path,seed,'fixed75']['projectionCorrectionsPerWaypoint']
                 if a>0:reduction.append(100*(a-b)/a)
+    development=read(RELEASE/'development_audit.json');assert development['passed'] and development['runs']==30
+    dev_failures=[dict(scenario=r['scenario'],variant=r['variant'],seed=r['seed'],failures=r['failures']) for r in development['fineDetails'] if not r['studySuccess']]
     summary=dict(formalRuns=75,successes=sum(r['success'] for r in rows),groups=groups,paired=pairs,
+                 developmentRuns=30,developmentSuccesses=development['fineSuccessfulRuns'],developmentFailures=dev_failures,
                  fixedStateGroups=probe_summary,fixedStateCorrectionReductionVsEnergyControlPercent=stats(reduction),
                  replayedCheckpoints=audit['replayedCheckpoints'],scope='Three fixed cases; five reserved seeds/case. Pooled numbers are descriptive, not universal reliability.')
     (RELEASE/'study_summary.json').write_text(json.dumps(summary,indent=2)+'\n',encoding='utf-8')
@@ -85,6 +88,8 @@ def main():
     for g in groups:
         if g['scenario']=='all_cases':continue
         lines.append(f"| {g['scenario']} | {g['variant']} | {g['successes']}/{g['runs']} | {fmt(g['plannerSecondsAll']['median'])} | {fmt(g['firstFeasibleQualitySuccessful']['median'])} | {fmt(g['finalQualitySuccessful']['median'])} |")
+    lines+=['',f"Separate development study: {development['fineSuccessfulRuns']}/30 fine successes. Retained development failures:",'']
+    for r in dev_failures:lines.append(f"- {r['scenario']} / {r['variant']} / seed {r['seed']}: {', '.join(r['failures'])}.")
     lines+=['','## Paired contrasts','', 'Positive percentages mean the second arm has a lower fixed secondary score. Only common successful case/seed pairs enter quality comparisons.', '',
             '| Scenario | Contrast | n | Median first-score reduction (%) | Median final-score reduction (%) | Final wins/ties/losses |',
             '| --- | --- | ---: | ---: | ---: | --- |']
@@ -97,7 +102,7 @@ def main():
             '| --- | ---: | ---: | ---: |']
     for g in probe_summary:lines.append(f"| {g['variant']} | {g['preProjectionRms']['median']:.4f} | {g['postProjectionRms']['median']:.4f} | {g['projectionCorrectionsPerWaypoint']['median']:.4f} |")
     lines+=['',f"Fixed75 vs energy control: median paired projection-correction reduction {fmt(stats(reduction)['median'])}% (n={len(reduction)}).",
-            '', 'This control matches scalar squared norm after limits and before nonlinear projection. It does not match covariance or post-projection variance. The probes are sampling diagnostics, not planning success evidence.',
+            '', 'This control matches scalar squared norm after limits and before nonlinear projection. It does not match covariance or post-projection variance. The probes use linear and geometric-witness central paths solely for sampling diagnostics. Neither witness nor probe output initializes the planner.',
             '', '## Controller and interpretation','']
     for g in groups:
         if g['scenario']!='all_cases' and g['variant']=='adaptive':

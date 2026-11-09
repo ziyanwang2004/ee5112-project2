@@ -29,10 +29,11 @@ end
 xticks(ax,1:5); xticklabels(ax,arms); ax.TickLabelInterpreter='none'; ylabel(ax,'Total planner time (s)'); grid(ax,'on');
 title(ax,'Three cases pooled descriptively; failures included');
 for phase=1:2
-    ax=nexttile; hold(ax,'on'); names={'firstFeasibleQuality','finalQuality'}; field=names{phase}; refs={'fixed50','fixed75'}; handles=gobjects(1,2);
+    ax=nexttile; hold(ax,'on'); names={'firstFeasibleQuality','finalQuality'}; field=names{phase}; refs={'fixed50','fixed75'}; handles=gobjects(1,2); counts=zeros(3,2);
     for ri=1:2
         for ci=1:3
             p=summary.paired(strcmp({summary.paired.scenario},cases{ci}) & strcmp({summary.paired.a},refs{ri}) & strcmp({summary.paired.b},'adaptive'));
+            counts(ci,ri)=p.n;
             values=[];
             for j=1:numel(p.commonSuccessfulPairs)
                 item=p.commonSuccessfulPairs(j); a=index(key(item.scenario,refs{ri},item.seed)); b=index(key(item.scenario,'adaptive',item.seed));
@@ -42,7 +43,9 @@ for phase=1:2
             if ~isempty(values), plot(ax,[x-.08 x+.08],[median(values) median(values)],'-','Color',colors(ri,:),'LineWidth',2); end
         end
     end
-    yline(ax,0,'k--'); xticks(ax,1:3); xticklabels(ax,cases); grid(ax,'on'); ylabel(ax,'Paired score reduction (%)');
+    yline(ax,0,'k--'); xticks(ax,1:3); labels=cell(1,3);
+    for ci=1:3, labels{ci}=sprintf('%s\nn=%d/%d',cases{ci},counts(ci,1),counts(ci,2)); end
+    xticklabels(ax,labels); grid(ax,'on'); ylabel(ax,'Paired score reduction (%)'); xlabel(ax,'Common successes: fixed50 / fixed75');
     if phase==1, title(ax,'Adaptive first solution; common successes only'); else, title(ax,'Adaptive final path; common successes only'); end
     legend(ax,handles,{'vs fixed50','vs fixed75'},'Location','best');
 end
