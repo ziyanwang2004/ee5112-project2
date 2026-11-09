@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "paths": 5,
+  "nominalSuccesses": 4,
+  "fineSuccesses": 4,
+  "sourceFingerprint": "49582437dfd1d4ca4ca10452afd73d777a690a2531a7cd6fe9bb03dd4d8c3457",
+  "fineJointStep": 0.00625,
+  "details": [
+    {
+      "scenario": "workcell",
+      "variant": "adaptive",
+      "seed": 5800,
+      "nominalSuccess": true,
+      "studySuccess": true,
+      "minGap": 0.03883645050282513,
+      "maxTilt": 0.825081554006725,
+      "failures": []
+    },
+    {
+      "scenario": "workcell",
+      "variant": "adaptive",
+      "seed": 5801,
+      "nominalSuccess": false,
+      "studySuccess": false,
+      "minGap": 0.030417831283547497,
+      "maxTilt": 0.51115199002134182,
+      "failures": [
+        "proxy_margin"
+      ]
+    },
+    {
+      "scenario": "workcell",
+      "variant": "adaptive",
+      "seed": 5802,
+      "nominalSuccess": true,
+      "studySuccess": true,
+      "minGap": 0.038660713658285488,
+      "maxTilt": 0.85353713859244162,
+      "failures": []
+    },
+    {
+      "scenario": "workcell",
+      "variant": "adaptive",
+      "seed": 5803,
+      "nominalSuccess": true,
+      "studySuccess": true,
+      "minGap": 0.048484818265390743,
+      "maxTilt": 0.76397785887342129,
+      "failures": []
+    },
+    {
+      "scenario": "workcell",
+      "variant": "adaptive",
+      "seed": 5804,
+      "nominalSuccess": true,
+      "studySuccess": true,
+      "minGap": 0.045233355504014111,
+      "maxTilt": 0.71925499727036191,
+      "failures": []
+    }
+  ],
+  "scope": "Fresh robot/geometry/scene, frozen settings, CSV identity, colliding initialization and nominal/finer actual collision and direction checks. No raw sampling/update replay is claimed."
+}

@@ -24,7 +24,7 @@ def main():
         prior.append(dict(manifest=name,verifiedEntries=len(rows),sha256=sha(ROOT/'docs'/name)))
     (RELEASE/'prior_release_preservation.json').write_text(json.dumps(dict(passed=True,manifests=prior,verifiedEntries=sum(p['verifiedEntries'] for p in prior)),indent=2)+'\n',encoding='utf-8')
     checks=['unit_tests','geometry_preflight','v4_sampling_regression','sampling_ablation','sampling_ablation_audit','task4_regression',
-        'task4_regression_audit','development_gate','development_audit','formal_audit','numpy_fk_crosscheck','plot_qa','visual_qa']
+        'task4_regression_audit','development_gate','development_audit','formal_audit','numpy_fk_crosscheck','joint_path_diagnostics','compact_verifier_qa','plot_qa','visual_qa']
     for name in checks:assert read(RELEASE/f'{name}.json')['passed'],name
     audit=read(RELEASE/'formal_audit.json');summary=read(RELEASE/'study_summary.json');assert audit['runs']==summary['formalRuns']==75
     assert summary['successes']==audit['fineSuccessfulRuns']
@@ -36,7 +36,7 @@ def main():
         for name in a:assert sha(source/name)==sha(target/name);copied+=1
     (RELEASE/'demo_copy_audit.json').write_text(json.dumps(dict(passed=True,runs=2,byteIdenticalFiles=copied,sourceAudit='development_audit.json'),indent=2)+'\n',encoding='utf-8')
     selected=set(RELEASE.rglob('*'))|set((ROOT/'upgrades/task45_v5').rglob('*'))|set((ROOT/'scripts').glob('*task45_v5*'))
-    selected|={ROOT/'README_TASK45_V5.md',ROOT/'docs/TASK45_V5_PROTOCOL.md',ROOT/'docs/TASK45_V5_RESULTS.md'}
+    selected|={ROOT/'README_TASK45_V5.md',ROOT/'docs/TASK45_V5_PROTOCOL.md',ROOT/'docs/TASK45_V5_RESULTS.md',ROOT/'docs/TASK45_V5_METHODS_ZH.md'}
     files=sorted(p for p in selected if p.is_file() and '__pycache__' not in p.parts and p.name!='delivery_checks.json')
     records={p:(p.relative_to(ROOT).as_posix(),p.stat().st_size,sha(p)) for p in files};inventories=[]
     for name,subset in [('TASK45_V5_FILES_SHA256.csv',files),('TASK45_V5_GIT_FILES_SHA256.csv',[p for p in files if git_file(p)])]:

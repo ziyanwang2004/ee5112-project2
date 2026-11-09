@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "dateSingapore": "2026-11-10",
+  "inspectedImages": [
+    "exports/benchmark.png",
+    "exports/energy.png",
+    "exports/demo.png"
+  ],
+  "observations": [
+    "Benchmark counts and timing distributions include all 75 held-out runs. All three scenario labels and paired sample counts are now correctly aligned and readable.",
+    "Positive and negative paired quality differences and large feasible-path outliers remain visible without clipping.",
+    "The energy plot distinguishes matched input energy from differing post-projection RMS, and discloses five seeds reused across six centres.",
+    "The development demonstration shows controller fractions, own-incumbent refinement, the 5-degree direction gate and 35-mm clearance gate."
+  ],
+  "repair": "Initial multiline tick-label issue corrected; original benchmark PNG/FIG retained under review/pre_tick_label_repair.",
+  "scope": "Visual inspection of all three latest PNGs. Editable FIG reopen checks are in plot_qa.json. Numerical feasibility and replay are established by the separate audits.",
+  "inspectedImageSha256": {
+    "exports/benchmark.png": "e61462413df93bca44eebc2a529437c93f920fc05f945dbdb4477fea4167869b",
+    "exports/energy.png": "a7d077446a9b996bfbd950984b9afa7612450eac140fe1b192719ee67809281b",
+    "exports/demo.png": "a5ffd048a616d1e215585015bcbada58dccd08340e152a5f3a2fa2dc133af9d0"
+  }
+}

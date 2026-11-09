@@ -26,6 +26,12 @@ fine=cell(1,numel(inventory)); recomputed=0; checkedSamples=0; fineSuccesses=0;
 for k=1:numel(inventory)
     folder=inventory(k).folder; d=load(fullfile(folder,'planning_result.mat')); input=load(fullfile(folder,'input_checkpoint.mat')); c=d.plannerOptions;
     assert(strcmp(d.result.metadata.sourceFingerprint,identity.sourceFingerprint));
+    expectedSummary=jsondecode(jsonencode(memberC.summarizeRun(d.result,c)));
+    savedSummary=jsondecode(fileread(fullfile(folder,'summary.json')));
+    assert(isequaln(expectedSummary,savedSummary),'Summary JSON disagrees with the saved planning result.');
+    csvTheta=readmatrix(fullfile(folder,'trajectory.csv'));
+    assert(isequal(size(csvTheta),size(d.result.theta.')) && max(abs(csvTheta(:)-reshape(d.result.theta.',[],1)))<1e-12, ...
+        'Trajectory CSV disagrees with the saved planning result.');
     robot=memberC.loadRobot(); model=memberB.buildPoeModel(robot,'tool0'); geometry=memberB.loadUR5Spheres(model);
     selfGeometry=memberC.buildSelfGeometry(robot,model);
     assert(isequal(model.S,input.poeModel.S) && isequal(model.M,input.poeModel.M) && isequal(geometry,input.geometry) && isequal(selfGeometry,input.selfGeometry));
@@ -48,6 +54,7 @@ for k=1:numel(inventory)
     studySuccess=d.result.success && ok; fineSuccesses=fineSuccesses+studySuccess;
     fine{k}=struct('scenario',scene.id,'variant',c.variant,'task',d.result.task,'seed',d.result.seed, ...
         'nominalSuccess',d.result.success,'fineSuccess',ok,'studySuccess',studySuccess,'fineStates',v.nStates, ...
+        'summaryAndTrajectoryMatched',true, ...
         'maxTilt',v.maxOrientationDeg,'minGap',v.minVoxelClearance,'minHeight',v.minToolHeight,'failures',{v.failures});
     [~,~,first]=memberC.qualityCost(d.result.searchTheta,context,w);
     fine{k}.firstJointLength=first.jointLength; fine{k}.firstSmoothness=first.smoothness;

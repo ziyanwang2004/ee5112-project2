@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "details": [
+    {
+      "v4Variant": "anytime",
+      "v5Variant": "ambient",
+      "checkpoints": 10,
+      "maximumNoiseError": 0
+    },
+    {
+      "v4Variant": "combined",
+      "v5Variant": "fixed75",
+      "checkpoints": 10,
+      "maximumNoiseError": 0
+    }
+  ]
+}

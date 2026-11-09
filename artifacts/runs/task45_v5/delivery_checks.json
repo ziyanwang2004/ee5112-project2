@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "formalRuns": 75,
+  "formalNominalSuccesses": 71,
+  "formalFineSuccesses": 71,
+  "replayedCheckpoints": 3005,
+  "sourceFingerprint": "49582437dfd1d4ca4ca10452afd73d777a690a2531a7cd6fe9bb03dd4d8c3457",
+  "priorEntriesVerified": 13750,
+  "manifests": [
+    {
+      "path": "docs/TASK45_V5_FILES_SHA256.csv",
+      "files": 5190,
+      "sha256": "ee1e1fae6af6ec613e6ec9fe30577fe259fe72b7324685a33704a2a9717e7b78"
+    },
+    {
+      "path": "docs/TASK45_V5_GIT_FILES_SHA256.csv",
+      "files": 904,
+      "sha256": "40ac5fa8166d04f092e0469a059c9da555f73c5620cec1e576b2eb19f2437b27"
+    }
+  ],
+  "scope": "Five-arm Task5 algorithm study, three cases. All failures retained. Complete formal raw replay remains local; probe replay and copied development demos ship in Git."
+}

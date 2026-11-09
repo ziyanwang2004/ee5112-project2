@@ -44,7 +44,7 @@ for phase=1:2
         end
     end
     yline(ax,0,'k--'); xticks(ax,1:3); labels=cell(1,3);
-    for ci=1:3, labels{ci}=sprintf('%s\nn=%d/%d',cases{ci},counts(ci,1),counts(ci,2)); end
+    for ci=1:3, labels{ci}=sprintf('%s (n=%d/%d)',cases{ci},counts(ci,1),counts(ci,2)); end
     xticklabels(ax,labels); grid(ax,'on'); ylabel(ax,'Paired score reduction (%)'); xlabel(ax,'Common successes: fixed50 / fixed75');
     if phase==1, title(ax,'Adaptive first solution; common successes only'); else, title(ax,'Adaptive final path; common successes only'); end
     legend(ax,handles,{'vs fixed50','vs fixed75'},'Location','best');
@@ -73,7 +73,7 @@ for panel=1:2
         plot(ax,[ai-.2 ai+.2],[median(values) median(values)],'-','Color',colors(ai,:),'LineWidth',2);
     end
     xticks(ax,1:3); xticklabels(ax,modes); ax.TickLabelInterpreter='none'; grid(ax,'on');
-    if panel==1, ylabel(ax,'Correction steps / sampled waypoint'); title(ax,'30 paired fixed-state batches per sampler');
+    if panel==1, ylabel(ax,'Correction steps / sampled waypoint'); title(ax,'30 batches, 5 seeds reused across 6 centres');
     else, ylabel(ax,'Actual disturbance RMS (rad)'); title(ax,'Sampling diagnostic, not planning success'); end
 end
 savePlot(f,fullfile(out,'energy')); close(f);

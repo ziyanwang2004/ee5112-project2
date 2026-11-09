@@ -1,0 +1,7 @@
+TASK5 endpoints seed 5804 mode projected weight 1000 noise 0.55
+restart 1 iteration 1 cost 52.07945 waypoint gap 0.03928 elapsed 2.9 s
+restart 1 iteration 10 cost 15.74347 waypoint gap 0.04287 elapsed 30.9 s
+REFINE 1 quality 9.117249 accepted 1 elapsed 3.7 s
+REFINE 5 quality 8.988926 accepted 5 elapsed 18.5 s
+REFINE 10 quality 8.868672 accepted 10 elapsed 36.6 s
+RESULT success=1 voxel=0.042869 m tilt=0.0510 deg iterations=10 time=81.78 s

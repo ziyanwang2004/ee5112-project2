@@ -1,0 +1,185 @@
+{
+  "passed": true,
+  "runs": 1,
+  "successfulRuns": 1,
+  "replayedCheckpoints": 25,
+  "details": [
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v5\\regression\\workcell\\adaptive\\Task4\\seed_5300",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 25,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 10,
+        "refinement": {
+          "checkpoints": 15,
+          "accepted": 15,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    }
+  ],
+  "sourceFingerprint": "49582437dfd1d4ca4ca10452afd73d777a690a2531a7cd6fe9bb03dd4d8c3457",
+  "fineJointStep": 0.00625,
+  "fineDetails": [
+    {
+      "scenario": "workcell",
+      "variant": "adaptive",
+      "task": 4,
+      "seed": 5300,
+      "nominalSuccess": true,
+      "fineSuccess": true,
+      "studySuccess": true,
+      "fineStates": 1085,
+      "maxTilt": 102.00935294155555,
+      "minGap": 0.048484818265390743,
+      "minHeight": 0.24417017756996504,
+      "failures": [],
+      "firstJointLength": 9.4054254243891275,
+      "firstSmoothness": 0.24950964278514137,
+      "finalJointLength": 8.9651383216934235,
+      "finalSmoothness": 0.24868793030393987,
+      "searchSampling": {
+        "iterations": 10,
+        "samples": 640,
+        "validSamples": 640,
+        "waypoints": 37760,
+        "elements": 226560,
+        "corrections": 0,
+        "preEnergy": 32098.447942817322,
+        "postEnergy": 32098.447942817322,
+        "ambientEnergy": 32098.447942817322,
+        "projectionSeconds": 0.0009034,
+        "tangentSeconds": 0,
+        "fractionSum": 0,
+        "minFraction": 0,
+        "maxFraction": 0,
+        "maxEnergyMatchError": 0,
+        "controllerChanges": 1,
+        "stagnationExploration": 0,
+        "meanProjectionCorrectionsPerWaypoint": 0,
+        "meanFraction": 0,
+        "preProjectionRms": 0.376400679461418,
+        "postProjectionRms": 0.376400679461418,
+        "ambientRms": 0.376400679461418,
+        "validFraction": 1
+      },
+      "controllerHistory": [
+        [
+          1,
+          1,
+          0.5,
+          0.25,
+          -0.5,
+          0
+        ],
+        [
+          1,
+          2,
+          0.25,
+          0.25,
+          -0.75,
+          0
+        ],
+        [
+          1,
+          3,
+          0.25,
+          0.25,
+          -0.875,
+          0
+        ],
+        [
+          1,
+          4,
+          0.25,
+          0.25,
+          -0.9375,
+          0
+        ],
+        [
+          1,
+          5,
+          0.25,
+          0.25,
+          -0.96875,
+          0
+        ],
+        [
+          1,
+          6,
+          0.25,
+          0.25,
+          -0.984375,
+          0
+        ],
+        [
+          1,
+          7,
+          0.25,
+          0.25,
+          -0.9921875,
+          0
+        ],
+        [
+          1,
+          8,
+          0.25,
+          0.25,
+          -0.99609375,
+          1
+        ],
+        [
+          1,
+          9,
+          0.25,
+          0.25,
+          -0.998046875,
+          0
+        ],
+        [
+          1,
+          10,
+          0.25,
+          0.25,
+          -0.9990234375,
+          1
+        ]
+      ],
+      "refineSampling": {
+        "iterations": 15,
+        "samples": 480,
+        "validSamples": 480,
+        "waypoints": 28320,
+        "elements": 169920,
+        "corrections": 0,
+        "preEnergy": 777.0572823828752,
+        "postEnergy": 777.0572823828752,
+        "ambientEnergy": 777.0572823828752,
+        "projectionSeconds": 0.00023879999999999998,
+        "tangentSeconds": 0,
+        "fractionSum": 0,
+        "minFraction": 0,
+        "maxFraction": 0,
+        "maxEnergyMatchError": 0,
+        "controllerChanges": 0,
+        "stagnationExploration": 0,
+        "meanProjectionCorrectionsPerWaypoint": 0,
+        "meanFraction": 0,
+        "preProjectionRms": 0.067624531250349812,
+        "postProjectionRms": 0.067624531250349812,
+        "ambientRms": 0.067624531250349812,
+        "validFraction": 1
+      }
+    }
+  ],
+  "fineSuccessfulRuns": 1,
+  "recomputedSearchCosts": 2,
+  "verifiedRefineSampleCosts": 4
+}
