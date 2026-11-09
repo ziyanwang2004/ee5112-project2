@@ -1,0 +1,484 @@
+{
+  "passed": true,
+  "runs": 10,
+  "successfulRuns": 10,
+  "replayedCheckpoints": 319,
+  "details": [
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v4\\formal\\tangent\\workcell\\Task5\\seed_5600",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 10,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 10,
+        "refinement": {
+          "checkpoints": 0,
+          "accepted": 0,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    },
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v4\\formal\\tangent\\workcell\\Task5\\seed_5601",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 10,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 10,
+        "refinement": {
+          "checkpoints": 0,
+          "accepted": 0,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    },
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v4\\formal\\tangent\\workcell\\Task5\\seed_5602",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 30,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 30,
+        "refinement": {
+          "checkpoints": 0,
+          "accepted": 0,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    },
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v4\\formal\\tangent\\workcell\\Task5\\seed_5603",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 62,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 62,
+        "refinement": {
+          "checkpoints": 0,
+          "accepted": 0,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    },
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v4\\formal\\tangent\\workcell\\Task5\\seed_5604",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 10,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 10,
+        "refinement": {
+          "checkpoints": 0,
+          "accepted": 0,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    },
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v4\\formal\\tangent\\workcell\\Task5\\seed_5605",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 10,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 10,
+        "refinement": {
+          "checkpoints": 0,
+          "accepted": 0,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    },
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v4\\formal\\tangent\\workcell\\Task5\\seed_5606",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 15,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 15,
+        "refinement": {
+          "checkpoints": 0,
+          "accepted": 0,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    },
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v4\\formal\\tangent\\workcell\\Task5\\seed_5607",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 10,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 10,
+        "refinement": {
+          "checkpoints": 0,
+          "accepted": 0,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    },
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v4\\formal\\tangent\\workcell\\Task5\\seed_5608",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 63,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 63,
+        "refinement": {
+          "checkpoints": 0,
+          "accepted": 0,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    },
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v4\\formal\\tangent\\workcell\\Task5\\seed_5609",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 99,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 99,
+        "refinement": {
+          "checkpoints": 0,
+          "accepted": 0,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    }
+  ],
+  "sourceFingerprint": "e0ac32f2d4125b1f8cb268776f756b9456cdc35a506d68bdeb7045a2b43a8057",
+  "fineJointStep": 0.00625,
+  "fineDetails": [
+    {
+      "variant": "tangent",
+      "task": 5,
+      "seed": 5600,
+      "nominalSuccess": true,
+      "fineSuccess": true,
+      "maxTilt": 0.21254398310144773,
+      "minGap": 0.044455171749544491,
+      "minHeight": 0.34553772348454487,
+      "failures": [],
+      "firstJointLength": 8.663284859351208,
+      "firstSmoothness": 0.19425569997038467,
+      "finalJointLength": 8.663284859351208,
+      "finalSmoothness": 0.19425569997038464,
+      "searchSampling": {
+        "requestedSamples": 640,
+        "validSamples": 640,
+        "projectionCorrections": 22967,
+        "sampledInteriorWaypoints": 37760,
+        "projectionSeconds": 8.1973562000000015,
+        "tangentSeconds": 0.13645179999999998,
+        "noiseSquaredSum": 20584.910501137678,
+        "noiseElements": 226560,
+        "meanProjectionCorrectionsPerWaypoint": 0.60823622881355932,
+        "actualNoiseRms": 0.30142750136973057
+      }
+    },
+    {
+      "variant": "tangent",
+      "task": 5,
+      "seed": 5601,
+      "nominalSuccess": true,
+      "fineSuccess": true,
+      "maxTilt": 0.813443924158259,
+      "minGap": 0.035545841977548946,
+      "minHeight": 0.34970380803803713,
+      "failures": [],
+      "firstJointLength": 9.6536393920299766,
+      "firstSmoothness": 0.19615305238473024,
+      "finalJointLength": 9.6536393920299766,
+      "finalSmoothness": 0.19615305238473021,
+      "searchSampling": {
+        "requestedSamples": 640,
+        "validSamples": 640,
+        "projectionCorrections": 24273,
+        "sampledInteriorWaypoints": 37760,
+        "projectionSeconds": 8.4820624,
+        "tangentSeconds": 0.1127215,
+        "noiseSquaredSum": 22674.363041664346,
+        "noiseElements": 226560,
+        "meanProjectionCorrectionsPerWaypoint": 0.642823093220339,
+        "actualNoiseRms": 0.31635589383006357
+      }
+    },
+    {
+      "variant": "tangent",
+      "task": 5,
+      "seed": 5602,
+      "nominalSuccess": true,
+      "fineSuccess": true,
+      "maxTilt": 0.52809514892577791,
+      "minGap": 0.03894403688664471,
+      "minHeight": 0.33618013461712815,
+      "failures": [],
+      "firstJointLength": 8.2168958799477743,
+      "firstSmoothness": 0.22544624624585438,
+      "finalJointLength": 8.2168958799477743,
+      "finalSmoothness": 0.22544624624585441,
+      "searchSampling": {
+        "requestedSamples": 1920,
+        "validSamples": 1920,
+        "projectionCorrections": 70898,
+        "sampledInteriorWaypoints": 113280,
+        "projectionSeconds": 24.8039546,
+        "tangentSeconds": 0.34920450000000003,
+        "noiseSquaredSum": 67300.621274236139,
+        "noiseElements": 679680,
+        "meanProjectionCorrectionsPerWaypoint": 0.62586511299435033,
+        "actualNoiseRms": 0.31467141374165425
+      }
+    },
+    {
+      "variant": "tangent",
+      "task": 5,
+      "seed": 5603,
+      "nominalSuccess": true,
+      "fineSuccess": true,
+      "maxTilt": 0.86346986828963657,
+      "minGap": 0.047781304643106808,
+      "minHeight": 0.34970380803803713,
+      "failures": [],
+      "firstJointLength": 8.8438130552538219,
+      "firstSmoothness": 0.20926514267704183,
+      "finalJointLength": 8.8438130552538219,
+      "finalSmoothness": 0.20926514267704185,
+      "searchSampling": {
+        "requestedSamples": 3968,
+        "validSamples": 3967,
+        "projectionCorrections": 139442,
+        "sampledInteriorWaypoints": 234112,
+        "projectionSeconds": 53.193579800000016,
+        "tangentSeconds": 0.76482260000000013,
+        "noiseSquaredSum": 122361.81982696266,
+        "noiseElements": 1.404672E+6,
+        "meanProjectionCorrectionsPerWaypoint": 0.59562089939857843,
+        "actualNoiseRms": 0.29514504800514563
+      }
+    },
+    {
+      "variant": "tangent",
+      "task": 5,
+      "seed": 5604,
+      "nominalSuccess": true,
+      "fineSuccess": true,
+      "maxTilt": 0.20581035095491806,
+      "minGap": 0.035140948039033032,
+      "minHeight": 0.34970380803803713,
+      "failures": [],
+      "firstJointLength": 6.80154413144081,
+      "firstSmoothness": 0.080907473644171307,
+      "finalJointLength": 6.80154413144081,
+      "finalSmoothness": 0.0809074736441713,
+      "searchSampling": {
+        "requestedSamples": 640,
+        "validSamples": 640,
+        "projectionCorrections": 22396,
+        "sampledInteriorWaypoints": 37760,
+        "projectionSeconds": 9.106763,
+        "tangentSeconds": 0.12116459999999998,
+        "noiseSquaredSum": 22735.552403478243,
+        "noiseElements": 226560,
+        "meanProjectionCorrectionsPerWaypoint": 0.593114406779661,
+        "actualNoiseRms": 0.31678246751421069
+      }
+    },
+    {
+      "variant": "tangent",
+      "task": 5,
+      "seed": 5605,
+      "nominalSuccess": true,
+      "fineSuccess": true,
+      "maxTilt": 0.79178751574001061,
+      "minGap": 0.04414205364937817,
+      "minHeight": 0.34970380803803713,
+      "failures": [],
+      "firstJointLength": 10.241461783107951,
+      "firstSmoothness": 0.76878128913747379,
+      "finalJointLength": 10.241461783107951,
+      "finalSmoothness": 0.76878128913747379,
+      "searchSampling": {
+        "requestedSamples": 640,
+        "validSamples": 640,
+        "projectionCorrections": 26325,
+        "sampledInteriorWaypoints": 37760,
+        "projectionSeconds": 8.5199685999999986,
+        "tangentSeconds": 0.11385060000000001,
+        "noiseSquaredSum": 23260.702831052058,
+        "noiseElements": 226560,
+        "meanProjectionCorrectionsPerWaypoint": 0.697166313559322,
+        "actualNoiseRms": 0.32042013456875468
+      }
+    },
+    {
+      "variant": "tangent",
+      "task": 5,
+      "seed": 5606,
+      "nominalSuccess": true,
+      "fineSuccess": true,
+      "maxTilt": 0.93011166684685043,
+      "minGap": 0.0424132731089409,
+      "minHeight": 0.33327515402130103,
+      "failures": [],
+      "firstJointLength": 8.8052440694345542,
+      "firstSmoothness": 0.24315095844547843,
+      "finalJointLength": 8.8052440694345542,
+      "finalSmoothness": 0.2431509584454784,
+      "searchSampling": {
+        "requestedSamples": 960,
+        "validSamples": 960,
+        "projectionCorrections": 37703,
+        "sampledInteriorWaypoints": 56640,
+        "projectionSeconds": 12.6534268,
+        "tangentSeconds": 0.17853380000000005,
+        "noiseSquaredSum": 33093.29892943272,
+        "noiseElements": 339840,
+        "meanProjectionCorrectionsPerWaypoint": 0.6656603107344633,
+        "actualNoiseRms": 0.3120561769685925
+      }
+    },
+    {
+      "variant": "tangent",
+      "task": 5,
+      "seed": 5607,
+      "nominalSuccess": true,
+      "fineSuccess": true,
+      "maxTilt": 0.8320836703461606,
+      "minGap": 0.04764250780437547,
+      "minHeight": 0.2528304428568065,
+      "failures": [],
+      "firstJointLength": 7.7043111627077883,
+      "firstSmoothness": 0.16213800330379138,
+      "finalJointLength": 7.7043111627077883,
+      "finalSmoothness": 0.16213800330379138,
+      "searchSampling": {
+        "requestedSamples": 640,
+        "validSamples": 640,
+        "projectionCorrections": 24323,
+        "sampledInteriorWaypoints": 37760,
+        "projectionSeconds": 8.3538332,
+        "tangentSeconds": 0.120749,
+        "noiseSquaredSum": 22503.528211964331,
+        "noiseElements": 226560,
+        "meanProjectionCorrectionsPerWaypoint": 0.64414724576271187,
+        "actualNoiseRms": 0.31516188482657831
+      }
+    },
+    {
+      "variant": "tangent",
+      "task": 5,
+      "seed": 5608,
+      "nominalSuccess": true,
+      "fineSuccess": true,
+      "maxTilt": 0.23764408234947793,
+      "minGap": 0.046490871561508954,
+      "minHeight": 0.34970380803803713,
+      "failures": [],
+      "firstJointLength": 8.7792242419202324,
+      "firstSmoothness": 0.12571087716646223,
+      "finalJointLength": 8.7792242419202324,
+      "finalSmoothness": 0.12571087716646226,
+      "searchSampling": {
+        "requestedSamples": 4032,
+        "validSamples": 4032,
+        "projectionCorrections": 150049,
+        "sampledInteriorWaypoints": 237888,
+        "projectionSeconds": 52.74015030000001,
+        "tangentSeconds": 0.7147865000000001,
+        "noiseSquaredSum": 134846.9498504712,
+        "noiseElements": 1.427328E+6,
+        "meanProjectionCorrectionsPerWaypoint": 0.63075480898574121,
+        "actualNoiseRms": 0.30736801398145625
+      }
+    },
+    {
+      "variant": "tangent",
+      "task": 5,
+      "seed": 5609,
+      "nominalSuccess": true,
+      "fineSuccess": true,
+      "maxTilt": 0.831455524383931,
+      "minGap": 0.043509127241112805,
+      "minHeight": 0.342313243289606,
+      "failures": [],
+      "firstJointLength": 9.1192405009151756,
+      "firstSmoothness": 0.17200814392222269,
+      "finalJointLength": 9.1192405009151756,
+      "finalSmoothness": 0.17200814392222272,
+      "searchSampling": {
+        "requestedSamples": 6336,
+        "validSamples": 6335,
+        "projectionCorrections": 226515,
+        "sampledInteriorWaypoints": 373824,
+        "projectionSeconds": 72.709043100000031,
+        "tangentSeconds": 1.0424891,
+        "noiseSquaredSum": 195869.65475857028,
+        "noiseElements": 2.242944E+6,
+        "meanProjectionCorrectionsPerWaypoint": 0.605940228556754,
+        "actualNoiseRms": 0.29551148451835541
+      }
+    }
+  ],
+  "recomputedSearchCosts": 44,
+  "verifiedRefineSampleCosts": 0
+}

@@ -1,0 +1,40 @@
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\tangent\workcell\Task5\seed_5600 success=1 replay=10 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\tangent\workcell\Task5\seed_5601 success=1 replay=10 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\tangent\workcell\Task5\seed_5602 success=1 replay=30 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\tangent\workcell\Task5\seed_5603 success=1 replay=62 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\tangent\workcell\Task5\seed_5604 success=1 replay=10 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\tangent\workcell\Task5\seed_5605 success=1 replay=10 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\tangent\workcell\Task5\seed_5606 success=1 replay=15 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\tangent\workcell\Task5\seed_5607 success=1 replay=10 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\tangent\workcell\Task5\seed_5608 success=1 replay=63 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\tangent\workcell\Task5\seed_5609 success=1 replay=99 passed
+V4 EXTRA AUDIT tangent seed 5600 passed
+V4 EXTRA AUDIT tangent seed 5601 passed
+V4 EXTRA AUDIT tangent seed 5602 passed
+V4 EXTRA AUDIT tangent seed 5603 passed
+V4 EXTRA AUDIT tangent seed 5604 passed
+V4 EXTRA AUDIT tangent seed 5605 passed
+V4 EXTRA AUDIT tangent seed 5606 passed
+V4 EXTRA AUDIT tangent seed 5607 passed
+V4 EXTRA AUDIT tangent seed 5608 passed
+V4 EXTRA AUDIT tangent seed 5609 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\combined\workcell\Task5\seed_5600 success=1 replay=23 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\combined\workcell\Task5\seed_5601 success=1 replay=22 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\combined\workcell\Task5\seed_5602 success=1 replay=43 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\combined\workcell\Task5\seed_5603 success=1 replay=75 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\combined\workcell\Task5\seed_5604 success=1 replay=25 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\combined\workcell\Task5\seed_5605 success=1 replay=21 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\combined\workcell\Task5\seed_5606 success=1 replay=27 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\combined\workcell\Task5\seed_5607 success=1 replay=24 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\combined\workcell\Task5\seed_5608 success=1 replay=76 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v4\formal\combined\workcell\Task5\seed_5609 success=1 replay=114 passed
+V4 EXTRA AUDIT combined seed 5600 passed
+V4 EXTRA AUDIT combined seed 5601 passed
+V4 EXTRA AUDIT combined seed 5602 passed
+V4 EXTRA AUDIT combined seed 5603 passed
+V4 EXTRA AUDIT combined seed 5604 passed
+V4 EXTRA AUDIT combined seed 5605 passed
+V4 EXTRA AUDIT combined seed 5606 passed
+V4 EXTRA AUDIT combined seed 5607 passed
+V4 EXTRA AUDIT combined seed 5608 passed
+V4 EXTRA AUDIT combined seed 5609 passed

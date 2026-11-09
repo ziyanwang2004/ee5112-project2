@@ -4,5 +4,7 @@
   "rngDrawsUnchanged": true,
   "actualNoiseSaved": true,
   "task4SamplingUnchanged": true,
-  "zeroBudgetRetainsIncumbent": true
+  "zeroBudgetRetainsIncumbent": true,
+  "failedProjectionsReceiveZeroWeight": true,
+  "rejectedCandidatesCannotOverwriteIncumbent": true
 }

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "openedEditableFigures": 3,
+  "figures": [
+    "benchmark",
+    "refinement_anytime",
+    "refinement_combined"
+  ],
+  "scope": "Exports completed and each FIG reopened successfully. Visual inspection recorded separately."
+}

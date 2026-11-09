@@ -20,6 +20,7 @@ Use fresh MATLAB R2023b sessions when switching source versions.
 
 ```matlab
 addpath('scripts')
+newRunRoot = fullfile(pwd,'artifacts','local_runs','my_task45_v4_run');
 r = run_task45_v4('task5','combined',5500,newRunRoot);
 audit = verify_task45_v4(newRunRoot);
 ```

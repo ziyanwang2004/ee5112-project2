@@ -32,6 +32,11 @@ rng(saved); [s1,n1]=memberC.sampleRollouts(8,sigma,theta,ambient);
 rng(saved); [s2,n2]=memberC.sampleRollouts(8,sigma,theta,context);
 assert(isequal(s1,s2) && isequal(n1,n2),'Task 4 sampling changed.');
 context.options=c;
+failedContext=context; failedContext.options.projectionMaxIterations=0;
+tilted=theta; tilted(4,2:end-1)=tilted(4,2:end-1)+.3;
+rng(19); [~,~,valid]=memberC.sampleRollouts(8,1e-8*eye(7),tilted,failedContext);
+probability=memberC.sampleProbabilities(zeros(8,9),valid,c.sensitivity);
+assert(~any(valid) && ~any(probability(:)),'Failed projections received probability mass.');
 demo=load(fullfile(root,'artifacts','runs','task45_v3','demos','workcell','Task5','seed_5300','planning_result.mat'));
 [local,total,info]=memberC.qualityCost(demo.result.theta,context,w);
 assert(abs(sum(local)-total)<1e-12);
@@ -42,7 +47,20 @@ N=size(demo.result.theta,2); A=-2*eye(N)+diag(ones(N-1,1),1)+diag(ones(N-1,1),-1
 A=A(:,2:end-1); R=A.'*A; Ri=R\eye(N-2); Ri=(Ri+Ri.')/2; M=Ri./max(Ri,[],1)/N;
 [unchanged,receipt]=memberC.refinePath(demo.result.theta,R,M,context,scene,w,out,0);
 assert(isequal(unchanged,demo.result.theta) && receipt.iterations==0 && receipt.qualityBefore==receipt.qualityAfter);
+global v4RejectedValidationCalls; v4RejectedValidationCalls=0;
+rejectedContext=context; rejectedContext.options.validationFcn=@rejectV4Candidate;
+rejectedContext.options.refineMaxIterations=1; rejectedContext.options.refineRollouts=8;
+for testSeed=1:3
+    testFolder=fullfile(out,sprintf('reject_%d',testSeed)); mkdir(testFolder); rng(testSeed);
+    [retained,refined]=memberC.refinePath(demo.result.theta,R,M,rejectedContext,scene,w,testFolder,20);
+    assert(isequal(retained,demo.result.theta) && refined.accepted==0);
+end
+assert(v4RejectedValidationCalls>0,'Rejection branch was not exercised.');
 release=fullfile(root,'artifacts','runs','task45_v4'); if ~exist(release,'dir'), mkdir(release); end
 memberC.writeJSON(fullfile(release,'unit_tests.json'),struct('passed',true,'tangentProjectorResidual',detail.maxJacobianResidual, ...
-    'rngDrawsUnchanged',true,'actualNoiseSaved',true,'task4SamplingUnchanged',true,'zeroBudgetRetainsIncumbent',true));
+    'rngDrawsUnchanged',true,'actualNoiseSaved',true,'task4SamplingUnchanged',true,'zeroBudgetRetainsIncumbent',true, ...
+    'failedProjectionsReceiveZeroWeight',true,'rejectedCandidatesCannotOverwriteIncumbent',true));
 fprintf('V4 SAMPLING, RNG, LIMITS, QUALITY AND INCUMBENT TESTS PASSED\n');
+function ok=rejectV4Candidate(varargin)
+global v4RejectedValidationCalls; v4RejectedValidationCalls=v4RejectedValidationCalls+1; ok=false;
+end

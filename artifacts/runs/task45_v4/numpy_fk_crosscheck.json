@@ -1,0 +1,331 @@
+{
+  "passed": true,
+  "paths": 40,
+  "states": 22377,
+  "maxTiltError_deg": 7.918232042269935e-14,
+  "maxToolLengthError_m": 2.6645352591003757e-15,
+  "maxMinHeightError_m": 2.7755575615628914e-16,
+  "scope": "Independent NumPy FK/tilt/tool metrics at saved nominal dense states; mesh collision and finer validation remain separate MATLAB checks.",
+  "records": [
+    {
+      "variant": "anytime",
+      "seed": 5600,
+      "states": 419,
+      "maxTiltError_deg": 4.0016601143832986e-14,
+      "toolLengthError_m": 0.0,
+      "minHeightError_m": 1.6653345369377348e-16
+    },
+    {
+      "variant": "anytime",
+      "seed": 5601,
+      "states": 715,
+      "maxTiltError_deg": 7.913114608015803e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "anytime",
+      "seed": 5602,
+      "states": 657,
+      "maxTiltError_deg": 5.684341886080802e-14,
+      "toolLengthError_m": 1.7763568394002505e-15,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "variant": "anytime",
+      "seed": 5603,
+      "states": 589,
+      "maxTiltError_deg": 7.462086504261833e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "anytime",
+      "seed": 5604,
+      "states": 418,
+      "maxTiltError_deg": 6.371292382567617e-14,
+      "toolLengthError_m": 1.1102230246251565e-15,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "anytime",
+      "seed": 5605,
+      "states": 685,
+      "maxTiltError_deg": 4.707345624410664e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "anytime",
+      "seed": 5606,
+      "states": 527,
+      "maxTiltError_deg": 3.760880495917718e-14,
+      "toolLengthError_m": 1.3322676295501878e-15,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "anytime",
+      "seed": 5607,
+      "states": 592,
+      "maxTiltError_deg": 7.224082443357815e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 8.326672684688674e-17
+    },
+    {
+      "variant": "anytime",
+      "seed": 5608,
+      "states": 553,
+      "maxTiltError_deg": 5.479644515915538e-14,
+      "toolLengthError_m": 1.7763568394002505e-15,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "variant": "anytime",
+      "seed": 5609,
+      "states": 496,
+      "maxTiltError_deg": 3.9968028886505635e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 2.220446049250313e-16
+    },
+    {
+      "variant": "baseline",
+      "seed": 5600,
+      "states": 449,
+      "maxTiltError_deg": 5.741240816092841e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 2.220446049250313e-16
+    },
+    {
+      "variant": "baseline",
+      "seed": 5601,
+      "states": 728,
+      "maxTiltError_deg": 5.402622793582168e-14,
+      "toolLengthError_m": 0.0,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "baseline",
+      "seed": 5602,
+      "states": 668,
+      "maxTiltError_deg": 3.9745984281580604e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "baseline",
+      "seed": 5603,
+      "states": 607,
+      "maxTiltError_deg": 4.785061236134425e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "baseline",
+      "seed": 5604,
+      "states": 455,
+      "maxTiltError_deg": 5.2513549064769904e-14,
+      "toolLengthError_m": 6.661338147750939e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "baseline",
+      "seed": 5605,
+      "states": 699,
+      "maxTiltError_deg": 6.511458039426543e-14,
+      "toolLengthError_m": 1.3322676295501878e-15,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "baseline",
+      "seed": 5606,
+      "states": 554,
+      "maxTiltError_deg": 6.30745455865167e-14,
+      "toolLengthError_m": 0.0,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "baseline",
+      "seed": 5607,
+      "states": 602,
+      "maxTiltError_deg": 4.6629367034256575e-14,
+      "toolLengthError_m": 0.0,
+      "minHeightError_m": 1.942890293094024e-16
+    },
+    {
+      "variant": "baseline",
+      "seed": 5608,
+      "states": 574,
+      "maxTiltError_deg": 5.756506382681437e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "variant": "baseline",
+      "seed": 5609,
+      "states": 513,
+      "maxTiltError_deg": 7.416983693886436e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 1.1102230246251565e-16
+    },
+    {
+      "variant": "combined",
+      "seed": 5600,
+      "states": 531,
+      "maxTiltError_deg": 7.518985434273873e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 1.6653345369377348e-16
+    },
+    {
+      "variant": "combined",
+      "seed": 5601,
+      "states": 582,
+      "maxTiltError_deg": 7.918232042269935e-14,
+      "toolLengthError_m": 0.0,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "combined",
+      "seed": 5602,
+      "states": 523,
+      "maxTiltError_deg": 3.767819389821625e-14,
+      "toolLengthError_m": 2.6645352591003757e-15,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "variant": "combined",
+      "seed": 5603,
+      "states": 544,
+      "maxTiltError_deg": 5.859202012459264e-14,
+      "toolLengthError_m": 2.220446049250313e-15,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "combined",
+      "seed": 5604,
+      "states": 396,
+      "maxTiltError_deg": 2.299506071667956e-14,
+      "toolLengthError_m": 6.661338147750939e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "combined",
+      "seed": 5605,
+      "states": 678,
+      "maxTiltError_deg": 6.433742427702782e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "combined",
+      "seed": 5606,
+      "states": 534,
+      "maxTiltError_deg": 5.4751342348779986e-14,
+      "toolLengthError_m": 1.7763568394002505e-15,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "variant": "combined",
+      "seed": 5607,
+      "states": 464,
+      "maxTiltError_deg": 5.791200852200973e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 2.7755575615628914e-17
+    },
+    {
+      "variant": "combined",
+      "seed": 5608,
+      "states": 556,
+      "maxTiltError_deg": 7.058936768444823e-14,
+      "toolLengthError_m": 1.7763568394002505e-15,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "combined",
+      "seed": 5609,
+      "states": 528,
+      "maxTiltError_deg": 4.916900220308662e-14,
+      "toolLengthError_m": 1.7763568394002505e-15,
+      "minHeightError_m": 1.6653345369377348e-16
+    },
+    {
+      "variant": "tangent",
+      "seed": 5600,
+      "states": 550,
+      "maxTiltError_deg": 5.287437154777308e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 2.7755575615628914e-16
+    },
+    {
+      "variant": "tangent",
+      "seed": 5601,
+      "states": 596,
+      "maxTiltError_deg": 4.01276234462955e-14,
+      "toolLengthError_m": 0.0,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "tangent",
+      "seed": 5602,
+      "states": 538,
+      "maxTiltError_deg": 4.424238753131249e-14,
+      "toolLengthError_m": 0.0,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "variant": "tangent",
+      "seed": 5603,
+      "states": 564,
+      "maxTiltError_deg": 4.9529824686089796e-14,
+      "toolLengthError_m": 1.3322676295501878e-15,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "tangent",
+      "seed": 5604,
+      "states": 445,
+      "maxTiltError_deg": 4.5574655160862676e-14,
+      "toolLengthError_m": 1.5543122344752192e-15,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "tangent",
+      "seed": 5605,
+      "states": 688,
+      "maxTiltError_deg": 5.77871084317394e-14,
+      "toolLengthError_m": 1.7763568394002505e-15,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "tangent",
+      "seed": 5606,
+      "states": 559,
+      "maxTiltError_deg": 5.487277299209836e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "tangent",
+      "seed": 5607,
+      "states": 484,
+      "maxTiltError_deg": 4.714284518314571e-14,
+      "toolLengthError_m": 0.0,
+      "minHeightError_m": 1.1102230246251565e-16
+    },
+    {
+      "variant": "tangent",
+      "seed": 5608,
+      "states": 564,
+      "maxTiltError_deg": 4.987676938128516e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "variant": "tangent",
+      "seed": 5609,
+      "states": 553,
+      "maxTiltError_deg": 5.4511950509095186e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 0.0
+    }
+  ]
+}

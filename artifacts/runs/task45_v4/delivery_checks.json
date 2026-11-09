@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "formalRuns": 40,
+  "formalSuccesses": 40,
+  "replayedCheckpoints": 1365,
+  "sourceFingerprint": "e0ac32f2d4125b1f8cb268776f756b9456cdc35a506d68bdeb7045a2b43a8057",
+  "priorEntriesVerified": 11087,
+  "manifests": [
+    {
+      "path": "docs/TASK45_V4_FILES_SHA256.csv",
+      "files": 2663,
+      "sha256": "f3d2d8c65f65ea1dcf46b36190576e749f3db233e50355a8f170a15f10e0764e"
+    },
+    {
+      "path": "docs/TASK45_V4_GIT_FILES_SHA256.csv",
+      "files": 612,
+      "sha256": "00d347b471a0f21a2cf769ecac2b26717506c203689150124ceebb90f9cc1e54"
+    }
+  ],
+  "scope": "Four-arm Task5 algorithm study on the fixed mounted workcell. Complete raw formal replay remains in the local archive; copied development demos include replay inputs."
+}

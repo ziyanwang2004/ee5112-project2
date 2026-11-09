@@ -1,0 +1,754 @@
+{
+  "metadata": {
+    "commit": "d3f3d76e6f8b7190b61c308f5d7062351f29deb8",
+    "matlabVersion": "23.2.0.3097123 (R2023b) Update 11",
+    "platform": "PCWIN64",
+    "timestampUtc": "2026-11-09 10:14:06",
+    "sources": [
+      {
+        "path": "+memberB/boxSDF.m",
+        "sha256": "e00b1fa69dd74beb44cfa220153989ba4d7cb69436f023e947239ee09492ce66"
+      },
+      {
+        "path": "+memberB/buildPoeModel.m",
+        "sha256": "ec1daa25d7b9b27dc7285a8f2b95e9bebdff68606930fcfdb68c377e89529d6e"
+      },
+      {
+        "path": "+memberB/builtinFK.m",
+        "sha256": "db44ed3b43c46fb8136ecea3db605f6642262ea242a7ec40c79f62156c53a305"
+      },
+      {
+        "path": "+memberB/checkMatlabPath.m",
+        "sha256": "ab16385b5ff310f35b9dab54a1254558835daa3c7d4c8e3b8a095097f24a3cf3"
+      },
+      {
+        "path": "+memberB/checkSpherePath.m",
+        "sha256": "c31e0c4a6a235025cc89f0d7be41fe769ee987e3d2d09a9f0203b746cf5a0726"
+      },
+      {
+        "path": "+memberB/densify.m",
+        "sha256": "eb85859aa768de335b47100c93e4ded1f18a5fea0a3f94edf5c23da54a825a00"
+      },
+      {
+        "path": "+memberB/exportScrews.m",
+        "sha256": "6c5ab027d25d48ebf505d23f06d742453de381930724a991184f7fd3633a11c3"
+      },
+      {
+        "path": "+memberB/fitSphereEnvelope.m",
+        "sha256": "de2895b33862e91f2ad68a7d8842dab43bbaf984e97b27ab06335b00cea373c3"
+      },
+      {
+        "path": "+memberB/loadUR5Spheres.m",
+        "sha256": "af4bbfd5ef35628e724087ec4a483242929dc41d6fa46c71c707bd1ac882d243"
+      },
+      {
+        "path": "+memberB/makeScene.m",
+        "sha256": "7ff7475959014790ac0f7dddf2ea9208026d6532c937172e350725a78866045f"
+      },
+      {
+        "path": "+memberB/plotComparison.m",
+        "sha256": "6127281fa844ab0455d0cbfdcc6237b547a88fb4eb8da465967c740e41b556b1"
+      },
+      {
+        "path": "+memberB/plotResults.m",
+        "sha256": "ecc41e80481bc2e71b32dfa409295c5bf830736a5d225ff9b5f2645a798976f3"
+      },
+      {
+        "path": "+memberB/poeFK.m",
+        "sha256": "017de9a5c9e79e830b3c6142640478683584241fda156ae240089c2659fe0c77"
+      },
+      {
+        "path": "+memberB/poeFromRecords.m",
+        "sha256": "d648a243789137b62dd70df714188dea9e08a5b4981f7584ab6bc56b2a8dc5b7"
+      },
+      {
+        "path": "+memberB/sphereCenters.m",
+        "sha256": "7f6bcb238e7f7a74c8185c4b946c7ab7c7ad6157205369906191be8343115434"
+      },
+      {
+        "path": "+memberB/twistExp.m",
+        "sha256": "943e68103322878b4d8b0d61ac6ec64a4ec51d87498bbd580db0c1a6a4be2d05"
+      },
+      {
+        "path": "+memberB/updateJointsWorldPosition.m",
+        "sha256": "c7f1f88f392a2c9fc1ca4918e12fcb43eb86d58c835cb7c45a8cec3417b0c459"
+      },
+      {
+        "path": "+memberB/validatePoe.m",
+        "sha256": "7173f13b79c784f2a82f303ca0d9b0bfcc41124d7c9f7043183d6a12b0ee2243"
+      },
+      {
+        "path": "+memberB/writeCSV.m",
+        "sha256": "fb7b19388a9f5672d7d22d3e21febfbfa03c064110cb5f93f39d0a3a91dc98e6"
+      },
+      {
+        "path": "+memberC/aggregateStudy.m",
+        "sha256": "f198fcee006dc5da70846ce7717953243df888fcd840bf4678f4acbf399cecfb"
+      },
+      {
+        "path": "+memberC/buildSelfGeometry.m",
+        "sha256": "4e04419394b6430fd6e217841dab9e146b68b35ecf8ae575135b713567138ff4"
+      },
+      {
+        "path": "+memberC/defaults.m",
+        "sha256": "36236dd0990887013ada909fa14e50f0830a3e114ca1cbcc5fecce77f9ed42bf"
+      },
+      {
+        "path": "+memberC/directionError.m",
+        "sha256": "5285a4d39dab684dac9dc53880db97043a2d50f31bd6d1bfb1431bf239d81fe1"
+      },
+      {
+        "path": "+memberC/directionJacobian.m",
+        "sha256": "98ca7922c60b70a5ac87cd79125a28057844f1464c7a5c1bbe5faa7857c34510"
+      },
+      {
+        "path": "+memberC/loadRobot.m",
+        "sha256": "60478a54d2180eaf9bbfbd46d98034c241d69d8831b054f1c657cc6e960b4295"
+      },
+      {
+        "path": "+memberC/makeScene.m",
+        "sha256": "f99e9cd7c158ad5d4cc91288102eb7b8454f32ad502e79e886cf05d2a22a6623"
+      },
+      {
+        "path": "+memberC/plan.m",
+        "sha256": "cc7647fde2c33771d159355a895f24c9a2fa12940983162dfdeb3483326eab46"
+      },
+      {
+        "path": "+memberC/planSearch.m",
+        "sha256": "f756ab8f2f4fa2b5e49a6334b110128181325c0557c9032e5dbc5636ff4d01ac"
+      },
+      {
+        "path": "+memberC/projectSamples.m",
+        "sha256": "d866e4058301470da3e1886555b8efe0dc500d828f7be796985c39815c9b1e17"
+      },
+      {
+        "path": "+memberC/projectTrajectory.m",
+        "sha256": "9f73e7491da11cbc7bf80f47d4e399e55c90878e18ad35120b2120a4f88ef8a6"
+      },
+      {
+        "path": "+memberC/provenance.m",
+        "sha256": "fc2f2a9851fbc64e6e5fb3aaabe5e59b53f8c324a43f892dc10438c1fdfdb000"
+      },
+      {
+        "path": "+memberC/qualityCost.m",
+        "sha256": "cdbc697424397f59971516a687e35c7a557d1bd6cd6cd9b37fbe423a0367786e"
+      },
+      {
+        "path": "+memberC/refinePath.m",
+        "sha256": "fc06fcbc931b5e2d194a12440aaaab5468bad83842f71da9e8ffbed23cae77db"
+      },
+      {
+        "path": "+memberC/replayRefinement.m",
+        "sha256": "a18a7116460b92765ca198404ec233b021ccd4cee8f8713b727affdc4e9aec41"
+      },
+      {
+        "path": "+memberC/replayRun.m",
+        "sha256": "9490987f14e12f170f76ce8f2181f793600c609794827f5c7d185d38621d81f5"
+      },
+      {
+        "path": "+memberC/runOne.m",
+        "sha256": "5f16b9bb370eab771cd5f3f21784ce5228b52dff12f03d1b715d75e84b355978"
+      },
+      {
+        "path": "+memberC/samplePath.m",
+        "sha256": "6eec7c13fd6bda2c28dd5ea4f2c3b33574bdd945f6786a7ba101f8ef10a50a08"
+      },
+      {
+        "path": "+memberC/sampleProbabilities.m",
+        "sha256": "e0ed8e7eb27c446972e3faad59a6175a621f09988fa23c439f04e88081d4abee"
+      },
+      {
+        "path": "+memberC/sampleRollouts.m",
+        "sha256": "e4f493b2c4bc08aa125e73f797d678722fd19c5ae93dfdb9a456a7933aea927b"
+      },
+      {
+        "path": "+memberC/segmentDistance.m",
+        "sha256": "cb8ebff82e9cb15d6807ea4d9dee10ac834dc244b50a994b96264030a44f6b25"
+      },
+      {
+        "path": "+memberC/selfClearance.m",
+        "sha256": "6ac3d45a399c6313497c10528a1ba7679757fb663ced93596eae1062142925d4"
+      },
+      {
+        "path": "+memberC/selfPathSafe.m",
+        "sha256": "bb2da815ca2a7a939a3cefa538eb4444fb035b7924b560d70263cbd231be0902"
+      },
+      {
+        "path": "+memberC/sha256.m",
+        "sha256": "7dffa0785eb627697ac68e8b30ffe00e8b8726b9a532549677cb3ad8b596af48"
+      },
+      {
+        "path": "+memberC/summarizeRun.m",
+        "sha256": "039b4c5ed4e1e96c80b5ac19117030954b7e67c4bf43eac3068482b22ce4a5d6"
+      },
+      {
+        "path": "+memberC/tangentProjectors.m",
+        "sha256": "7cd3f4b9f62bac82d0778336e9e64f2a3ec98365b0cd265e17159e98507c740d"
+      },
+      {
+        "path": "+memberC/validatePath.m",
+        "sha256": "173b8ba76af42545aeefb44e90729a87e140fa0e2edcfeb30b234f27b4030158"
+      },
+      {
+        "path": "+memberC/variantOptions.m",
+        "sha256": "52ea5b6db5f936390e382c92410163dd50d2bd59abdea71db24e41104312eb34"
+      },
+      {
+        "path": "+memberC/writeJSON.m",
+        "sha256": "4f928fbda76fe48ae817b94d920ba78e1a4967b647e9baea38a98f74417ef383"
+      },
+      {
+        "path": "+memberC/writeRunTable.m",
+        "sha256": "2c529544c87580996431e58128571fef831c2ede199cb862b50db42ec1aa80fe"
+      },
+      {
+        "path": "KINOVA_STOMP_Path_Planning.m",
+        "sha256": "6c6cbd4b189160ee84ae2036e6afd590ee884b6f78678c8aac2101187abc315b"
+      },
+      {
+        "path": "UR5_STOMP_Path_Planning.m",
+        "sha256": "b56c136c447f0e5efc642e44fda33d95cbe5827df382e37fa1849bfa7800d50c"
+      },
+      {
+        "path": "buildKinovaSpheres.m",
+        "sha256": "82f4e1559395fd9ea8f13360216c8a3be9d9b7d83937768b2c24552c65010caf"
+      },
+      {
+        "path": "checkVoxelPath.m",
+        "sha256": "03522a00231f26759eb26ed9d566806c3ee224f38bd8ea98da726eadea763aa9"
+      },
+      {
+        "path": "develop_task45.m",
+        "sha256": "012579bb97ad6e52ae4e17c28b9b72746e05bc9f76e5edfd84ba252c0c515079"
+      },
+      {
+        "path": "export_run_process.m",
+        "sha256": "2dc6715c6a23d94f3249f90968ff854fac16e2da8cb9224aee2d42ecd5d9a67a"
+      },
+      {
+        "path": "export_task45.m",
+        "sha256": "bc75fc03bc9700df2b28efe88ae0c02de429bb0ecbefa56fae0dc0a5a83dd23f"
+      },
+      {
+        "path": "helperCreateObstaclesKINOVA.m",
+        "sha256": "0528fd17446bb7fc24838c738f0be16d8bfcfb50b349bad21365116f52b533ab"
+      },
+      {
+        "path": "helperCreateObstaclesUR5.m",
+        "sha256": "0f6cfbe94e41126cd0e934e60274064f3be74b7760289ad342798a5ade1bf936"
+      },
+      {
+        "path": "helperSTOMP.m",
+        "sha256": "d7377d7f1a5cfc3a1ccbaf91d1edb14ad65e8382fa63251ec89f310c8e6743c8"
+      },
+      {
+        "path": "loadKinovaSpheres.m",
+        "sha256": "7e599fc3640112469ce6f08e13a15385c7b6529caa550be12dbdf91c14964620"
+      },
+      {
+        "path": "makeVoxelWorld.m",
+        "sha256": "bbee64eafc29534a1cc8f976b5c5cd6150b7b75b4c9b304299679c80698f98e0"
+      },
+      {
+        "path": "queryVoxelSDF.m",
+        "sha256": "8bb8ce93f31d58b1ac47f15f287a4f6fea750c89c8b3fa4c6a68c31d7e3f36da"
+      },
+      {
+        "path": "run_AB_memberB.m",
+        "sha256": "c198432fd8b2b8d26afe8e02c3c0ccf8be3478adc637ab99e60b77744425aafb"
+      },
+      {
+        "path": "run_all_tasks.m",
+        "sha256": "719572a7e1bead1330191bb33afde5b4e03608a447c2772ff1beb1b9c4bf2b5e"
+      },
+      {
+        "path": "run_task45.m",
+        "sha256": "124dddbcc1e1fb57782c2de4e0aedebdfc3e7addb731124f49ecae79a692a057"
+      },
+      {
+        "path": "run_task45_benchmark.m",
+        "sha256": "957cf10b937b2380d72490cffca0aef9c146610dd107aa654bd0b584397af44c"
+      },
+      {
+        "path": "sEDT_3d.m",
+        "sha256": "f14ce625432252766339d24297f9b5f8748ce3617e3fd032c359bf09c6f78243"
+      },
+      {
+        "path": "sharedDefaults.m",
+        "sha256": "ea5e4350b5c78c70488dae3e3a68242bbafac91c58c497d0b01b008cc1a0fc83"
+      },
+      {
+        "path": "stompDTheta.m",
+        "sha256": "9d6d33a83deeee198111795a6e0bacf2161821fdff4c0d10d900e1d8ad230bf3"
+      },
+      {
+        "path": "stompObstacleCost.m",
+        "sha256": "1f1b873c1f42dcb049b3bf8f317620f3ee28d38ef967ae7b570d9ff051fdf9ed"
+      },
+      {
+        "path": "stompRobotSphere.m",
+        "sha256": "58b8344ad2af02c8a541d9e89a6985afe17135b88e8a8c6d9f53e843d4246146"
+      },
+      {
+        "path": "stompSamples.m",
+        "sha256": "236ebc33011f49ad66069e19e2f3dcb8651c15e757bcb5110b42b4f8dda91a7a"
+      },
+      {
+        "path": "stompTrajCost.m",
+        "sha256": "41d8169d80087ad2c7adb16469c111d1f872ae1794a83a30f9a4af1093aea654"
+      },
+      {
+        "path": "stompUpdateProb.m",
+        "sha256": "6884688d725e592cedd67f65300c32717dd9a5f1ea9c3e530723fba410787f2e"
+      },
+      {
+        "path": "stompUpdateTheta.m",
+        "sha256": "f84cc755f58780190d5a37831432059c70b2ec1d866a9351b18e5bde40f01f21"
+      },
+      {
+        "path": "tests/localTreeFK.m",
+        "sha256": "008cf0c866de6a03923458844a090bcfcdb677bbf96aa7a2978275f24d827d56"
+      },
+      {
+        "path": "tests/replay_saved_process.m",
+        "sha256": "dfcfff4326f157f8b25c12febcef3f9b5cf8d2d6e15d9303922fea68e18d87b3"
+      },
+      {
+        "path": "tests/run_numeric_tests.m",
+        "sha256": "6feeee55ddce277266ebfbf0bb1e73a817996a43e7dbccca8f9d34a097b1ba88"
+      },
+      {
+        "path": "tests/test_shared_helpers.m",
+        "sha256": "7af6759fa09a88e243b692f68ae1c5453bac93a1133f6cf09d5177f04d3ffbae"
+      },
+      {
+        "path": "tests/test_task45.m",
+        "sha256": "73bfb039d4890cb8c2f73b40fc2af5742d8c416f45dcd4857c7a5c80b146d04d"
+      },
+      {
+        "path": "tests/verify_task123.m",
+        "sha256": "3b7f1d7c73ec050a9d15a29dbd634ecb71f9a45dab182c8022a3d7f3363b7c07"
+      },
+      {
+        "path": "updateJointsWorldPosition.m",
+        "sha256": "f2e69a845f63e4d87763c4140cd3fe721c9b30dcd3ab912b4e7f681c62187071"
+      },
+      {
+        "path": "verify_task45.m",
+        "sha256": "4c01d0d966785c8c76c8bff007dbc80f600771e2e4ac4358de2aed9d38468b84"
+      }
+    ],
+    "sourceFingerprint": "e0ac32f2d4125b1f8cb268776f756b9456cdc35a506d68bdeb7045a2b43a8057"
+  },
+  "developmentSeeds": [
+    5500,
+    5501,
+    5502
+  ],
+  "formalSeeds": [
+    5600,
+    5601,
+    5602,
+    5603,
+    5604,
+    5605,
+    5606,
+    5607,
+    5608,
+    5609
+  ],
+  "demoSeed": 5500,
+  "pairedDevelopmentSuccess": [
+    true,
+    false,
+    true
+  ],
+  "scenario": "workcell",
+  "protocol": "v4-two-by-two-anytime-tangent",
+  "workers": 2,
+  "clientDate": "2026-11-09",
+  "developmentSuccess": [
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "drivers": [
+    {
+      "path": "scripts/run_task45_v4_group.m",
+      "sha256": "a35a9a41dfd1de7a2a451da58c7dc473061e209a5e86e1c08432819b53a92067"
+    },
+    {
+      "path": "scripts/run_task45_v4.m",
+      "sha256": "88bcf01f2803015b0792aa25ab2a09973b442270ef5f82b52b3e625626cdcf73"
+    },
+    {
+      "path": "scripts/freeze_task45_v4.m",
+      "sha256": "e98fb7b707a7caf95d39b9b8c48bc820524da80e845c2c1fee5d8a4c35a1c802"
+    },
+    {
+      "path": "scripts/continue_task45_v4.ps1",
+      "sha256": "dd978520907c357ee7cc4b6e076d9046659561f843206c5e2f795d0574df4f55"
+    },
+    {
+      "path": "docs/TASK45_V4_PROTOCOL.md",
+      "sha256": "49944f5197de6694ca7dd88e9e7dec2acc9004b1bde4818bb3c208ec1be7815e"
+    }
+  ],
+  "parameters": {
+    "baseline": {
+      "robotName": "universalUR5",
+      "endEffector": "tool0",
+      "qStart": [
+        -1.1,
+        -1.05,
+        1.35,
+        -0.3,
+        -1.5707963267948966,
+        0
+      ],
+      "qGoal": [
+        1.05,
+        -0.75,
+        1.1,
+        -0.35,
+        -1.5707963267948966,
+        0
+      ],
+      "nWaypoints": 61,
+      "nRollouts": 64,
+      "maxIterations": 200,
+      "maxRestarts": 3,
+      "seed": 5112,
+      "noiseStd": 0.55,
+      "maxUpdate": 0.3,
+      "minIterations": 10,
+      "sensitivity": 10,
+      "convergenceThreshold": 1E-7,
+      "margin": 0.035,
+      "obstacleWeight": 3000,
+      "stationaryWeight": 20,
+      "smoothWeight": 1,
+      "denseJointStep": 0.025,
+      "cubeSide": 0.16,
+      "worldCorner": [
+        -1,
+        -1,
+        -0.4
+      ],
+      "worldExtent": [
+        2,
+        2,
+        2
+      ],
+      "voxelSize": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "showFigures": false,
+      "writeVideo": false,
+      "retainRollouts": false,
+      "verbose": true,
+      "maxWallSeconds": 300,
+      "maxStallIterations": 10,
+      "finalDenseJointStep": 0.0125,
+      "orientationToleranceDeg": 5,
+      "orientationWeight": 1000,
+      "constraintMode": "projected",
+      "projectionToleranceDeg": 1,
+      "projectionDamping": 0.001,
+      "projectionMaxIterations": 20,
+      "projectionMaxStep": 0.15,
+      "selfWeight": 60000,
+      "selfMargin": 0.005,
+      "restartSeedStride": 100000,
+      "selfCheckJointStep": 0.05,
+      "maxFallbackSelfChecks": 8,
+      "version": "task45_v4_anytime_tangent",
+      "variant": "baseline",
+      "anytimeEnabled": false,
+      "samplingMode": "euclidean",
+      "tangentFraction": 0.75,
+      "tangentRankTolerance": 1E-8,
+      "refineMaxIterations": 20,
+      "refineMaxSeconds": 45,
+      "refineRollouts": 32,
+      "refineNoiseStd": 0.1,
+      "refineMaxUpdate": 0.1,
+      "qualityLengthWeight": 1,
+      "qualitySmoothWeight": 5,
+      "qualityClearanceWeight": 5000,
+      "qualityClearanceTarget": 0.045
+    },
+    "anytime": {
+      "robotName": "universalUR5",
+      "endEffector": "tool0",
+      "qStart": [
+        -1.1,
+        -1.05,
+        1.35,
+        -0.3,
+        -1.5707963267948966,
+        0
+      ],
+      "qGoal": [
+        1.05,
+        -0.75,
+        1.1,
+        -0.35,
+        -1.5707963267948966,
+        0
+      ],
+      "nWaypoints": 61,
+      "nRollouts": 64,
+      "maxIterations": 200,
+      "maxRestarts": 3,
+      "seed": 5112,
+      "noiseStd": 0.55,
+      "maxUpdate": 0.3,
+      "minIterations": 10,
+      "sensitivity": 10,
+      "convergenceThreshold": 1E-7,
+      "margin": 0.035,
+      "obstacleWeight": 3000,
+      "stationaryWeight": 20,
+      "smoothWeight": 1,
+      "denseJointStep": 0.025,
+      "cubeSide": 0.16,
+      "worldCorner": [
+        -1,
+        -1,
+        -0.4
+      ],
+      "worldExtent": [
+        2,
+        2,
+        2
+      ],
+      "voxelSize": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "showFigures": false,
+      "writeVideo": false,
+      "retainRollouts": false,
+      "verbose": true,
+      "maxWallSeconds": 300,
+      "maxStallIterations": 10,
+      "finalDenseJointStep": 0.0125,
+      "orientationToleranceDeg": 5,
+      "orientationWeight": 1000,
+      "constraintMode": "projected",
+      "projectionToleranceDeg": 1,
+      "projectionDamping": 0.001,
+      "projectionMaxIterations": 20,
+      "projectionMaxStep": 0.15,
+      "selfWeight": 60000,
+      "selfMargin": 0.005,
+      "restartSeedStride": 100000,
+      "selfCheckJointStep": 0.05,
+      "maxFallbackSelfChecks": 8,
+      "version": "task45_v4_anytime_tangent",
+      "variant": "anytime",
+      "anytimeEnabled": true,
+      "samplingMode": "euclidean",
+      "tangentFraction": 0.75,
+      "tangentRankTolerance": 1E-8,
+      "refineMaxIterations": 20,
+      "refineMaxSeconds": 45,
+      "refineRollouts": 32,
+      "refineNoiseStd": 0.1,
+      "refineMaxUpdate": 0.1,
+      "qualityLengthWeight": 1,
+      "qualitySmoothWeight": 5,
+      "qualityClearanceWeight": 5000,
+      "qualityClearanceTarget": 0.045
+    },
+    "tangent": {
+      "robotName": "universalUR5",
+      "endEffector": "tool0",
+      "qStart": [
+        -1.1,
+        -1.05,
+        1.35,
+        -0.3,
+        -1.5707963267948966,
+        0
+      ],
+      "qGoal": [
+        1.05,
+        -0.75,
+        1.1,
+        -0.35,
+        -1.5707963267948966,
+        0
+      ],
+      "nWaypoints": 61,
+      "nRollouts": 64,
+      "maxIterations": 200,
+      "maxRestarts": 3,
+      "seed": 5112,
+      "noiseStd": 0.55,
+      "maxUpdate": 0.3,
+      "minIterations": 10,
+      "sensitivity": 10,
+      "convergenceThreshold": 1E-7,
+      "margin": 0.035,
+      "obstacleWeight": 3000,
+      "stationaryWeight": 20,
+      "smoothWeight": 1,
+      "denseJointStep": 0.025,
+      "cubeSide": 0.16,
+      "worldCorner": [
+        -1,
+        -1,
+        -0.4
+      ],
+      "worldExtent": [
+        2,
+        2,
+        2
+      ],
+      "voxelSize": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "showFigures": false,
+      "writeVideo": false,
+      "retainRollouts": false,
+      "verbose": true,
+      "maxWallSeconds": 300,
+      "maxStallIterations": 10,
+      "finalDenseJointStep": 0.0125,
+      "orientationToleranceDeg": 5,
+      "orientationWeight": 1000,
+      "constraintMode": "projected",
+      "projectionToleranceDeg": 1,
+      "projectionDamping": 0.001,
+      "projectionMaxIterations": 20,
+      "projectionMaxStep": 0.15,
+      "selfWeight": 60000,
+      "selfMargin": 0.005,
+      "restartSeedStride": 100000,
+      "selfCheckJointStep": 0.05,
+      "maxFallbackSelfChecks": 8,
+      "version": "task45_v4_anytime_tangent",
+      "variant": "tangent",
+      "anytimeEnabled": false,
+      "samplingMode": "tangent",
+      "tangentFraction": 0.75,
+      "tangentRankTolerance": 1E-8,
+      "refineMaxIterations": 20,
+      "refineMaxSeconds": 45,
+      "refineRollouts": 32,
+      "refineNoiseStd": 0.1,
+      "refineMaxUpdate": 0.1,
+      "qualityLengthWeight": 1,
+      "qualitySmoothWeight": 5,
+      "qualityClearanceWeight": 5000,
+      "qualityClearanceTarget": 0.045
+    },
+    "combined": {
+      "robotName": "universalUR5",
+      "endEffector": "tool0",
+      "qStart": [
+        -1.1,
+        -1.05,
+        1.35,
+        -0.3,
+        -1.5707963267948966,
+        0
+      ],
+      "qGoal": [
+        1.05,
+        -0.75,
+        1.1,
+        -0.35,
+        -1.5707963267948966,
+        0
+      ],
+      "nWaypoints": 61,
+      "nRollouts": 64,
+      "maxIterations": 200,
+      "maxRestarts": 3,
+      "seed": 5112,
+      "noiseStd": 0.55,
+      "maxUpdate": 0.3,
+      "minIterations": 10,
+      "sensitivity": 10,
+      "convergenceThreshold": 1E-7,
+      "margin": 0.035,
+      "obstacleWeight": 3000,
+      "stationaryWeight": 20,
+      "smoothWeight": 1,
+      "denseJointStep": 0.025,
+      "cubeSide": 0.16,
+      "worldCorner": [
+        -1,
+        -1,
+        -0.4
+      ],
+      "worldExtent": [
+        2,
+        2,
+        2
+      ],
+      "voxelSize": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "showFigures": false,
+      "writeVideo": false,
+      "retainRollouts": false,
+      "verbose": true,
+      "maxWallSeconds": 300,
+      "maxStallIterations": 10,
+      "finalDenseJointStep": 0.0125,
+      "orientationToleranceDeg": 5,
+      "orientationWeight": 1000,
+      "constraintMode": "projected",
+      "projectionToleranceDeg": 1,
+      "projectionDamping": 0.001,
+      "projectionMaxIterations": 20,
+      "projectionMaxStep": 0.15,
+      "selfWeight": 60000,
+      "selfMargin": 0.005,
+      "restartSeedStride": 100000,
+      "selfCheckJointStep": 0.05,
+      "maxFallbackSelfChecks": 8,
+      "version": "task45_v4_anytime_tangent",
+      "variant": "combined",
+      "anytimeEnabled": true,
+      "samplingMode": "tangent",
+      "tangentFraction": 0.75,
+      "tangentRankTolerance": 1E-8,
+      "refineMaxIterations": 20,
+      "refineMaxSeconds": 45,
+      "refineRollouts": 32,
+      "refineNoiseStd": 0.1,
+      "refineMaxUpdate": 0.1,
+      "qualityLengthWeight": 1,
+      "qualitySmoothWeight": 5,
+      "qualityClearanceWeight": 5000,
+      "qualityClearanceTarget": 0.045
+    }
+  }
+}

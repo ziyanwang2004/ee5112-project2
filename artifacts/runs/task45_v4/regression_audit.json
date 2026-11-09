@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "runs": 3,
+  "successfulRuns": 3,
+  "replayedCheckpoints": 45,
+  "details": [
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v4\\regression\\anytime\\workcell\\Task4\\seed_5300",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 25,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 10,
+        "refinement": {
+          "checkpoints": 15,
+          "accepted": 15,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    },
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v4\\regression\\baseline\\workcell\\Task4\\seed_5300",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 10,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 10,
+        "refinement": {
+          "checkpoints": 0,
+          "accepted": 0,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    },
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v4\\regression\\baseline\\workcell\\Task5\\seed_5300",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 10,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 10,
+        "refinement": {
+          "checkpoints": 0,
+          "accepted": 0,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    }
+  ],
+  "v3BaselineBitwiseUnchanged": true
+}
