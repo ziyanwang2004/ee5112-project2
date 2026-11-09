@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "runs": 1,
+  "successfulRuns": 1,
+  "replayedCheckpoints": 26,
+  "details": [
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v4\\development\\combined\\workcell\\Task5\\seed_5500",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 26,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 10,
+        "refinement": {
+          "checkpoints": 16,
+          "accepted": 16,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    }
+  ]
+}
