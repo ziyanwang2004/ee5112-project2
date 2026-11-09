@@ -1,6 +1,6 @@
-function manifest=export_task45_v3(release,writeVideo)
+function manifest=export_task45_v3(release,includeVideo)
 % Export frozen mounted-workcell evidence, without changing any trajectory.
-if nargin<2, writeVideo=true; end
+if nargin<2, includeVideo=true; end
 root=fileparts(fileparts(mfilename('fullpath'))); addpath(fullfile(root,'upgrades','task45_v3','matlab'),'-begin');
 data=load(fullfile(release,'frozen_config.mat')); seed=data.frozen.demoSeed; pair=cell(1,2);
 for task=4:5
@@ -55,7 +55,7 @@ for panel=1:4
     legend(ax,'Task 4','Task 5','Location','best');
 end
 savePlot(f,fullfile(out,'paired_metrics')); close(f); manifest.figures{end+1}=fullfile(out,'paired_metrics.fig');
-if writeVideo
+if includeVideo
     names={'task4_motion.avi','task5_motion.avi','paired_motion.avi'}; writers=cell(1,3);
     for j=1:3, writers{j}=VideoWriter(fullfile(out,names{j}),'Motion JPEG AVI'); writers{j}.FrameRate=15; open(writers{j}); end
     guard=onCleanup(@()closeWriters(writers)); %#ok<NASGU>

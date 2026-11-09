@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "runs": 40,
+  "checkpoints": 804,
+  "recomputedCosts": 127,
+  "recordedSafetyReceipts": 492,
+  "feasibilityPriorityCostIncreases": 28,
+  "sourceFingerprint": "706012af20ab4dfda4b995858a25ef723cad55ef39dd648e2d75caed17b2585a",
+  "recordedGitCommits": [
+    "91890e9b113b3afffcc41e2facb4aba61547ded2",
+    "9490df569bc1b16b4d1c7e3c6ef8d375a153251c"
+  ],
+  "scope": "Recomputed saved accepted-state objectives and checked in-loop decision receipts; full random replay and final path collision checks are separate."
+}

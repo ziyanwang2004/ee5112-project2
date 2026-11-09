@@ -1,0 +1,27 @@
+{
+  "endpoints": [
+    {
+      "name": "start",
+      "passed": true,
+      "failures": [],
+      "gap": 0.048484818265390743,
+      "tilt": 8.4166873884630082E-10,
+      "toolZ": 0.4472460698166113
+    },
+    {
+      "name": "goal",
+      "passed": true,
+      "failures": [],
+      "gap": 0.058778234971504986,
+      "tilt": 8.4164742644008607E-10,
+      "toolZ": 0.34970380803803713
+    }
+  ],
+  "initialWorldCollisionStates": 92,
+  "initialSelfCollisionStates": 0,
+  "initialDenseStates": 181,
+  "witnessPassed": true,
+  "witnessGap": 0.048484818265390743,
+  "witnessFailures": [],
+  "witnessUse": "Scene feasibility proof only; prohibited as an optimizer initialization, restart, or output."
+}

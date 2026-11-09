@@ -1,0 +1,52 @@
+[
+  {
+    "task": 4,
+    "seed": 5300,
+    "originalSuccess": true,
+    "fineSuccess": true,
+    "minVoxelGap": 0.048484818265390743,
+    "tilt": 120.29369471092298,
+    "minToolHeight": 0.256914349915473,
+    "failures": []
+  },
+  {
+    "task": 4,
+    "seed": 5301,
+    "originalSuccess": true,
+    "fineSuccess": true,
+    "minVoxelGap": 0.044021123302918255,
+    "tilt": 125.04650839287339,
+    "minToolHeight": 0.34970380803803713,
+    "failures": []
+  },
+  {
+    "task": 4,
+    "seed": 5302,
+    "originalSuccess": true,
+    "fineSuccess": true,
+    "minVoxelGap": 0.048484818265390743,
+    "tilt": 165.29354996465761,
+    "minToolHeight": 0.34970380803803713,
+    "failures": []
+  },
+  {
+    "task": 5,
+    "seed": 5300,
+    "originalSuccess": true,
+    "fineSuccess": true,
+    "minVoxelGap": 0.035234169703461743,
+    "tilt": 0.93018240019533072,
+    "minToolHeight": 0.30471652565584667,
+    "failures": []
+  },
+  {
+    "task": 5,
+    "seed": 5301,
+    "originalSuccess": true,
+    "fineSuccess": true,
+    "minVoxelGap": 0.042570011359192944,
+    "tilt": 0.27893297189532151,
+    "minToolHeight": 0.34970380803803713,
+    "failures": []
+  }
+]

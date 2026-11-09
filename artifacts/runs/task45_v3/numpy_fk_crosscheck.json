@@ -1,0 +1,290 @@
+{
+  "passed": true,
+  "paths": 40,
+  "states": 46798,
+  "maxPositionError_m": 1.6930901125533637e-15,
+  "maxTiltError_deg": 1.9895196601282805e-13,
+  "scope": "Independent NumPy mounted-tool FK and direction calculation; actual collision verification remains the separate MATLAB audit.",
+  "records": [
+    {
+      "task": 4,
+      "seed": 5400,
+      "states": 1221,
+      "maxPositionError_m": 1.4432899320127035e-15,
+      "maxTiltError_deg": 1.5631940186722204e-13
+    },
+    {
+      "task": 4,
+      "seed": 5401,
+      "states": 1075,
+      "maxPositionError_m": 9.992007221626409e-16,
+      "maxTiltError_deg": 1.1368683772161603e-13
+    },
+    {
+      "task": 4,
+      "seed": 5402,
+      "states": 1408,
+      "maxPositionError_m": 1.3322676295501878e-15,
+      "maxTiltError_deg": 1.4210854715202004e-13
+    },
+    {
+      "task": 4,
+      "seed": 5403,
+      "states": 1246,
+      "maxPositionError_m": 1.3322676295501878e-15,
+      "maxTiltError_deg": 1.7053025658242404e-13
+    },
+    {
+      "task": 4,
+      "seed": 5404,
+      "states": 1176,
+      "maxPositionError_m": 1.0547118733938987e-15,
+      "maxTiltError_deg": 1.4921397450962104e-13
+    },
+    {
+      "task": 4,
+      "seed": 5405,
+      "states": 1039,
+      "maxPositionError_m": 1.0130785099704553e-15,
+      "maxTiltError_deg": 9.237055564881302e-14
+    },
+    {
+      "task": 4,
+      "seed": 5406,
+      "states": 1465,
+      "maxPositionError_m": 1.609823385706477e-15,
+      "maxTiltError_deg": 1.7053025658242404e-13
+    },
+    {
+      "task": 4,
+      "seed": 5407,
+      "states": 1309,
+      "maxPositionError_m": 1.1102230246251565e-15,
+      "maxTiltError_deg": 1.9895196601282805e-13
+    },
+    {
+      "task": 4,
+      "seed": 5408,
+      "states": 1195,
+      "maxPositionError_m": 1.4432899320127035e-15,
+      "maxTiltError_deg": 1.4210854715202004e-13
+    },
+    {
+      "task": 4,
+      "seed": 5409,
+      "states": 1135,
+      "maxPositionError_m": 1.3322676295501878e-15,
+      "maxTiltError_deg": 1.4210854715202004e-13
+    },
+    {
+      "task": 4,
+      "seed": 5410,
+      "states": 1026,
+      "maxPositionError_m": 1.1102230246251565e-15,
+      "maxTiltError_deg": 1.4210854715202004e-13
+    },
+    {
+      "task": 4,
+      "seed": 5411,
+      "states": 1196,
+      "maxPositionError_m": 1.6930901125533637e-15,
+      "maxTiltError_deg": 1.2789769243681803e-13
+    },
+    {
+      "task": 4,
+      "seed": 5412,
+      "states": 1141,
+      "maxPositionError_m": 1.4432899320127035e-15,
+      "maxTiltError_deg": 1.1368683772161603e-13
+    },
+    {
+      "task": 4,
+      "seed": 5413,
+      "states": 1245,
+      "maxPositionError_m": 9.992007221626409e-16,
+      "maxTiltError_deg": 1.4210854715202004e-13
+    },
+    {
+      "task": 4,
+      "seed": 5414,
+      "states": 1284,
+      "maxPositionError_m": 1.1518563880486e-15,
+      "maxTiltError_deg": 1.2789769243681803e-13
+    },
+    {
+      "task": 4,
+      "seed": 5415,
+      "states": 1123,
+      "maxPositionError_m": 1.2212453270876722e-15,
+      "maxTiltError_deg": 1.4921397450962104e-13
+    },
+    {
+      "task": 4,
+      "seed": 5416,
+      "states": 1006,
+      "maxPositionError_m": 1.2212453270876722e-15,
+      "maxTiltError_deg": 1.1368683772161603e-13
+    },
+    {
+      "task": 4,
+      "seed": 5417,
+      "states": 1312,
+      "maxPositionError_m": 1.2490009027033011e-15,
+      "maxTiltError_deg": 1.7053025658242404e-13
+    },
+    {
+      "task": 4,
+      "seed": 5418,
+      "states": 1380,
+      "maxPositionError_m": 1.5543122344752192e-15,
+      "maxTiltError_deg": 1.4210854715202004e-13
+    },
+    {
+      "task": 4,
+      "seed": 5419,
+      "states": 1544,
+      "maxPositionError_m": 9.922618282587337e-16,
+      "maxTiltError_deg": 1.4210854715202004e-13
+    },
+    {
+      "task": 5,
+      "seed": 5400,
+      "states": 1206,
+      "maxPositionError_m": 8.881784197001252e-16,
+      "maxTiltError_deg": 4.1069036192664665e-14
+    },
+    {
+      "task": 5,
+      "seed": 5401,
+      "states": 1231,
+      "maxPositionError_m": 8.89913143176102e-16,
+      "maxTiltError_deg": 8.465450562766819e-14
+    },
+    {
+      "task": 5,
+      "seed": 5402,
+      "states": 939,
+      "maxPositionError_m": 1.0547118733938987e-15,
+      "maxTiltError_deg": 6.583622536027178e-14
+    },
+    {
+      "task": 5,
+      "seed": 5403,
+      "states": 1638,
+      "maxPositionError_m": 9.992007221626409e-16,
+      "maxTiltError_deg": 7.546741009889502e-14
+    },
+    {
+      "task": 5,
+      "seed": 5404,
+      "states": 975,
+      "maxPositionError_m": 8.881784197001252e-16,
+      "maxTiltError_deg": 5.814793091474257e-14
+    },
+    {
+      "task": 5,
+      "seed": 5405,
+      "states": 1041,
+      "maxPositionError_m": 9.43689570931383e-16,
+      "maxTiltError_deg": 7.37188088351104e-14
+    },
+    {
+      "task": 5,
+      "seed": 5406,
+      "states": 977,
+      "maxPositionError_m": 8.881784197001252e-16,
+      "maxTiltError_deg": 4.668487818548783e-14
+    },
+    {
+      "task": 5,
+      "seed": 5407,
+      "states": 1166,
+      "maxPositionError_m": 7.771561172376096e-16,
+      "maxTiltError_deg": 5.648259637780484e-14
+    },
+    {
+      "task": 5,
+      "seed": 5408,
+      "states": 926,
+      "maxPositionError_m": 7.771561172376096e-16,
+      "maxTiltError_deg": 5.278069648007033e-14
+    },
+    {
+      "task": 5,
+      "seed": 5409,
+      "states": 1455,
+      "maxPositionError_m": 1.1102230246251565e-15,
+      "maxTiltError_deg": 7.405187574249794e-14
+    },
+    {
+      "task": 5,
+      "seed": 5410,
+      "states": 1157,
+      "maxPositionError_m": 1.0269562977782698e-15,
+      "maxTiltError_deg": 6.589173651150304e-14
+    },
+    {
+      "task": 5,
+      "seed": 5411,
+      "states": 1062,
+      "maxPositionError_m": 8.89913143176102e-16,
+      "maxTiltError_deg": 4.9057979900624105e-14
+    },
+    {
+      "task": 5,
+      "seed": 5412,
+      "states": 1027,
+      "maxPositionError_m": 8.881784197001252e-16,
+      "maxTiltError_deg": 6.9111383282916e-14
+    },
+    {
+      "task": 5,
+      "seed": 5413,
+      "states": 965,
+      "maxPositionError_m": 1.0547118733938987e-15,
+      "maxTiltError_deg": 5.662831314978689e-14
+    },
+    {
+      "task": 5,
+      "seed": 5414,
+      "states": 1060,
+      "maxPositionError_m": 7.73686670285656e-16,
+      "maxTiltError_deg": 7.038813976123492e-14
+    },
+    {
+      "task": 5,
+      "seed": 5415,
+      "states": 1210,
+      "maxPositionError_m": 8.89913143176102e-16,
+      "maxTiltError_deg": 5.10702591327572e-14
+    },
+    {
+      "task": 5,
+      "seed": 5416,
+      "states": 1031,
+      "maxPositionError_m": 9.43689570931383e-16,
+      "maxTiltError_deg": 3.697042672001771e-14
+    },
+    {
+      "task": 5,
+      "seed": 5417,
+      "states": 1029,
+      "maxPositionError_m": 8.916478666520788e-16,
+      "maxTiltError_deg": 6.63358257213531e-14
+    },
+    {
+      "task": 5,
+      "seed": 5418,
+      "states": 1156,
+      "maxPositionError_m": 7.840950111415168e-16,
+      "maxTiltError_deg": 6.266515084618618e-14
+    },
+    {
+      "task": 5,
+      "seed": 5419,
+      "states": 1021,
+      "maxPositionError_m": 8.881784197001252e-16,
+      "maxTiltError_deg": 6.458722445756848e-14
+    }
+  ]
+}

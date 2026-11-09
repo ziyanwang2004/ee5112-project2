@@ -1,0 +1,4 @@
+TASK4 workcell seed 5419 mode none weight 1000 noise 0.55
+restart 1 iteration 1 cost 43.45212 waypoint gap 0.01297 elapsed 2.2 s
+restart 1 iteration 10 cost 3.166634 waypoint gap 0.04621 elapsed 26.0 s
+RESULT success=1 voxel=0.046210 m tilt=151.7009 deg iterations=10 time=30.92 s

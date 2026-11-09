@@ -1,0 +1,17 @@
+{
+  "scene": "workcell",
+  "demoSeed": 5300,
+  "framesPerVideo": 150,
+  "framesPerSecond": 15,
+  "videos": [
+    "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v3\\demos\\exports\\workcell\\task4_motion.avi",
+    "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v3\\demos\\exports\\workcell\\task5_motion.avi",
+    "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v3\\demos\\exports\\workcell\\paired_motion.avi"
+  ],
+  "figures": [
+    "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v3\\demos\\exports\\workcell\\task4_summary.fig",
+    "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v3\\demos\\exports\\workcell\\task5_summary.fig",
+    "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v3\\demos\\exports\\workcell\\initial_and_planned.fig",
+    "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v3\\demos\\exports\\workcell\\paired_metrics.fig"
+  ]
+}

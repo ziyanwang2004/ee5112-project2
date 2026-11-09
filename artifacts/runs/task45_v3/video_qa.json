@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "decoder": "Python RIFF parser + Pillow JPEG decoder",
+  "videos": [
+    {
+      "path": "artifacts\\runs\\task45_v3\\demos\\exports\\workcell\\paired_motion.avi",
+      "frames": 150,
+      "fps": 15.0,
+      "width": 1600,
+      "height": 813,
+      "allFramesDecoded": true,
+      "nonblankFrames": [
+        1,
+        75,
+        150
+      ],
+      "reviewImages": [
+        "artifacts\\runs\\task45_v3\\delivery\\video_review\\workcell\\paired_motion_001.png",
+        "artifacts\\runs\\task45_v3\\delivery\\video_review\\workcell\\paired_motion_075.png",
+        "artifacts\\runs\\task45_v3\\delivery\\video_review\\workcell\\paired_motion_150.png"
+      ]
+    },
+    {
+      "path": "artifacts\\runs\\task45_v3\\demos\\exports\\workcell\\task4_motion.avi",
+      "frames": 150,
+      "fps": 15.0,
+      "width": 800,
+      "height": 813,
+      "allFramesDecoded": true,
+      "nonblankFrames": [
+        1,
+        75,
+        150
+      ],
+      "reviewImages": [
+        "artifacts\\runs\\task45_v3\\delivery\\video_review\\workcell\\task4_motion_001.png",
+        "artifacts\\runs\\task45_v3\\delivery\\video_review\\workcell\\task4_motion_075.png",
+        "artifacts\\runs\\task45_v3\\delivery\\video_review\\workcell\\task4_motion_150.png"
+      ]
+    },
+    {
+      "path": "artifacts\\runs\\task45_v3\\demos\\exports\\workcell\\task5_motion.avi",
+      "frames": 150,
+      "fps": 15.0,
+      "width": 800,
+      "height": 813,
+      "allFramesDecoded": true,
+      "nonblankFrames": [
+        1,
+        75,
+        150
+      ],
+      "reviewImages": [
+        "artifacts\\runs\\task45_v3\\delivery\\video_review\\workcell\\task5_motion_001.png",
+        "artifacts\\runs\\task45_v3\\delivery\\video_review\\workcell\\task5_motion_075.png",
+        "artifacts\\runs\\task45_v3\\delivery\\video_review\\workcell\\task5_motion_150.png"
+      ]
+    }
+  ]
+}
