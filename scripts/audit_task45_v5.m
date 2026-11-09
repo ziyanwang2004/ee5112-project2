@@ -53,15 +53,17 @@ for k=1:numel(inventory)
     for j=1:numel(files)
         a=load(fullfile(files(j).folder,files(j).name)); sampling=addSampling(sampling,a.samplingDiagnostics,c.nRollouts,c.nWaypoints);
         if strcmp(c.samplingMode,'adaptive')
-            sampling.controllerChanges=sampling.controllerChanges+(a.samplingStateBefore.fraction~=a.samplingStateAfter.fraction);
-            sampling.stagnationExploration=sampling.stagnationExploration+strcmp(a.samplingStateAfter.reason,'stagnation exploration');
+            if ~isempty(previous) && a.metrics(1)==previous.restart
+                sampling.controllerChanges=sampling.controllerChanges+(a.samplingStateBefore.fraction~=previous.fraction);
+            end
+            sampling.stagnationExploration=sampling.stagnationExploration+strcmp(a.samplingStateBefore.reason,'stagnation exploration');
             controllerHistory(end+1,:)=[a.metrics(1:2),a.samplingStateBefore.fraction,a.samplingStateAfter.fraction,a.samplingStateAfter.advantage,a.stall]; %#ok<AGROW>
         end
         if ~isempty(previous) && a.metrics(1)==previous.restart, assert(isequal(a.rngBefore,previous.state)); end
         if j==1 || j==numel(files) || mod(j,10)==0
             [~,cost]=stompTrajCost(robot,a.thetaAfter,a.R,w,context); assert(abs(cost-a.metrics(3))<1e-8); recomputed=recomputed+1;
         end
-        previous=struct('restart',a.metrics(1),'state',a.rngAfter);
+        previous=struct('restart',a.metrics(1),'state',a.rngAfter,'fraction',a.samplingStateBefore.fraction);
     end
     fine{k}.searchSampling=finishSampling(sampling); fine{k}.controllerHistory=controllerHistory; refined=dir(fullfile(folder,'refinement','*.mat'));
     state=previous.state; sampling=emptySampling();

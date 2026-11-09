@@ -12,6 +12,7 @@ successes=zeros(3,5); common=false(1,2);
 for ci=1:3
     for vi=1:5
         selected=strcmp({rows.scenario},cases{ci}) & strcmp({rows.variant},variants{vi});
+        assert(nnz(selected)==2 && isequal(sort([rows(selected).seed]),5700:5701),'Development matrix is incomplete or duplicated.');
         successes(ci,vi)=nnz([rows(selected).studySuccess]);
     end
 end

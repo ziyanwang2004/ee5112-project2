@@ -43,6 +43,8 @@ def main():
             for key in ['firstFeasibleSeconds','firstFeasibleQuality','finalQuality','jointPathLength','smoothness','toolPathLength','fineMinGap','fineMaxTilt','fineMinToolHeight','refineSeconds']:
                 g[key+'Successful']=stats([r[key] for r in ok])
             g['withinRunQualityReductionPercent']=stats([100*(r['firstFeasibleQuality']-r['finalQuality'])/r['firstFeasibleQuality'] for r in ok])
+            g['withinRunJointLengthReductionPercent']=stats([100*(fine[r['scenario'],arm,r['seed']]['firstJointLength']-r['jointPathLength'])/fine[r['scenario'],arm,r['seed']]['firstJointLength'] for r in ok])
+            g['withinRunSmoothnessReductionPercent']=stats([100*(fine[r['scenario'],arm,r['seed']]['firstSmoothness']-r['smoothness'])/fine[r['scenario'],arm,r['seed']]['firstSmoothness'] for r in ok if fine[r['scenario'],arm,r['seed']]['firstSmoothness']>1e-12])
             for key in ['meanProjectionCorrectionsPerWaypoint','preProjectionRms','postProjectionRms','meanFraction','maxEnergyMatchError']:
                 g[key+'All']=stats([fine[r['scenario'],arm,r['seed']]['searchSampling'][key] for r in selected])
             groups.append(g)
@@ -83,6 +85,7 @@ def main():
         for r in rows:writer.writerow({k:json.dumps(v) if isinstance(v,list) else v for k,v in r.items()})
     lines=['# V5 adaptive sampling and energy-control results','',
            'All 75 reserved-seed cases are retained. Study success requires nominal success and the independent 0.00625 rad final check.',
+           '', 'Q = joint path length + 5*smoothness + the fixed soft 45 mm clearance preference. Lower Q is better under this definition; individual components can trade off. First Q measures the primary-search output before refinement.',
            '', '| Scenario | Arm | Success | Median total planner time (s), all runs | Median first quality, successes | Median final quality, successes |',
            '| --- | --- | ---: | ---: | ---: | ---: |']
     for g in groups:
