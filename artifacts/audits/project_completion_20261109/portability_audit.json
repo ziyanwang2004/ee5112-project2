@@ -1,0 +1,13 @@
+{
+  "checkpoints": 30,
+  "bitwiseIdenticalCheckpoints": 0,
+  "sampleMaxAbsError": 8.1379347705023974E-14,
+  "noiseMaxAbsError": 8.1379347705023974E-14,
+  "rngIdentical": true,
+  "numericalToleranceForThisDiagnostic": 1E-12,
+  "numericalDiagnosticPassed": true,
+  "unchangedStrictVerifierPassed": false,
+  "strictVerifierMessage": "Sample replay mismatch.",
+  "originalsUnmodified": true,
+  "interpretation": "Additional portability diagnostic; does not replace or relax the original strict verifier."
+}

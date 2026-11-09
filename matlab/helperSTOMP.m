@@ -1,6 +1,9 @@
 % Completed from the received helperSTOMP.m. Keep its named STOMP stages.
 % Required caller workspace: robot_struct, scene, context, voxel_world,
 % plannerOptions, runFolder, poeModel, geometry and fk.
+if isfield(plannerOptions,'validationFcn') && ~isempty(plannerOptions.validationFcn)
+    [plannerResult,R,M]=memberC.plan(robot_struct,scene,context,voxel_world,runFolder);
+else
 nDiscretize=plannerOptions.nWaypoints;
 nPaths=plannerOptions.nRollouts;
 convergenceThreshold=plannerOptions.convergenceThreshold;
@@ -123,3 +126,4 @@ if meshAcceptance
 end
 assert(isequal(theta(:,1),q0) && isequal(theta(:,end),qT),'Fixed endpoints changed.');
 fprintf('Shared helperSTOMP finished: %s\n',plannerResult.termination);
+end

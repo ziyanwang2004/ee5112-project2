@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "formalCases": 50,
+  "formalSuccesses": 40,
+  "sourceFingerprint": "cfb2c25020cbda97ca72310b4dc253f10bbffa3137f1a99d4448fefb68ff857d",
+  "manifestFiles": 3057,
+  "manifestSha256": "8ec075e57deddf750d76d870850ea43441384cdd04c3753857f6db70923c9e99",
+  "originalV1Unchanged": true
+}

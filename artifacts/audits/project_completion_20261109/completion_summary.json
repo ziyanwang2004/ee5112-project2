@@ -1,0 +1,44 @@
+{
+  "clientDate": "2026-11-09",
+  "technicalTaskEvidencePassed": true,
+  "wholeGroupSubmissionReady": false,
+  "freshTask123StrictReplayCheckpoints": 30,
+  "v2PathsRevalidated": 54,
+  "frozenManifestEntriesVerified": 9515,
+  "linuxArchiveStrictReplayOnWindowsPassed": false,
+  "groupReportFound": false,
+  "groupPresentationFound": false,
+  "groupSubmissionZipFound": false,
+  "unresolvedFigureCallbackWarning": true,
+  "auditReportSha256": "0ff04a9a145bc4a36418173a3afefd298c39ab24a361a72063a02453c7d4ae34",
+  "evidence": [
+    {
+      "path": "task123_audit.json",
+      "sha256": "fbe6185dbebcadd9cdffc6cd49ffe2a00d56c8b2801c4a037b49ae36568fb79c"
+    },
+    {
+      "path": "task45_audit.json",
+      "sha256": "0d33ccd7035959b957b15425ac08d83257fac6a4bd693455740b855fbbb2b7e7"
+    },
+    {
+      "path": "initialization_audit.json",
+      "sha256": "e4841420775ab1c704f36b6578bc717b6e3e1d6cb3625e18b9a152b9ef1fac94"
+    },
+    {
+      "path": "portability_audit.json",
+      "sha256": "3f4c28dafdf0f2c139802098544d44439a45909cb69961ec0c401703ef38b778"
+    },
+    {
+      "path": "static_audit.json",
+      "sha256": "ef7ac2e2da3193ec249679c88c8e2c156141bfa595ffefab99fa41379aedb99f"
+    },
+    {
+      "path": "github_branches.json",
+      "sha256": "15dce778f1de006fd0bf685007ad7156de801734c3e098df13d204ff43c7ebdb"
+    },
+    {
+      "path": "fig_diagnostic_status.json",
+      "sha256": "828ed0a4a0bcab44e2b5b925b15039872137fb4a7efdde4d2b788291c0a5b2af"
+    }
+  ]
+}

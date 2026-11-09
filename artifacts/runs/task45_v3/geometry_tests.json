@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "allBodyFkError": 3.3306690738754696E-16,
+  "belowTableRejected": true,
+  "onlyFixedMountContactAllowed": true,
+  "pedestalIncludedInSelfChecks": true
+}

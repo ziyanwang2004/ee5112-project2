@@ -1,0 +1,20 @@
+TASK5 main seed 5202 mode penalty weight 1000 noise 0.55
+restart 1 iteration 1 cost 1642.332 waypoint gap -0.04181 elapsed 1.9 s
+restart 1 iteration 10 cost 525.6106 waypoint gap -0.00488 elapsed 23.8 s
+restart 1 iteration 20 cost 508.4513 waypoint gap -0.00511 elapsed 47.7 s
+restart 1 stopped after 10 rounds without cost improvement
+restart 2 iteration 1 cost 1817.168 waypoint gap -0.10091 elapsed 56.6 s
+restart 2 iteration 10 cost 560.5907 waypoint gap 0.06358 elapsed 80.0 s
+restart 2 iteration 20 cost 409.4556 waypoint gap 0.06174 elapsed 99.9 s
+restart 2 iteration 30 cost 407.6038 waypoint gap 0.06263 elapsed 118.8 s
+restart 2 iteration 40 cost 406.5164 waypoint gap 0.06264 elapsed 133.9 s
+restart 2 stopped after 10 rounds without cost improvement
+restart 3 iteration 1 cost 2477.235 waypoint gap -0.12659 elapsed 143.9 s
+restart 3 iteration 10 cost 448.2122 waypoint gap 0.02748 elapsed 161.9 s
+restart 3 iteration 20 cost 412.5975 waypoint gap 0.07040 elapsed 179.8 s
+restart 3 iteration 30 cost 330.5758 waypoint gap 0.07040 elapsed 201.1 s
+restart 3 iteration 40 cost 300.9666 waypoint gap 0.07040 elapsed 222.1 s
+restart 3 iteration 50 cost 294.2369 waypoint gap 0.07040 elapsed 241.8 s
+restart 3 iteration 60 cost 289.9005 waypoint gap 0.07040 elapsed 260.3 s
+restart 3 iteration 70 cost 276.5435 waypoint gap 0.04786 elapsed 281.8 s
+RESULT success=0 voxel=0.068112 m tilt=19.6282 deg iterations=148 time=301.71 s

@@ -1,0 +1,12 @@
+{
+  "type": "postprocessing-layout-only",
+  "planningSourcesChanged": false,
+  "rawRunsChanged": false,
+  "originalDeckSha256": "d1b9e9a95983ed5ffd22215d1b25effcf119791badb198fac3d28c28f7c98535",
+  "repairedDeckSha256": "33c0b7526c0a79abf49269ae330a30cdfc75d4209c3c04de6c84c5997f172ff3",
+  "changes": [
+    "Slide 3 table column 3 and 4 header line breaks",
+    "Diagnosis figure title margins"
+  ],
+  "initialDeckPreserved": "artifacts\\runs\\task45_v2\\delivery\\review\\pre_layout_repair"
+}

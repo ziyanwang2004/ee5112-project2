@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "publicRunnerTrajectoryBitwiseMatchesDemo": true,
+  "publicVerifierReadOnly": true,
+  "runRoot": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\local_runs\\task45_v2_public_smoke\\ce59f2cb-ea4d-4ed1-826e-2494df81cfb4",
+  "replayedCheckpoints": 15,
+  "hashedFiles": 22
+}

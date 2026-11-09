@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "runs": 4,
+  "successfulRuns": 4,
+  "replayedCheckpoints": 95,
+  "details": [
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_final\\demos\\main\\Task4\\seed_5113",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 10,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "passed": true
+      },
+      "failures": []
+    },
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_final\\demos\\main\\Task5\\seed_5113",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 15,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "passed": true
+      },
+      "failures": []
+    },
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_final\\demos\\variant\\Task4\\seed_5113",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 10,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "passed": true
+      },
+      "failures": []
+    },
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_final\\demos\\variant\\Task5\\seed_5113",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 60,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "passed": true
+      },
+      "failures": []
+    }
+  ]
+}

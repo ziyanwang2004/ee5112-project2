@@ -1,0 +1,22 @@
+{
+  "sourceRoot": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v2\\demos",
+  "videos": [
+    "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v2\\demos\\exports\\main\\task4_motion.avi",
+    "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v2\\demos\\exports\\main\\task5_motion.avi",
+    "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v2\\demos\\exports\\main\\paired_motion.avi",
+    "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v2\\demos\\exports\\variant\\task4_motion.avi",
+    "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v2\\demos\\exports\\variant\\task5_motion.avi",
+    "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v2\\demos\\exports\\variant\\paired_motion.avi"
+  ],
+  "figures": [
+    "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v2\\demos\\exports\\main\\task4_summary.fig",
+    "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v2\\demos\\exports\\main\\task5_summary.fig",
+    "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v2\\demos\\exports\\main\\paired_comparison.fig",
+    "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v2\\demos\\exports\\variant\\task4_summary.fig",
+    "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v2\\demos\\exports\\variant\\task5_summary.fig",
+    "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v2\\demos\\exports\\variant\\paired_comparison.fig"
+  ],
+  "framesPerVideo": 150,
+  "framesPerSecond": 15,
+  "interpolation": "piecewise linear in joint space"
+}

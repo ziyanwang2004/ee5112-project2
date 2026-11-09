@@ -1,0 +1,516 @@
+{
+  "totalRuns": 50,
+  "successfulRuns": 20,
+  "groups": [
+    {
+      "name": "main_none",
+      "n": 10,
+      "successes": 10,
+      "successRate": 1,
+      "plannerSecondsAll": {
+        "n": 10,
+        "median": 9.44974665,
+        "q25": 8.9822957499999987,
+        "q75": 56.7354112,
+        "min": 8.1566826,
+        "max": 259.9313311
+      },
+      "maxTiltSuccessful": {
+        "n": 10,
+        "median": 108.36919423098254,
+        "q25": 75.539988591586422,
+        "q75": 150.42747520966034,
+        "min": 42.034588585187855,
+        "max": 166.77079033798364
+      },
+      "meanTiltSuccessful": {
+        "n": 10,
+        "median": 57.3053430148156,
+        "q25": 45.453741901319454,
+        "q75": 78.129269796959449,
+        "min": 23.437023446070864,
+        "max": 91.340032417561488
+      },
+      "minVoxelSuccessful": {
+        "n": 10,
+        "median": 0.048351185065247632,
+        "q25": 0.046343326257898443,
+        "q75": 0.056298115890957928,
+        "min": 0.036650409718468682,
+        "max": 0.067854540091492749
+      },
+      "jointLengthSuccessful": {
+        "n": 10,
+        "median": 7.8651630266728585,
+        "q25": 7.2512250727542176,
+        "q75": 8.172915937204241,
+        "min": 6.5976921741964789,
+        "max": 8.7793861101389332
+      },
+      "toolLengthSuccessful": {
+        "n": 10,
+        "median": 3.0591187271558979,
+        "q25": 2.3224003340196391,
+        "q75": 3.6642457108986259,
+        "min": 1.9291361515585717,
+        "max": 4.1000376000696548
+      },
+      "smoothnessSuccessful": {
+        "n": 10,
+        "median": 0.086650307563744852,
+        "q25": 0.08095352518729021,
+        "q75": 0.10864589269970334,
+        "min": 0.073618957571399829,
+        "max": 0.14415982316494697
+      },
+      "failureCounts": {
+        "endpoints": 0,
+        "joint_limits": 0,
+        "proxy_margin": 0,
+        "orientation": 0,
+        "world_collision": 0,
+        "self_collision": 0
+      }
+    },
+    {
+      "name": "main_projected",
+      "n": 10,
+      "successes": 0,
+      "successRate": 0,
+      "plannerSecondsAll": {
+        "n": 10,
+        "median": 149.18343325,
+        "q25": 124.817841375,
+        "q75": 163.4548607,
+        "min": 106.2500847,
+        "max": 200.5599128
+      },
+      "maxTiltSuccessful": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "meanTiltSuccessful": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "minVoxelSuccessful": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "jointLengthSuccessful": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "toolLengthSuccessful": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "smoothnessSuccessful": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "failureCounts": {
+        "endpoints": 0,
+        "joint_limits": 0,
+        "proxy_margin": 0,
+        "orientation": 0,
+        "world_collision": 0,
+        "self_collision": 10
+      }
+    },
+    {
+      "name": "variant_none",
+      "n": 10,
+      "successes": 10,
+      "successRate": 1,
+      "plannerSecondsAll": {
+        "n": 10,
+        "median": 8.58319075,
+        "q25": 8.24596275,
+        "q75": 53.032597075,
+        "min": 8.0818324,
+        "max": 206.8049044
+      },
+      "maxTiltSuccessful": {
+        "n": 10,
+        "median": 117.24100979518938,
+        "q25": 104.00516838453618,
+        "q75": 146.88761667328882,
+        "min": 39.766292561826006,
+        "max": 166.7744760088633
+      },
+      "meanTiltSuccessful": {
+        "n": 10,
+        "median": 57.456732103252023,
+        "q25": 46.692594430019724,
+        "q75": 70.66824384177157,
+        "min": 22.56623872710195,
+        "max": 91.347131793933215
+      },
+      "minVoxelSuccessful": {
+        "n": 10,
+        "median": 0.049850640294293362,
+        "q25": 0.0484859603837519,
+        "q75": 0.060609263968207455,
+        "min": 0.036134617072083569,
+        "max": 0.06992803667161665
+      },
+      "jointLengthSuccessful": {
+        "n": 10,
+        "median": 7.8419535522713844,
+        "q25": 7.4809944022091344,
+        "q75": 8.2121956174846424,
+        "min": 6.5976921741964789,
+        "max": 8.7688659937667772
+      },
+      "toolLengthSuccessful": {
+        "n": 10,
+        "median": 3.0303049778546867,
+        "q25": 2.6176428824882878,
+        "q75": 3.6669683142318243,
+        "min": 1.9376235661904251,
+        "max": 4.2974205745253986
+      },
+      "smoothnessSuccessful": {
+        "n": 10,
+        "median": 0.0814629278022706,
+        "q25": 0.080460939576173382,
+        "q75": 0.085899852212495562,
+        "min": 0.073620282429727846,
+        "max": 0.11593309837306548
+      },
+      "failureCounts": {
+        "endpoints": 0,
+        "joint_limits": 0,
+        "proxy_margin": 0,
+        "orientation": 0,
+        "world_collision": 0,
+        "self_collision": 0
+      }
+    },
+    {
+      "name": "variant_projected",
+      "n": 10,
+      "successes": 0,
+      "successRate": 0,
+      "plannerSecondsAll": {
+        "n": 10,
+        "median": 140.07729975,
+        "q25": 117.76011935,
+        "q75": 165.96137772499998,
+        "min": 98.6125825,
+        "max": 214.5820677
+      },
+      "maxTiltSuccessful": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "meanTiltSuccessful": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "minVoxelSuccessful": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "jointLengthSuccessful": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "toolLengthSuccessful": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "smoothnessSuccessful": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "failureCounts": {
+        "endpoints": 0,
+        "joint_limits": 0,
+        "proxy_margin": 0,
+        "orientation": 0,
+        "world_collision": 0,
+        "self_collision": 10
+      }
+    },
+    {
+      "name": "main_penalty",
+      "n": 10,
+      "successes": 0,
+      "successRate": 0,
+      "plannerSecondsAll": {
+        "n": 10,
+        "median": 276.21410130000004,
+        "q25": 191.66068769999998,
+        "q75": 299.450084475,
+        "min": 55.0952413,
+        "max": 300.6751116
+      },
+      "maxTiltSuccessful": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "meanTiltSuccessful": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "minVoxelSuccessful": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "jointLengthSuccessful": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "toolLengthSuccessful": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "smoothnessSuccessful": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "failureCounts": {
+        "endpoints": 0,
+        "joint_limits": 0,
+        "proxy_margin": 6,
+        "orientation": 10,
+        "world_collision": 0,
+        "self_collision": 10
+      }
+    }
+  ],
+  "paired": [
+    {
+      "scenario": "main",
+      "commonSuccessfulSeeds": [],
+      "n": 0,
+      "unconstrainedMaxTilt": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "constrainedMaxTilt": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "pairedTimeDifference": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "differenceBminusA": {
+        "meanTilt": {
+          "n": 0,
+          "median": null,
+          "q25": null,
+          "q75": null,
+          "min": null,
+          "max": null
+        },
+        "minVoxelClearance": {
+          "n": 0,
+          "median": null,
+          "q25": null,
+          "q75": null,
+          "min": null,
+          "max": null
+        },
+        "minMeshClearance": {
+          "n": 0,
+          "median": null,
+          "q25": null,
+          "q75": null,
+          "min": null,
+          "max": null
+        },
+        "jointLength": {
+          "n": 0,
+          "median": null,
+          "q25": null,
+          "q75": null,
+          "min": null,
+          "max": null
+        },
+        "toolLength": {
+          "n": 0,
+          "median": null,
+          "q25": null,
+          "q75": null,
+          "min": null,
+          "max": null
+        },
+        "smoothness": {
+          "n": 0,
+          "median": null,
+          "q25": null,
+          "q75": null,
+          "min": null,
+          "max": null
+        }
+      }
+    },
+    {
+      "scenario": "variant",
+      "commonSuccessfulSeeds": [],
+      "n": 0,
+      "unconstrainedMaxTilt": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "constrainedMaxTilt": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "pairedTimeDifference": {
+        "n": 0,
+        "median": null,
+        "q25": null,
+        "q75": null,
+        "min": null,
+        "max": null
+      },
+      "differenceBminusA": {
+        "meanTilt": {
+          "n": 0,
+          "median": null,
+          "q25": null,
+          "q75": null,
+          "min": null,
+          "max": null
+        },
+        "minVoxelClearance": {
+          "n": 0,
+          "median": null,
+          "q25": null,
+          "q75": null,
+          "min": null,
+          "max": null
+        },
+        "minMeshClearance": {
+          "n": 0,
+          "median": null,
+          "q25": null,
+          "q75": null,
+          "min": null,
+          "max": null
+        },
+        "jointLength": {
+          "n": 0,
+          "median": null,
+          "q25": null,
+          "q75": null,
+          "min": null,
+          "max": null
+        },
+        "toolLength": {
+          "n": 0,
+          "median": null,
+          "q25": null,
+          "q75": null,
+          "min": null,
+          "max": null
+        },
+        "smoothness": {
+          "n": 0,
+          "median": null,
+          "q25": null,
+          "q75": null,
+          "min": null,
+          "max": null
+        }
+      }
+    }
+  ]
+}

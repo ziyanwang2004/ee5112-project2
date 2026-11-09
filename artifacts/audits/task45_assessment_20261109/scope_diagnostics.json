@@ -1,0 +1,132 @@
+{
+  "scope": "Read-only independent numeric PoE on saved final paths; base-frame z=0 is a diagnostic plane, not an obstacle in the current scene.",
+  "paths": 20,
+  "pathsWithToolBelowBaseZ0": 7,
+  "minimumToolZ_m": -0.5939654933845465,
+  "crossCheckMaxToolLengthDifference_m": 1.3322676295501878e-15,
+  "crossCheckMaxTiltDifference_deg": 9.00834962180852e-13,
+  "binomial10of10ExactTwoSided95LowerBound": 0.6915028921812392,
+  "binomialModelAssumption": "Independent Bernoulli trials for one fixed scene; not a generalization bound over scenes.",
+  "records": [
+    {
+      "scene": "main",
+      "seed": 5200,
+      "minToolZ_m": 0.15360339264595932,
+      "toolPathLength_m": 3.1486329075828956
+    },
+    {
+      "scene": "main",
+      "seed": 5201,
+      "minToolZ_m": -0.5939654933845465,
+      "toolPathLength_m": 2.9567440006215024
+    },
+    {
+      "scene": "main",
+      "seed": 5202,
+      "minToolZ_m": -0.03156358643289658,
+      "toolPathLength_m": 3.1003757680546093
+    },
+    {
+      "scene": "main",
+      "seed": 5203,
+      "minToolZ_m": 0.028849816139298674,
+      "toolPathLength_m": 3.1003174605732333
+    },
+    {
+      "scene": "main",
+      "seed": 5204,
+      "minToolZ_m": 0.08334134909925299,
+      "toolPathLength_m": 3.0694556997520355
+    },
+    {
+      "scene": "main",
+      "seed": 5205,
+      "minToolZ_m": -0.15991148541542596,
+      "toolPathLength_m": 3.9908601510774915
+    },
+    {
+      "scene": "main",
+      "seed": 5206,
+      "minToolZ_m": 0.14450863482156948,
+      "toolPathLength_m": 2.1987724647558418
+    },
+    {
+      "scene": "main",
+      "seed": 5207,
+      "minToolZ_m": 0.1610538274163928,
+      "toolPathLength_m": 2.465311132050511
+    },
+    {
+      "scene": "main",
+      "seed": 5208,
+      "minToolZ_m": -0.32577010725327377,
+      "toolPathLength_m": 4.094466021847294
+    },
+    {
+      "scene": "main",
+      "seed": 5209,
+      "minToolZ_m": 0.09419282572155281,
+      "toolPathLength_m": 2.1276476287002666
+    },
+    {
+      "scene": "variant",
+      "seed": 5200,
+      "minToolZ_m": 0.15362346463179322,
+      "toolPathLength_m": 3.1498417427146688
+    },
+    {
+      "scene": "variant",
+      "seed": 5201,
+      "minToolZ_m": -0.0929139992537181,
+      "toolPathLength_m": 2.7396592568712768
+    },
+    {
+      "scene": "variant",
+      "seed": 5202,
+      "minToolZ_m": 0.12047722292936375,
+      "toolPathLength_m": 2.633531009546493
+    },
+    {
+      "scene": "variant",
+      "seed": 5203,
+      "minToolZ_m": 0.1610538274163928,
+      "toolPathLength_m": 3.314071863936819
+    },
+    {
+      "scene": "variant",
+      "seed": 5204,
+      "minToolZ_m": 0.14192950954070196,
+      "toolPathLength_m": 2.649584639305524
+    },
+    {
+      "scene": "variant",
+      "seed": 5205,
+      "minToolZ_m": -0.15928271998401355,
+      "toolPathLength_m": 3.984844860074296
+    },
+    {
+      "scene": "variant",
+      "seed": 5206,
+      "minToolZ_m": 0.14449632257572048,
+      "toolPathLength_m": 2.1983862920087596
+    },
+    {
+      "scene": "variant",
+      "seed": 5207,
+      "minToolZ_m": 0.1610538274163928,
+      "toolPathLength_m": 2.479960174686494
+    },
+    {
+      "scene": "variant",
+      "seed": 5208,
+      "minToolZ_m": -0.5382623272486882,
+      "toolPathLength_m": 3.3326634148031506
+    },
+    {
+      "scene": "variant",
+      "seed": 5209,
+      "minToolZ_m": 0.09416278792758535,
+      "toolPathLength_m": 2.127322105477183
+    }
+  ]
+}

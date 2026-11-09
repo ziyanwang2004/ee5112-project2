@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "formalRuns": 50,
+  "formalSuccesses": 20,
+  "technicalInterruptedAttempts": 1,
+  "observedAttempts": 51,
+  "originalFrozenFilesContentUnchanged": 108,
+  "checkoutCRLFOnly": [
+    "artifacts/runs/final_r2023b/Task1/M_end_effector.csv",
+    "artifacts/runs/final_r2023b/Task1/cost_history.csv",
+    "artifacts/runs/final_r2023b/Task1/dense_validation.csv",
+    "artifacts/runs/final_r2023b/Task1/joint_mapping.txt",
+    "artifacts/runs/final_r2023b/Task1/run_log.txt",
+    "artifacts/runs/final_r2023b/Task1/space_screws.csv",
+    "artifacts/runs/final_r2023b/Task1/trajectory.csv",
+    "artifacts/runs/final_r2023b/Task2/M_end_effector.csv",
+    "artifacts/runs/final_r2023b/Task2/cost_history.csv",
+    "artifacts/runs/final_r2023b/Task2/dense_validation.csv",
+    "artifacts/runs/final_r2023b/Task2/joint_mapping.txt",
+    "artifacts/runs/final_r2023b/Task2/run_log.txt",
+    "artifacts/runs/final_r2023b/Task2/space_screws.csv",
+    "artifacts/runs/final_r2023b/Task2/trajectory.csv",
+    "artifacts/runs/final_r2023b/Task3/M_end_effector.csv",
+    "artifacts/runs/final_r2023b/Task3/cost_history.csv",
+    "artifacts/runs/final_r2023b/Task3/dense_validation.csv",
+    "artifacts/runs/final_r2023b/Task3/fk_accuracy.csv",
+    "artifacts/runs/final_r2023b/Task3/fk_benchmark.csv",
+    "artifacts/runs/final_r2023b/Task3/joint_mapping.txt",
+    "artifacts/runs/final_r2023b/Task3/poe_cost_call_chain.txt",
+    "artifacts/runs/final_r2023b/Task3/run_log.txt",
+    "artifacts/runs/final_r2023b/Task3/space_screws.csv",
+    "artifacts/runs/final_r2023b/Task3/trajectory.csv",
+    "artifacts/runs/final_r2023b/full_validation_log.txt",
+    "artifacts/runs/final_r2023b/verification_summary.json"
+  ],
+  "independentAuditedRuns": 54,
+  "replayedCheckpoints": 5492,
+  "videos": 6,
+  "pages": {
+    "task45_report.pdf": 4,
+    "task45_slides.pdf": 4
+  },
+  "manifestFiles": 6458,
+  "manifestSha256": "5b561645169000dd2546c7a2d6663f08291feb5cbe89723477d93a0065088e53",
+  "sourceFingerprint": "8a8fa3e036dc4d4c7124efefa9957d61b536b6180a6cfea87cac9d7429dcee23",
+  "postprocessingSourceFingerprint": "af8bac795e4e8149125c6a3084a83a2514cec55ee95ba715a4181bfed2345977",
+  "postprocessingPatchedFiles": [
+    "+memberC/aggregateStudy.m",
+    "run_task45_benchmark.m"
+  ]
+}

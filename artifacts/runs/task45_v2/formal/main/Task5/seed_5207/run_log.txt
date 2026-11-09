@@ -1,0 +1,4 @@
+TASK5 main seed 5207 mode projected weight 1000 noise 0.55
+restart 1 iteration 1 cost 1482.158 waypoint gap -0.07555 elapsed 3.9 s
+restart 1 iteration 10 cost 37.89923 waypoint gap 0.04933 elapsed 48.4 s
+RESULT success=1 voxel=0.049327 m tilt=0.9771 deg iterations=10 time=52.63 s

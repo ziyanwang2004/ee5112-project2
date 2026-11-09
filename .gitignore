@@ -8,3 +8,4 @@ slprj/
 codegen/
 .env
 *.log.tmp
+__pycache__/

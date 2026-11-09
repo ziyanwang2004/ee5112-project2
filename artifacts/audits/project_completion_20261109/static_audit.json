@@ -1,0 +1,154 @@
+{
+  "clientDate": "2026-11-09",
+  "officialBriefSha256": "6fb9421e4132f2978502d2b288917d3ed36058f768af50b4b00c708213663723",
+  "officialBriefPages": 5,
+  "frozenManifests": [
+    {
+      "manifest": "docs/TASK45_FILES_SHA256.csv",
+      "entries": 6458,
+      "bytes": 1264898867,
+      "changed": [],
+      "checkoutCRLFOnly": []
+    },
+    {
+      "manifest": "docs/TASK45_V2_FILES_SHA256.csv",
+      "entries": 3057,
+      "bytes": 735956566,
+      "changed": [],
+      "checkoutCRLFOnly": []
+    }
+  ],
+  "originalHandoffManifest": {
+    "manifest": "docs/FILES_SHA256.csv",
+    "entries": 196,
+    "bytes": 38165243,
+    "changed": [
+      ".gitattributes",
+      ".gitignore",
+      "README.md",
+      "docs/METHODS.md",
+      "matlab/helperSTOMP.m"
+    ],
+    "checkoutCRLFOnly": [
+      "artifacts/runs/final_r2023b/Task1/M_end_effector.csv",
+      "artifacts/runs/final_r2023b/Task1/cost_history.csv",
+      "artifacts/runs/final_r2023b/Task1/dense_validation.csv",
+      "artifacts/runs/final_r2023b/Task1/joint_mapping.txt",
+      "artifacts/runs/final_r2023b/Task1/run_log.txt",
+      "artifacts/runs/final_r2023b/Task1/space_screws.csv",
+      "artifacts/runs/final_r2023b/Task1/trajectory.csv",
+      "artifacts/runs/final_r2023b/Task2/M_end_effector.csv",
+      "artifacts/runs/final_r2023b/Task2/cost_history.csv",
+      "artifacts/runs/final_r2023b/Task2/dense_validation.csv",
+      "artifacts/runs/final_r2023b/Task2/joint_mapping.txt",
+      "artifacts/runs/final_r2023b/Task2/run_log.txt",
+      "artifacts/runs/final_r2023b/Task2/space_screws.csv",
+      "artifacts/runs/final_r2023b/Task2/trajectory.csv",
+      "artifacts/runs/final_r2023b/Task3/M_end_effector.csv",
+      "artifacts/runs/final_r2023b/Task3/cost_history.csv",
+      "artifacts/runs/final_r2023b/Task3/dense_validation.csv",
+      "artifacts/runs/final_r2023b/Task3/fk_accuracy.csv",
+      "artifacts/runs/final_r2023b/Task3/fk_benchmark.csv",
+      "artifacts/runs/final_r2023b/Task3/joint_mapping.txt",
+      "artifacts/runs/final_r2023b/Task3/poe_cost_call_chain.txt",
+      "artifacts/runs/final_r2023b/Task3/run_log.txt",
+      "artifacts/runs/final_r2023b/Task3/space_screws.csv",
+      "artifacts/runs/final_r2023b/Task3/trajectory.csv",
+      "artifacts/runs/final_r2023b/full_validation_log.txt",
+      "artifacts/runs/final_r2023b/verification_summary.json",
+      "docs/DELIVERY.md",
+      "docs/HANDOFF_MEMBER_C.md",
+      "docs/VALIDATION.md",
+      "provenance/README.md",
+      "provenance/baseline_diff.patch",
+      "provenance/task1_development/README.md",
+      "provenance/task1_development/geometry_probe.log",
+      "provenance/task1_development/geometry_probe.m",
+      "provenance/task1_development/probe.log",
+      "provenance/task1_development/probe.m",
+      "provenance/task1_development/task1_validation.log"
+    ]
+  },
+  "baselineSource": {
+    "manifest": "provenance/SOURCE_SHA256.csv",
+    "entries": 54,
+    "bytes": 98925,
+    "changed": [
+      "matlab/helperSTOMP.m"
+    ],
+    "checkoutCRLFOnly": []
+  },
+  "formalGroups": {
+    "main_penalty": {
+      "n": 10,
+      "successes": 0,
+      "failures": {
+        "orientation": 10,
+        "proxy_margin": 1
+      }
+    },
+    "main_none": {
+      "n": 10,
+      "successes": 10,
+      "failures": {}
+    },
+    "main_projected": {
+      "n": 10,
+      "successes": 10,
+      "failures": {}
+    },
+    "variant_none": {
+      "n": 10,
+      "successes": 10,
+      "failures": {}
+    },
+    "variant_projected": {
+      "n": 10,
+      "successes": 10,
+      "failures": {}
+    }
+  },
+  "pdfs": [
+    {
+      "path": "artifacts/runs/task45_final/delivery/task45_report.pdf",
+      "pages": 4,
+      "firstPage": "EE5112 Project 2 | Task 4-5 | Sources: frozen config, saved runs, independent audit\n1\nTask 4-5: UR5 transfer with an upright tool\nScene design and planning method\nThe robot transfers between two fixed, upright joint configurations around three stagge"
+    },
+    {
+      "path": "artifacts/runs/task45_final/delivery/task45_slides.pdf",
+      "pages": 4,
+      "firstPage": "UR5 transfer around three obstacles\nSame upright endpoints and colliding linear initialization for both conditions\nDevelopment demo: seed 5113; formal results on slide 3\nVariant: side pillars move inward 40 mm; right pillar becomes taller\n"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/delivery/task45_v2_report.pdf",
+      "pages": 4,
+      "firstPage": "EE5112 Project 2 / Task 4-5 V2 / frozen configuration, saved paths and independent audits\n1\nUR5 multi-obstacle transfer and upright motion\nTask 4-5 V2 implementation, fresh-seed evaluation and failure diagnosis\nThe main scene contains three staggered"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/delivery/task45_v2_slides.pdf",
+      "pages": 4,
+      "firstPage": "UR5 multi-obstacle transfer\nSame upright endpoints and colliding linear initialization\nVariant: side pillars move inward 40 mm and the right pillar becomes taller\n"
+    }
+  ],
+  "presentations": [
+    "artifacts/runs/task45_final/delivery/task45_slides.pptx",
+    "artifacts/runs/task45_v2/delivery/task45_v2_slides.pptx"
+  ],
+  "submissionZipCandidates": [],
+  "workspaceBytesByTopDirectory": {
+    ".gitattributes": 343,
+    ".gitignore": 204,
+    "README.md": 5582,
+    "README_TASK45_V2.md": 1482,
+    "artifacts": 5325315129,
+    "docs": 1735079,
+    "matlab": 146316,
+    "provenance": 89252,
+    "scripts": 245356,
+    "upgrades": 154325
+  },
+  "gitHead": "9490df569bc1b16b4d1c7e3c6ef8d375a153251c",
+  "gitBranch": "codex/task45-ur5-upright",
+  "gitStatus": " M .gitattributes\n M .gitignore\n M README.md\n M docs/METHODS.md\n M matlab/helperSTOMP.m\n?? README_TASK45_V2.md\n?? artifacts/audits/\n?? artifacts/runs/task45_final/\n?? artifacts/runs/task45_v2/\n?? docs/PROJECT_COMPLETION_AUDIT_20261109.md\n?? docs/TASK45_FILES_SHA256.csv\n?? docs/TASK45_METHODS.md\n?? docs/TASK45_RESULTS.md\n?? docs/TASK45_RUNBOOK.md\n?? docs/TASK45_V2_FILES_SHA256.csv\n?? docs/TASK45_V2_HANDOFF_ZH.md\n?? docs/TASK45_V2_RESULTS.md\n?? docs/TASK5_V1_FAILURE_ANALYSIS.md\n?? matlab/+memberC/\n?? matlab/develop_task45.m\n?? matlab/export_task45.m\n?? matlab/run_task45.m\n?? matlab/run_task45_benchmark.m\n?? matlab/tests/test_task45.m\n?? matlab/verify_task45.m\n?? scripts/\n?? upgrades/\n",
+  "scope": "Current local workspace plus separately recorded live GitHub branch query. No Canvas submission or oral understanding verification."
+}

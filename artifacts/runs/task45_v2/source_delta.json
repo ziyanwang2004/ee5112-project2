@@ -1,0 +1,57 @@
+﻿{
+    "v1SourceFingerprint":  "af8bac795e4e8149125c6a3084a83a2514cec55ee95ba715a4181bfed2345977",
+    "v2SourceFingerprint":  "cfb2c25020cbda97ca72310b4dc253f10bbffa3137f1a99d4448fefb68ff857d",
+    "unchangedFiles":  66,
+    "changes":  [
+                    {
+                        "path":  "+memberC/buildSelfGeometry.m",
+                        "type":  "added",
+                        "v2Sha256":  "ccef1ca078eb685a6b94adeef4f3ea6225094f25e33a26b529d0efc41f551363"
+                    },
+                    {
+                        "path":  "+memberC/defaults.m",
+                        "type":  "modified",
+                        "v1Sha256":  "d122f53a4fd4568d75fb06e45c797775189dea7b4ed00a912689f0d9f7f41b2d",
+                        "v2Sha256":  "7993d5d2520ee26ec7742798ba1d0573e2fe958ceae2f47107a0c2d13bc695d6"
+                    },
+                    {
+                        "path":  "+memberC/plan.m",
+                        "type":  "modified",
+                        "v1Sha256":  "cd68ca133eea6f6dc0159ac4efce4b5fbab758fd35f809837a4085dbf2cbc531",
+                        "v2Sha256":  "d78f986c637abdd45ad2781159f32a38b5fa3da711ad262876a54693c443485f"
+                    },
+                    {
+                        "path":  "+memberC/replayRun.m",
+                        "type":  "modified",
+                        "v1Sha256":  "3e3c10552820d9abd3e339a665e7b023eff9874f01318007bf038bde2fc71192",
+                        "v2Sha256":  "4967cd383de4f362e7c2927fd204c63b4044b2c5eabaf79274c33006f414b675"
+                    },
+                    {
+                        "path":  "+memberC/runOne.m",
+                        "type":  "modified",
+                        "v1Sha256":  "81c1de3712e6f334766ab56b9fbdd7d89001b4ef1cbf83082cf3282167267e15",
+                        "v2Sha256":  "ce2e197a672abb4e2f90a11050d925b6d65ea97393fe76ff42ded48f47dfbaf7"
+                    },
+                    {
+                        "path":  "+memberC/segmentDistance.m",
+                        "type":  "added",
+                        "v2Sha256":  "cb8ebff82e9cb15d6807ea4d9dee10ac834dc244b50a994b96264030a44f6b25"
+                    },
+                    {
+                        "path":  "+memberC/selfClearance.m",
+                        "type":  "added",
+                        "v2Sha256":  "6ac3d45a399c6313497c10528a1ba7679757fb663ced93596eae1062142925d4"
+                    },
+                    {
+                        "path":  "+memberC/selfPathSafe.m",
+                        "type":  "added",
+                        "v2Sha256":  "bb2da815ca2a7a939a3cefa538eb4444fb035b7924b560d70263cbd231be0902"
+                    },
+                    {
+                        "path":  "stompTrajCost.m",
+                        "type":  "modified",
+                        "v1Sha256":  "c3eab66f7831f5e8b58ed923cd93aff72337f306dcddf96c976c4658e9bff5ad",
+                        "v2Sha256":  "41d8169d80087ad2c7adb16469c111d1f872ae1794a83a30f9a4af1093aea654"
+                    }
+                ]
+}

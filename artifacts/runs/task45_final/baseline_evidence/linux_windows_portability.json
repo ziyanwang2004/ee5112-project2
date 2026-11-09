@@ -1,0 +1,10 @@
+{
+  "matlabVersion": "23.2.0.3097123 (R2023b) Update 11",
+  "platform": "PCWIN64",
+  "sampleMaxAbsError": 8.1379347705023974E-14,
+  "noiseMaxAbsError": 8.1379347705023974E-14,
+  "rngIdentical": true,
+  "checkpoints": 30,
+  "bitwiseReplayPassed": false,
+  "numericalReplayPassed": true
+}
