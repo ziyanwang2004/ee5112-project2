@@ -47,7 +47,8 @@ controller design is tested; there is no parameter grid. Code defects may be
 repaired before freeze, with interrupted/obsolete attempts retained separately.
 Freeze requires unit checks, V4 fixed-sampler replay compatibility, geometry
 preflight, at least one adaptive and fixed75 success in each scenario, and one
-common successful workcell demonstration seed. A failed gate is reported.
+common successful workcell demonstration seed for adaptive and fixed50.
+A failed gate is reported. Other arm failures remain valid outcomes.
 
 Formal seeds: **5800-5804**, five arms x three scenarios = **75 runs**, accessed
 only after source/options/driver hashes are frozen. Two workers split seeds;

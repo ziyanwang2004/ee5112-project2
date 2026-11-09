@@ -6,7 +6,7 @@ identity=memberC.provenance();
 if strcmp(stage,'formal')
     data=load(fullfile(release,'frozen_config.mat')); seeds=data.frozen.formalSeeds;
     assert(strcmp(identity.sourceFingerprint,data.frozen.metadata.sourceFingerprint));
-    for row=data.frozen.drivers
+    for row=[data.frozen.drivers,data.frozen.assetFiles]
         fid=fopen(fullfile(root,row.path),'rb'); bytes=fread(fid,Inf,'*uint8'); fclose(fid);
         assert(strcmp(memberC.sha256(bytes),row.sha256),'Frozen formal driver changed.');
     end
@@ -19,7 +19,7 @@ end
 variants={'ambient','energy_control','fixed50','fixed75','adaptive'}; scenarios={'workcell','endpoints','layout'}; completed=0;
 for caseIndex=1:3
     scenario=scenarios{caseIndex};
-    for seed=seeds(mod(seeds,2)==worker)
+    for seed=seeds(mod((seeds-seeds(1))+(caseIndex-1)*numel(seeds),2)==worker)
         order=circshift(1:5,[0 mod(seed+caseIndex,5)]);
         for index=order
             variant=variants{index};
