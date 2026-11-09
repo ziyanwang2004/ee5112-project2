@@ -6,6 +6,7 @@ files=dir(fullfile(release,'sampling_probe','*.mat')); assert(numel(files)==30);
 base=load(fullfile(root,'artifacts','runs','task45_v3','frozen_config.mat')); robot=memberC.loadRobot(); model=memberB.buildPoeModel(robot,'tool0'); maximum=0;
 for k=1:numel(files)
     a=load(fullfile(files(k).folder,files(k).name)); assert(ismember(a.seed,5760:5764));
+    rng(a.seed,'twister'); assert(isequal(rng,a.before),'Probe RNG does not match its declared seed.');
     c=memberC.caseOptions(memberC.variantOptions(base.frozen.options,'fixed75'),a.id{1}); N=c.nWaypoints;
     if strcmp(a.kind{1},'linear'), expected=c.qStart+(c.qGoal-c.qStart)*linspace(0,1,N);
     else

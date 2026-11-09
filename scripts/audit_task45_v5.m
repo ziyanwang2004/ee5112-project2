@@ -41,6 +41,9 @@ for k=1:numel(inventory)
     end
     context=struct('options',c,'geometry',geometry,'selfGeometry',selfGeometry,'selfThreshold',threshold, ...
         'kinematics',struct('mode','poe','robot',robot,'model',model));
+    N=c.nWaypoints; A=-2*eye(N)+diag(ones(N-1,1),1)+diag(ones(N-1,1),-1); A=A(:,2:end-1);
+    expectedR=A.'*A; Ri=expectedR\eye(N-2); Ri=(Ri+Ri.')/2; expectedM=Ri./max(Ri,[],1)/N; shape=Ri/max(diag(Ri));
+    assert(isequal(d.R,expectedR) && isequal(d.M,expectedM));
     [ok,v]=memberC.validatePath(d.result.theta,context,scene,w,.00625,true);
     studySuccess=d.result.success && ok; fineSuccesses=fineSuccesses+studySuccess;
     fine{k}=struct('scenario',scene.id,'variant',c.variant,'task',d.result.task,'seed',d.result.seed, ...
@@ -52,6 +55,8 @@ for k=1:numel(inventory)
     files=dir(fullfile(folder,'iterations','*.mat')); previous=[]; sampling=emptySampling(); controllerHistory=zeros(0,6);
     for j=1:numel(files)
         a=load(fullfile(files(j).folder,files(j).name)); sampling=addSampling(sampling,a.samplingDiagnostics,c.nRollouts,c.nWaypoints);
+        std=c.noiseStd*(.55+.45*(1-a.metrics(2)/c.maxIterations));
+        assert(isequal(a.R,expectedR) && isequal(a.M,expectedM) && isequal(a.sigma,shape*std^2),'Search covariance differs from frozen options.');
         if strcmp(c.samplingMode,'adaptive')
             if ~isempty(previous) && a.metrics(1)==previous.restart
                 sampling.controllerChanges=sampling.controllerChanges+(a.samplingStateBefore.fraction~=previous.fraction);
@@ -59,7 +64,10 @@ for k=1:numel(inventory)
             sampling.stagnationExploration=sampling.stagnationExploration+strcmp(a.samplingStateBefore.reason,'stagnation exploration');
             controllerHistory(end+1,:)=[a.metrics(1:2),a.samplingStateBefore.fraction,a.samplingStateAfter.fraction,a.samplingStateAfter.advantage,a.stall]; %#ok<AGROW>
         end
-        if ~isempty(previous) && a.metrics(1)==previous.restart, assert(isequal(a.rngBefore,previous.state)); end
+        if ~isempty(previous) && a.metrics(1)==previous.restart, assert(isequal(a.rngBefore,previous.state));
+        else
+            saved=rng; rng(c.seed+c.restartSeedStride*(a.metrics(1)-1),'twister'); assert(isequal(rng,a.rngBefore)); rng(saved);
+        end
         if j==1 || j==numel(files) || mod(j,10)==0
             [~,cost]=stompTrajCost(robot,a.thetaAfter,a.R,w,context); assert(abs(cost-a.metrics(3))<1e-8); recomputed=recomputed+1;
         end
@@ -69,6 +77,7 @@ for k=1:numel(inventory)
     state=previous.state; sampling=emptySampling();
     for j=1:numel(refined)
         a=load(fullfile(refined(j).folder,refined(j).name)); assert(isequal(state,a.rngBefore)); state=a.rngAfter;
+        assert(isequal(a.R,expectedR) && isequal(a.M,expectedM) && isequal(a.sigma,shape*c.refineNoiseStd^2),'Refinement covariance differs from frozen options.');
         sampling=addSampling(sampling,a.samplingDiagnostics,c.refineRollouts,c.nWaypoints);
         if j==1 || j==numel(refined)
             saved=rng; guard=onCleanup(@()rng(saved)); rng(a.rngBefore);
