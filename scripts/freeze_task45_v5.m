@@ -5,8 +5,16 @@ for name={'unit_tests','geometry_preflight','v4_sampling_regression','sampling_a
     r=jsondecode(fileread(fullfile(release,[name{1} '.json']))); assert(r.passed);
     if isfield(r,'sourceFingerprint'), assert(strcmp(r.sourceFingerprint,identity.sourceFingerprint)); end
 end
-audit_task45_v5_sampling(); regress_task45_v5_task4();
-audit=audit_task45_v5(fullfile(release,'development'),fullfile(release,'development_audit.json'));
+if exist('resumeCompletedAudit','var') && resumeCompletedAudit
+    for name={'sampling_ablation_audit','task4_regression','task4_regression_audit'}
+        r=jsondecode(fileread(fullfile(release,[name{1} '.json']))); assert(r.passed);
+        if isfield(r,'sourceFingerprint'), assert(strcmp(r.sourceFingerprint,identity.sourceFingerprint)); end
+    end
+    audit=merge_task45_v5_audit(fullfile(release,'development'),fullfile(release,'development_audit_parts'),fullfile(release,'development_audit.json'));
+else
+    audit_task45_v5_sampling(); regress_task45_v5_task4();
+    audit=audit_task45_v5(fullfile(release,'development'),fullfile(release,'development_audit.json'));
+end
 rows=audit.fineDetails; cases={'workcell','endpoints','layout'}; variants={'ambient','energy_control','fixed50','fixed75','adaptive'};
 successes=zeros(3,5); common=false(1,2);
 for ci=1:3
@@ -33,7 +41,8 @@ end
 frozen=struct('metadata',identity,'options',options,'parameters',parameters,'developmentSeeds',5700:5701,'formalSeeds',5800:5804, ...
     'probeSeeds',5760:5764,'scenarios',{cases},'variants',{variants},'demoSeed',5699+find(common,1), ...
     'protocol','v5-cost-feedback-and-input-energy-control','workers',2,'clientDate','2026-11-09');
-paths={'scripts/run_task45_v5.m','scripts/run_task45_v5_group.m','scripts/freeze_task45_v5.m','scripts/continue_task45_v5.ps1','docs/TASK45_V5_PROTOCOL.md'};
+paths={'scripts/run_task45_v5.m','scripts/run_task45_v5_group.m','scripts/freeze_task45_v5.m','scripts/continue_task45_v5.ps1', ...
+    'scripts/resume_task45_v5.ps1','scripts/merge_task45_v5_audit.m','docs/TASK45_V5_PROTOCOL.md'};
 drivers=cell(1,numel(paths));
 for k=1:numel(paths)
     fid=fopen(fullfile(root,paths{k}),'rb'); bytes=fread(fid,Inf,'*uint8'); fclose(fid);
