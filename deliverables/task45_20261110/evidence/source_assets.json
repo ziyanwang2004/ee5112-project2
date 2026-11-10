@@ -1,0 +1,70 @@
+[
+  {
+    "source": "artifacts\\runs\\task45_v3\\demos\\exports\\workcell\\initial_and_planned.png",
+    "output": "evidence\\initial_and_planned.png",
+    "sha256": "bba6a44d8e6e072a46f5a4821b52f06f3c112a690c7b300dd684847e95771f71"
+  },
+  {
+    "source": "artifacts\\runs\\task45_v3\\demos\\exports\\workcell\\paired_metrics.png",
+    "output": "evidence\\paired_metrics.png",
+    "sha256": "c92b06b76d1c072711b75b09370997a426c06a39cf4fc6192b1ce1b0d47b8fd8"
+  },
+  {
+    "source": "artifacts\\runs\\task45_v3\\demos\\exports\\workcell\\paired_metrics.fig",
+    "output": "evidence\\paired_metrics.fig",
+    "sha256": "cbb1bfbbbc96fc929c942bdfdc295bb81a5facbc9218bd64903b45025f0a4a41"
+  },
+  {
+    "source": "artifacts\\runs\\task45_v3\\demos\\exports\\workcell\\initial_and_planned.fig",
+    "output": "evidence\\initial_and_planned.fig",
+    "sha256": "934016a15c1cdd9addff53025b97cf6e7ec4fa3a63944af0f946cdd1612d5142"
+  },
+  {
+    "source": "artifacts\\runs\\task45_v3\\formal\\study_summary.json",
+    "output": "evidence\\task45_v3_study_summary.json",
+    "sha256": "9a4b583f23a6580b1ebe3f5424b28cd7f8e208a871f468a426cfe3ef3e7381b6"
+  },
+  {
+    "source": "artifacts\\runs\\task45_v3\\fine_validation.json",
+    "output": "evidence\\task45_v3_fine_validation.json",
+    "sha256": "0f470bed8815b6d3f05f8f283f2a3d4578984b446263b9228bed5847b01cb3e3"
+  },
+  {
+    "source": "artifacts\\runs\\task45_v4\\study_summary.json",
+    "output": "evidence\\task45_v4_study_summary.json",
+    "sha256": "9c8d73df7e61a2555b417810ee1856a66dd64da52175a1e1ffea9265d7f886c9"
+  },
+  {
+    "source": "artifacts\\runs\\task45_v5\\study_summary.json",
+    "output": "evidence\\task45_v5_study_summary.json",
+    "sha256": "71a517b0603c3fc0fcb2cc3c51cab28f1a3bb530817ab366fab45ffcbf44bdb7"
+  },
+  {
+    "source": "artifacts\\runs\\task45_v3\\demos\\workcell\\Task4\\seed_5300\\dense_validation.csv",
+    "output": "evidence\\task4_demo_dense.csv",
+    "sha256": "7cf553aa1d5447694bf6e63c2de4240b5f08bd4241411dd511115e23f4d7a458"
+  },
+  {
+    "source": "artifacts\\runs\\task45_v3\\demos\\workcell\\Task5\\seed_5300\\dense_validation.csv",
+    "output": "evidence\\task5_demo_dense.csv",
+    "sha256": "0c017d37d8cd196737695a63d5c16e24a22a645e376ed645026e99461a560b9f"
+  },
+  {
+    "source": "artifacts\\runs\\task45_v3\\demos\\exports\\workcell\\task4_motion.avi",
+    "output": "media\\task4_motion.mp4",
+    "sha256": "6e4da251e05a1d0dfd6436177ea57bb28fbaac612941d1debacb02f39419a606",
+    "conversion": "H.264 CRF18; yuv420p; pad one bottom row; original 150 frames at 15 fps"
+  },
+  {
+    "source": "artifacts\\runs\\task45_v3\\demos\\exports\\workcell\\task5_motion.avi",
+    "output": "media\\task5_motion.mp4",
+    "sha256": "23cae250dcddd8ff39b562337ce2f029adda4decc9dd3e529faf7ed2c306801a",
+    "conversion": "H.264 CRF18; yuv420p; pad one bottom row; original 150 frames at 15 fps"
+  },
+  {
+    "source": "artifacts\\runs\\task45_v3\\demos\\exports\\workcell\\paired_motion.avi",
+    "output": "media\\paired_motion.mp4",
+    "sha256": "b6225699450f036e8a3f822e4369841197a7d8021d7efca99b2b8d42535b1d37",
+    "conversion": "H.264 CRF18; yuv420p; pad one bottom row; original 150 frames at 15 fps"
+  }
+]
