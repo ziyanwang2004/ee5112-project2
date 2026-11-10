@@ -1,0 +1,128 @@
+{
+  "passed": true,
+  "clientDate": "2026-11-09",
+  "pdfPagesReviewed": 8,
+  "reviewScope": "All report and slide pages, source figures, representative paired video frames; changed plots and slide headers rechecked after layout repair.",
+  "pdfPages": [
+    {
+      "path": "artifacts/runs/task45_v2/delivery/review/task45_v2_report_1.png",
+      "sha256": "600d31bcb8fcf8ebeddc14a219099946a94dd36b8b4b9e707a2c52007b57666b"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/delivery/review/task45_v2_report_2.png",
+      "sha256": "3a6cbba79c4431c55ae363564ae17f729f51692805c4aefd6c5efaab480df94b"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/delivery/review/task45_v2_report_3.png",
+      "sha256": "2970c3cb8f1f4b2c20333e7fb9657ac929fa255c6d8680d11c766a2eeaab8f69"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/delivery/review/task45_v2_report_4.png",
+      "sha256": "f957eaf4569dd45c684ee204459e6c681a414937eefe78a222ee514df7968372"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/delivery/review/task45_v2_slides_1.png",
+      "sha256": "8ca3e65f6d8472da050c0efb6143624be44ed721fcbe532a1b2bfbf092f4c288"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/delivery/review/task45_v2_slides_2.png",
+      "sha256": "b97d6a83ba13c94584b8325318da43de8c17d4c87882cbfb4e2124f5431dc719"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/delivery/review/task45_v2_slides_3.png",
+      "sha256": "23d6931dd18908b43ec88c4f755df242ea076bfaf13242b77cafbb28ab858758"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/delivery/review/task45_v2_slides_4.png",
+      "sha256": "6333f8d5669aebddfb8045d2c6d6d3a667cc7e2236f9adaac0c2062acbbd3379"
+    }
+  ],
+  "figures": [
+    {
+      "path": "artifacts/runs/task45_v2/demos/exports/main/initial_and_planned.png",
+      "sha256": "0e0dac8b7952b1714fab66c6a90cbd197090e0cd47b95bf78ba580e80755d60e"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/demos/exports/main/paired_comparison.png",
+      "sha256": "963cd8a045a2b7161f3643f40587fb10848de03ad132f145623c7d1b9c82600e"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/demos/exports/main/task4_summary.png",
+      "sha256": "8d1a46c7eedb0f076a64056be99503f1525639fb6caa167e0c666e4921c45d0d"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/demos/exports/main/task5_summary.png",
+      "sha256": "87d579267eb3ae8f33d51675118f8dc69f3f0cd4a3117aa38ff8a5d4e1cdde28"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/demos/exports/variant/initial_and_planned.png",
+      "sha256": "c4c6e8520a69f4db0299323ecc19d7c81a518d2a7fd70e7eb27d4649e0826272"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/demos/exports/variant/paired_comparison.png",
+      "sha256": "e05a3acb69b3861b047566f5267d2c9c10e319d3b4dcf2d30187b0149d8f884d"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/demos/exports/variant/task4_summary.png",
+      "sha256": "f162a4e4642efd90023dbcaf2f05be6cbf249049b32244b4890923b66f5a1136"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/demos/exports/variant/task5_summary.png",
+      "sha256": "01b31dad27acb05007cccf4035bc79e4a30c8ac7999efa2474d2c9bc0edb5a3f"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/diagnosis/formal_results.png",
+      "sha256": "4a76fbcbc1298e6bb82175bbb687b7b93390dfdf4c9b1d6e2de9bd8c92f15b1d"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/diagnosis/self_collision_comparison.png",
+      "sha256": "1e3f8303bef51b4de21afa7a6f38277928530116516014803a997e81cf5bd4eb"
+    }
+  ],
+  "pairedVideoFrameSamples": [
+    {
+      "path": "artifacts/runs/task45_v2/delivery/video_review/main/paired_motion_001.png",
+      "sha256": "19ae2f400ac076cd3336786d380c9aa5248e3de25c7437735922acfe4694e54f"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/delivery/video_review/main/paired_motion_075.png",
+      "sha256": "2673f4e3d6798ef4b93da3a03ba5133bdcd6fbcb7ee1bf651466e8a40499cbd5"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/delivery/video_review/main/paired_motion_150.png",
+      "sha256": "957e51be32e8594351a618dbf7412fa38931259af86cfe2c7240f311f07b6e86"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/delivery/video_review/variant/paired_motion_001.png",
+      "sha256": "c1c62b06508d21472af1132c5c363f90972c2e15ac53e7d288a7a930651bb5a4"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/delivery/video_review/variant/paired_motion_075.png",
+      "sha256": "7ab5c7879c2bbbcc047d11a431222df6b30e0598a00829d46a9c9db6154d3766"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/delivery/video_review/variant/paired_motion_150.png",
+      "sha256": "86415e9575ff9d37f829302ed6b209b89e6d65e8e01fb9578a39496dc52a310d"
+    }
+  ],
+  "finalFiles": [
+    {
+      "path": "artifacts/runs/task45_v2/delivery/task45_v2_report.pdf",
+      "sha256": "a2274bc17cea710613845cd5712559bc650041981158c2a469cd7084a86dbf47"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/delivery/task45_v2_slides.pdf",
+      "sha256": "b65a2f187f67e14cb5459c96d4687dcaf4f626f42095aa85f007735ad4ffe301"
+    },
+    {
+      "path": "artifacts/runs/task45_v2/delivery/task45_v2_slides.pptx",
+      "sha256": "33c0b7526c0a79abf49269ae330a30cdfc75d4209c3c04de6c84c5997f172ff3"
+    }
+  ],
+  "repairs": [
+    "Native table headers line-wrapped",
+    "Diagnosis figure title margins",
+    "Summary figures retain axes labels and separate clearance legend text"
+  ],
+  "planningSourceOrTrajectoryEdits": false
+}

@@ -1,0 +1,6 @@
+# Preserve the checked presentation packet byte-for-byte across checkouts.
+task45_20261110/** -text
+*.pptx binary
+*.pdf binary
+*.mp4 binary
+*.zip binary

@@ -1,0 +1,1278 @@
+{
+  "passed": true,
+  "runs": 5,
+  "successfulRuns": 5,
+  "replayedCheckpoints": 172,
+  "details": [
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v5\\formal\\layout\\adaptive\\Task5\\seed_5800",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 44,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 31,
+        "refinement": {
+          "checkpoints": 13,
+          "accepted": 13,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    },
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v5\\formal\\layout\\adaptive\\Task5\\seed_5801",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 27,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 15,
+        "refinement": {
+          "checkpoints": 12,
+          "accepted": 12,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    },
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v5\\formal\\layout\\adaptive\\Task5\\seed_5802",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 46,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 30,
+        "refinement": {
+          "checkpoints": 16,
+          "accepted": 16,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    },
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v5\\formal\\layout\\adaptive\\Task5\\seed_5803",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 24,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 10,
+        "refinement": {
+          "checkpoints": 14,
+          "accepted": 14,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    },
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v5\\formal\\layout\\adaptive\\Task5\\seed_5804",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 31,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 15,
+        "refinement": {
+          "checkpoints": 16,
+          "accepted": 16,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    }
+  ],
+  "sourceFingerprint": "49582437dfd1d4ca4ca10452afd73d777a690a2531a7cd6fe9bb03dd4d8c3457",
+  "fineJointStep": 0.00625,
+  "fineDetails": [
+    {
+      "scenario": "layout",
+      "variant": "adaptive",
+      "task": 5,
+      "seed": 5800,
+      "nominalSuccess": true,
+      "fineSuccess": true,
+      "studySuccess": true,
+      "fineStates": 825,
+      "summaryAndTrajectoryMatched": true,
+      "maxTilt": 0.95010407589143453,
+      "minGap": 0.037956135016419507,
+      "minHeight": 0.34126580185410094,
+      "failures": [],
+      "firstJointLength": 7.310448145668671,
+      "firstSmoothness": 0.17339007199529216,
+      "finalJointLength": 6.92481296656822,
+      "finalSmoothness": 0.17240123484683512,
+      "searchSampling": {
+        "iterations": 31,
+        "samples": 1984,
+        "validSamples": 1984,
+        "waypoints": 117056,
+        "elements": 702336,
+        "corrections": 138050,
+        "preEnergy": 80126.890972687746,
+        "postEnergy": 70036.464032179516,
+        "ambientEnergy": 97573.381379775426,
+        "projectionSeconds": 37.467167899999993,
+        "tangentSeconds": 0.3578356,
+        "fractionSum": 16.25,
+        "minFraction": 0.25,
+        "maxFraction": 0.75,
+        "maxEnergyMatchError": 0,
+        "controllerChanges": 5,
+        "stagnationExploration": 7,
+        "meanProjectionCorrectionsPerWaypoint": 1.1793500546746856,
+        "meanFraction": 0.52419354838709675,
+        "preProjectionRms": 0.33776658351544786,
+        "postProjectionRms": 0.31578365042939333,
+        "ambientRms": 0.37272902466812541,
+        "validFraction": 1
+      },
+      "controllerHistory": [
+        [
+          1,
+          1,
+          0.5,
+          0.25,
+          -0.2786160469261536,
+          0
+        ],
+        [
+          1,
+          2,
+          0.25,
+          0.25,
+          -0.460346049038995,
+          0
+        ],
+        [
+          1,
+          3,
+          0.25,
+          0.25,
+          -0.32849857951139216,
+          0
+        ],
+        [
+          1,
+          4,
+          0.25,
+          0.25,
+          -0.30632174018635916,
+          0
+        ],
+        [
+          1,
+          5,
+          0.25,
+          0.25,
+          -0.0839294752908546,
+          0
+        ],
+        [
+          1,
+          6,
+          0.25,
+          0.5,
+          0.15850056746263219,
+          0
+        ],
+        [
+          1,
+          7,
+          0.5,
+          0.75,
+          0.12276705733472393,
+          1
+        ],
+        [
+          1,
+          8,
+          0.75,
+          0.75,
+          0.15126023331364785,
+          2
+        ],
+        [
+          1,
+          9,
+          0.75,
+          0.75,
+          0.27255665456146416,
+          0
+        ],
+        [
+          1,
+          10,
+          0.75,
+          0.75,
+          0.028392875824623173,
+          0
+        ],
+        [
+          1,
+          11,
+          0.75,
+          0.75,
+          0.091988123676990607,
+          0
+        ],
+        [
+          1,
+          12,
+          0.75,
+          0.75,
+          0.21593659410754765,
+          1
+        ],
+        [
+          1,
+          13,
+          0.75,
+          0.75,
+          0.094701572614820262,
+          2
+        ],
+        [
+          1,
+          14,
+          0.75,
+          0.25,
+          0.064226812636780289,
+          3
+        ],
+        [
+          1,
+          15,
+          0.25,
+          0.25,
+          0.05514186722609149,
+          4
+        ],
+        [
+          1,
+          16,
+          0.25,
+          0.25,
+          -0.041533880324027855,
+          5
+        ],
+        [
+          1,
+          17,
+          0.25,
+          0.25,
+          0.0069591026402818119,
+          6
+        ],
+        [
+          1,
+          18,
+          0.25,
+          0.25,
+          -0.024216327055031892,
+          7
+        ],
+        [
+          1,
+          19,
+          0.25,
+          0.25,
+          -0.028445125643491307,
+          8
+        ],
+        [
+          1,
+          20,
+          0.25,
+          0.25,
+          -0.078120126297815951,
+          9
+        ],
+        [
+          1,
+          21,
+          0.25,
+          0.25,
+          0.02369995870427527,
+          10
+        ],
+        [
+          2,
+          1,
+          0.5,
+          0.5,
+          -0.018642984186784468,
+          0
+        ],
+        [
+          2,
+          2,
+          0.5,
+          0.75,
+          0.053391611813365762,
+          0
+        ],
+        [
+          2,
+          3,
+          0.75,
+          0.75,
+          0.14989830919670816,
+          1
+        ],
+        [
+          2,
+          4,
+          0.75,
+          0.75,
+          0.22123631583298067,
+          2
+        ],
+        [
+          2,
+          5,
+          0.75,
+          0.75,
+          0.0066204560235207932,
+          0
+        ],
+        [
+          2,
+          6,
+          0.75,
+          0.75,
+          -0.011095768344061402,
+          0
+        ],
+        [
+          2,
+          7,
+          0.75,
+          0.75,
+          0.10478417187086352,
+          0
+        ],
+        [
+          2,
+          8,
+          0.75,
+          0.75,
+          0.26071256683899746,
+          0
+        ],
+        [
+          2,
+          9,
+          0.75,
+          0.75,
+          0.30168681990120017,
+          1
+        ],
+        [
+          2,
+          10,
+          0.75,
+          0.75,
+          0.34164379111115933,
+          2
+        ]
+      ],
+      "refineSampling": {
+        "iterations": 13,
+        "samples": 416,
+        "validSamples": 416,
+        "waypoints": 24544,
+        "elements": 147264,
+        "corrections": 11197,
+        "preEnergy": 593.8102211510618,
+        "postEnergy": 476.99718851388474,
+        "ambientEnergy": 708.02724616411115,
+        "projectionSeconds": 5.8694500000000005,
+        "tangentSeconds": 0.10552650000000001,
+        "fractionSum": 6.5,
+        "minFraction": 0.5,
+        "maxFraction": 0.5,
+        "maxEnergyMatchError": 0,
+        "controllerChanges": 0,
+        "stagnationExploration": 0,
+        "meanProjectionCorrectionsPerWaypoint": 0.45620110821382009,
+        "meanFraction": 0.5,
+        "preProjectionRms": 0.063500265051907215,
+        "postProjectionRms": 0.05691275553819769,
+        "ambientRms": 0.069338858683095181,
+        "validFraction": 1
+      }
+    },
+    {
+      "scenario": "layout",
+      "variant": "adaptive",
+      "task": 5,
+      "seed": 5801,
+      "nominalSuccess": true,
+      "fineSuccess": true,
+      "studySuccess": true,
+      "fineStates": 987,
+      "summaryAndTrajectoryMatched": true,
+      "maxTilt": 0.79523752623445487,
+      "minGap": 0.037956135016419507,
+      "minHeight": 0.31188000773374469,
+      "failures": [],
+      "firstJointLength": 8.323960459841345,
+      "firstSmoothness": 0.2005856338559712,
+      "finalJointLength": 8.024246078449691,
+      "finalSmoothness": 0.19998903756545,
+      "searchSampling": {
+        "iterations": 15,
+        "samples": 960,
+        "validSamples": 960,
+        "waypoints": 56640,
+        "elements": 339840,
+        "corrections": 44569,
+        "preEnergy": 36006.700542021747,
+        "postEnergy": 32683.51169111233,
+        "ambientEnergy": 47217.036282536123,
+        "projectionSeconds": 15.481341500000001,
+        "tangentSeconds": 0.188056,
+        "fractionSum": 10.5,
+        "minFraction": 0.5,
+        "maxFraction": 0.75,
+        "maxEnergyMatchError": 0,
+        "controllerChanges": 5,
+        "stagnationExploration": 0,
+        "meanProjectionCorrectionsPerWaypoint": 0.7868820621468926,
+        "meanFraction": 0.7,
+        "preProjectionRms": 0.32550256549655338,
+        "postProjectionRms": 0.3101180961413828,
+        "ambientRms": 0.37274524704275136,
+        "validFraction": 1
+      },
+      "controllerHistory": [
+        [
+          1,
+          1,
+          0.5,
+          0.75,
+          0.11817100369025627,
+          0
+        ],
+        [
+          1,
+          2,
+          0.75,
+          0.75,
+          0.041294200807650977,
+          0
+        ],
+        [
+          1,
+          3,
+          0.75,
+          0.5,
+          -0.23641882074554066,
+          0
+        ],
+        [
+          1,
+          4,
+          0.5,
+          0.75,
+          0.184429981981811,
+          1
+        ],
+        [
+          1,
+          5,
+          0.75,
+          0.75,
+          0.096194162702230981,
+          0
+        ],
+        [
+          1,
+          6,
+          0.75,
+          0.5,
+          -0.1475618750914148,
+          1
+        ],
+        [
+          1,
+          7,
+          0.5,
+          0.75,
+          0.059241126596159807,
+          0
+        ],
+        [
+          1,
+          8,
+          0.75,
+          0.75,
+          0.0043921781864507681,
+          0
+        ],
+        [
+          1,
+          9,
+          0.75,
+          0.75,
+          0.091949246200948159,
+          0
+        ],
+        [
+          1,
+          10,
+          0.75,
+          0.75,
+          0.17402069472719672,
+          0
+        ],
+        [
+          1,
+          11,
+          0.75,
+          0.75,
+          0.21731153422249058,
+          0
+        ],
+        [
+          1,
+          12,
+          0.75,
+          0.75,
+          0.18577201239925334,
+          0
+        ],
+        [
+          1,
+          13,
+          0.75,
+          0.75,
+          0.29665433672705721,
+          0
+        ],
+        [
+          1,
+          14,
+          0.75,
+          0.75,
+          0.23340200430726568,
+          1
+        ],
+        [
+          1,
+          15,
+          0.75,
+          0.75,
+          0.056188643609153613,
+          2
+        ]
+      ],
+      "refineSampling": {
+        "iterations": 12,
+        "samples": 384,
+        "validSamples": 384,
+        "waypoints": 22656,
+        "elements": 135936,
+        "corrections": 10320,
+        "preEnergy": 510.724381224311,
+        "postEnergy": 409.79108155704444,
+        "ambientEnergy": 639.3566916824501,
+        "projectionSeconds": 5.1483715000000005,
+        "tangentSeconds": 0.0967605,
+        "fractionSum": 6,
+        "minFraction": 0.5,
+        "maxFraction": 0.5,
+        "maxEnergyMatchError": 0,
+        "controllerChanges": 0,
+        "stagnationExploration": 0,
+        "meanProjectionCorrectionsPerWaypoint": 0.45550847457627119,
+        "meanFraction": 0.5,
+        "preProjectionRms": 0.061295141544370206,
+        "postProjectionRms": 0.05490526702550156,
+        "ambientRms": 0.068581086993363433,
+        "validFraction": 1
+      }
+    },
+    {
+      "scenario": "layout",
+      "variant": "adaptive",
+      "task": 5,
+      "seed": 5802,
+      "nominalSuccess": true,
+      "fineSuccess": true,
+      "studySuccess": true,
+      "fineStates": 868,
+      "summaryAndTrajectoryMatched": true,
+      "maxTilt": 0.87037186675415879,
+      "minGap": 0.037956135016419507,
+      "minHeight": 0.34970380803803713,
+      "failures": [],
+      "firstJointLength": 7.3371508129340617,
+      "firstSmoothness": 0.1334356436333145,
+      "finalJointLength": 6.9193526458238,
+      "finalSmoothness": 0.13304246826797494,
+      "searchSampling": {
+        "iterations": 30,
+        "samples": 1920,
+        "validSamples": 1918,
+        "waypoints": 113280,
+        "elements": 679680,
+        "corrections": 175472,
+        "preEnergy": 83161.535960581736,
+        "postEnergy": 70382.773817050591,
+        "ambientEnergy": 95310.253576135554,
+        "projectionSeconds": 30.3986071,
+        "tangentSeconds": 0.2546668,
+        "fractionSum": 12,
+        "minFraction": 0.25,
+        "maxFraction": 0.75,
+        "maxEnergyMatchError": 0,
+        "controllerChanges": 13,
+        "stagnationExploration": 12,
+        "meanProjectionCorrectionsPerWaypoint": 1.5490112994350282,
+        "meanFraction": 0.4,
+        "preProjectionRms": 0.34979130169897671,
+        "postProjectionRms": 0.32179622414935372,
+        "ambientRms": 0.37447046254536237,
+        "validFraction": 0.99895833333333328
+      },
+      "controllerHistory": [
+        [
+          1,
+          1,
+          0.5,
+          0.25,
+          -0.29991922252091541,
+          0
+        ],
+        [
+          1,
+          2,
+          0.25,
+          0.25,
+          -0.38406698233529291,
+          0
+        ],
+        [
+          1,
+          3,
+          0.25,
+          0.25,
+          -0.13909392091634343,
+          0
+        ],
+        [
+          1,
+          4,
+          0.25,
+          0.5,
+          0.10776459420182519,
+          0
+        ],
+        [
+          1,
+          5,
+          0.5,
+          0.75,
+          0.098286416763850831,
+          1
+        ],
+        [
+          1,
+          6,
+          0.75,
+          0.75,
+          0.15268739394570041,
+          2
+        ],
+        [
+          1,
+          7,
+          0.75,
+          0.25,
+          0.18659852110180586,
+          3
+        ],
+        [
+          1,
+          8,
+          0.25,
+          0.25,
+          0.21213543798499424,
+          4
+        ],
+        [
+          1,
+          9,
+          0.25,
+          0.25,
+          0.19088727661706784,
+          5
+        ],
+        [
+          1,
+          10,
+          0.25,
+          0.5,
+          0.13586561739451675,
+          0
+        ],
+        [
+          1,
+          11,
+          0.5,
+          0.75,
+          0.11884061595774405,
+          1
+        ],
+        [
+          1,
+          12,
+          0.75,
+          0.75,
+          0.070279195109969023,
+          2
+        ],
+        [
+          1,
+          13,
+          0.75,
+          0.25,
+          0.086134389072734158,
+          3
+        ],
+        [
+          1,
+          14,
+          0.25,
+          0.25,
+          0.087689298125672582,
+          4
+        ],
+        [
+          1,
+          15,
+          0.25,
+          0.25,
+          0.064490506009623041,
+          5
+        ],
+        [
+          1,
+          16,
+          0.25,
+          0.25,
+          0.0926480961729969,
+          6
+        ],
+        [
+          1,
+          17,
+          0.25,
+          0.25,
+          0.0048441273918801361,
+          7
+        ],
+        [
+          1,
+          18,
+          0.25,
+          0.25,
+          -0.085905359880226087,
+          8
+        ],
+        [
+          1,
+          19,
+          0.25,
+          0.25,
+          0.11141503412761916,
+          9
+        ],
+        [
+          1,
+          20,
+          0.25,
+          0.25,
+          0.18262140744645147,
+          10
+        ],
+        [
+          2,
+          1,
+          0.5,
+          0.25,
+          -0.17827998541710668,
+          0
+        ],
+        [
+          2,
+          2,
+          0.25,
+          0.25,
+          -0.22820327813171787,
+          0
+        ],
+        [
+          2,
+          3,
+          0.25,
+          0.5,
+          0.036494890087374082,
+          0
+        ],
+        [
+          2,
+          4,
+          0.5,
+          0.25,
+          -0.021194052288034615,
+          0
+        ],
+        [
+          2,
+          5,
+          0.25,
+          0.5,
+          0.11079048051954188,
+          0
+        ],
+        [
+          2,
+          6,
+          0.5,
+          0.75,
+          0.085596099927742489,
+          1
+        ],
+        [
+          2,
+          7,
+          0.75,
+          0.75,
+          0.21295190337265724,
+          2
+        ],
+        [
+          2,
+          8,
+          0.75,
+          0.25,
+          0.15757151520524071,
+          3
+        ],
+        [
+          2,
+          9,
+          0.25,
+          0.25,
+          0.10314417395237648,
+          4
+        ],
+        [
+          2,
+          10,
+          0.25,
+          0.25,
+          0.045697338127004689,
+          5
+        ]
+      ],
+      "refineSampling": {
+        "iterations": 16,
+        "samples": 512,
+        "validSamples": 512,
+        "waypoints": 30208,
+        "elements": 181248,
+        "corrections": 13832,
+        "preEnergy": 763.0890272416575,
+        "postEnergy": 617.89121446918182,
+        "ambientEnergy": 917.58195066218252,
+        "projectionSeconds": 5.5332241,
+        "tangentSeconds": 0.1219575,
+        "fractionSum": 8,
+        "minFraction": 0.5,
+        "maxFraction": 0.5,
+        "maxEnergyMatchError": 0,
+        "controllerChanges": 0,
+        "stagnationExploration": 0,
+        "meanProjectionCorrectionsPerWaypoint": 0.45789194915254239,
+        "meanFraction": 0.5,
+        "preProjectionRms": 0.064885998601357547,
+        "postProjectionRms": 0.058387435240427742,
+        "ambientRms": 0.071151788241898647,
+        "validFraction": 1
+      }
+    },
+    {
+      "scenario": "layout",
+      "variant": "adaptive",
+      "task": 5,
+      "seed": 5803,
+      "nominalSuccess": true,
+      "fineSuccess": true,
+      "studySuccess": true,
+      "fineStates": 809,
+      "summaryAndTrajectoryMatched": true,
+      "maxTilt": 0.596559662342407,
+      "minGap": 0.036709831696488476,
+      "minHeight": 0.34381946178282047,
+      "failures": [],
+      "firstJointLength": 6.922709812350047,
+      "firstSmoothness": 0.11073348355401834,
+      "finalJointLength": 6.3209614358203519,
+      "finalSmoothness": 0.10997354977512584,
+      "searchSampling": {
+        "iterations": 10,
+        "samples": 640,
+        "validSamples": 640,
+        "waypoints": 37760,
+        "elements": 226560,
+        "corrections": 28905,
+        "preEnergy": 24754.280337274275,
+        "postEnergy": 22779.302607276615,
+        "ambientEnergy": 32650.714528878769,
+        "projectionSeconds": 10.3950873,
+        "tangentSeconds": 0.1446141,
+        "fractionSum": 7,
+        "minFraction": 0.5,
+        "maxFraction": 0.75,
+        "maxEnergyMatchError": 0,
+        "controllerChanges": 3,
+        "stagnationExploration": 0,
+        "meanProjectionCorrectionsPerWaypoint": 0.76549258474576276,
+        "meanFraction": 0.7,
+        "preProjectionRms": 0.33054723940365294,
+        "postProjectionRms": 0.317087114533249,
+        "ambientRms": 0.37962493180201778,
+        "validFraction": 1
+      },
+      "controllerHistory": [
+        [
+          1,
+          1,
+          0.5,
+          0.75,
+          0.065001429161546109,
+          0
+        ],
+        [
+          1,
+          2,
+          0.75,
+          0.5,
+          -0.11167535249396951,
+          0
+        ],
+        [
+          1,
+          3,
+          0.5,
+          0.75,
+          0.14737147333661915,
+          0
+        ],
+        [
+          1,
+          4,
+          0.75,
+          0.75,
+          0.298681655076246,
+          0
+        ],
+        [
+          1,
+          5,
+          0.75,
+          0.75,
+          0.25137947964361751,
+          0
+        ],
+        [
+          1,
+          6,
+          0.75,
+          0.75,
+          0.11902669791415713,
+          0
+        ],
+        [
+          1,
+          7,
+          0.75,
+          0.75,
+          0.270287222294339,
+          0
+        ],
+        [
+          1,
+          8,
+          0.75,
+          0.75,
+          0.34800024743319619,
+          0
+        ],
+        [
+          1,
+          9,
+          0.75,
+          0.75,
+          0.19875082400271693,
+          0
+        ],
+        [
+          1,
+          10,
+          0.75,
+          0.75,
+          0.10498011857522921,
+          1
+        ]
+      ],
+      "refineSampling": {
+        "iterations": 14,
+        "samples": 448,
+        "validSamples": 448,
+        "waypoints": 26432,
+        "elements": 158592,
+        "corrections": 12060,
+        "preEnergy": 655.99650650068008,
+        "postEnergy": 526.17643521232435,
+        "ambientEnergy": 779.72789974223508,
+        "projectionSeconds": 5.7685752,
+        "tangentSeconds": 0.10782359999999999,
+        "fractionSum": 7,
+        "minFraction": 0.5,
+        "maxFraction": 0.5,
+        "maxEnergyMatchError": 0,
+        "controllerChanges": 0,
+        "stagnationExploration": 0,
+        "meanProjectionCorrectionsPerWaypoint": 0.45626513317191281,
+        "meanFraction": 0.5,
+        "preProjectionRms": 0.064314681796786677,
+        "postProjectionRms": 0.057600341617005273,
+        "ambientRms": 0.070118222643473727,
+        "validFraction": 1
+      }
+    },
+    {
+      "scenario": "layout",
+      "variant": "adaptive",
+      "task": 5,
+      "seed": 5804,
+      "nominalSuccess": true,
+      "fineSuccess": true,
+      "studySuccess": true,
+      "fineStates": 923,
+      "summaryAndTrajectoryMatched": true,
+      "maxTilt": 0.72309426517149589,
+      "minGap": 0.036009506922700024,
+      "minHeight": 0.34970380803803713,
+      "failures": [],
+      "firstJointLength": 7.9593316005846839,
+      "firstSmoothness": 0.15455143117495571,
+      "finalJointLength": 7.5962475298999994,
+      "finalSmoothness": 0.15369080373771182,
+      "searchSampling": {
+        "iterations": 15,
+        "samples": 960,
+        "validSamples": 960,
+        "waypoints": 56640,
+        "elements": 339840,
+        "corrections": 53944,
+        "preEnergy": 37788.563298307832,
+        "postEnergy": 34168.812867637833,
+        "ambientEnergy": 47709.688061942,
+        "projectionSeconds": 12.2191966,
+        "tangentSeconds": 0.1398578,
+        "fractionSum": 9.5,
+        "minFraction": 0.25,
+        "maxFraction": 0.75,
+        "maxEnergyMatchError": 0,
+        "controllerChanges": 5,
+        "stagnationExploration": 1,
+        "meanProjectionCorrectionsPerWaypoint": 0.95240112994350279,
+        "meanFraction": 0.6333333333333333,
+        "preProjectionRms": 0.33345938338065456,
+        "postProjectionRms": 0.31708646009337321,
+        "ambientRms": 0.37468477044944087,
+        "validFraction": 1
+      },
+      "controllerHistory": [
+        [
+          1,
+          1,
+          0.5,
+          0.75,
+          0.088044184298289113,
+          0
+        ],
+        [
+          1,
+          2,
+          0.75,
+          0.75,
+          0.14097215437286786,
+          0
+        ],
+        [
+          1,
+          3,
+          0.75,
+          0.75,
+          0.013662101828105559,
+          0
+        ],
+        [
+          1,
+          4,
+          0.75,
+          0.5,
+          -0.15213423736121531,
+          1
+        ],
+        [
+          1,
+          5,
+          0.5,
+          0.25,
+          -0.15609430037318095,
+          2
+        ],
+        [
+          1,
+          6,
+          0.25,
+          0.25,
+          -0.05069795925334538,
+          3
+        ],
+        [
+          1,
+          7,
+          0.25,
+          0.5,
+          0.15900327418122498,
+          0
+        ],
+        [
+          1,
+          8,
+          0.5,
+          0.75,
+          0.20436484961855989,
+          0
+        ],
+        [
+          1,
+          9,
+          0.75,
+          0.75,
+          0.37660696919536019,
+          1
+        ],
+        [
+          1,
+          10,
+          0.75,
+          0.75,
+          0.31582434324693648,
+          0
+        ],
+        [
+          1,
+          11,
+          0.75,
+          0.75,
+          0.30250503507920612,
+          0
+        ],
+        [
+          1,
+          12,
+          0.75,
+          0.75,
+          0.34696927568072639,
+          1
+        ],
+        [
+          1,
+          13,
+          0.75,
+          0.75,
+          0.28000492417552203,
+          0
+        ],
+        [
+          1,
+          14,
+          0.75,
+          0.75,
+          0.12832493565902375,
+          1
+        ],
+        [
+          1,
+          15,
+          0.75,
+          0.75,
+          0.18670106224281469,
+          2
+        ]
+      ],
+      "refineSampling": {
+        "iterations": 16,
+        "samples": 512,
+        "validSamples": 512,
+        "waypoints": 30208,
+        "elements": 181248,
+        "corrections": 13660,
+        "preEnergy": 730.3091182971018,
+        "postEnergy": 589.69369086919369,
+        "ambientEnergy": 858.79736933629363,
+        "projectionSeconds": 5.3233431999999992,
+        "tangentSeconds": 0.1163854,
+        "fractionSum": 8,
+        "minFraction": 0.5,
+        "maxFraction": 0.5,
+        "maxEnergyMatchError": 0,
+        "controllerChanges": 0,
+        "stagnationExploration": 0,
+        "meanProjectionCorrectionsPerWaypoint": 0.452198093220339,
+        "meanFraction": 0.5,
+        "preProjectionRms": 0.063477052143248475,
+        "postProjectionRms": 0.05703962073220431,
+        "ambientRms": 0.068834908779079149,
+        "validFraction": 1
+      }
+    }
+  ],
+  "fineSuccessfulRuns": 5,
+  "recomputedSearchCosts": 17,
+  "verifiedRefineSampleCosts": 20
+}

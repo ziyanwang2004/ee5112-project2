@@ -1,0 +1,1808 @@
+{
+  "passed": true,
+  "paths": 75,
+  "sourceFingerprint": "49582437dfd1d4ca4ca10452afd73d777a690a2531a7cd6fe9bb03dd4d8c3457",
+  "scope": "Independent joint length and second-difference recomputation from trajectory CSV. Adjacent waypoint changes are geometric quantities, not speeds.",
+  "records": [
+    {
+      "scenario": "endpoints",
+      "variant": "adaptive",
+      "seed": 5800,
+      "maxAdjacentChangeRadPerJoint": [
+        0.268422287221955,
+        0.24434699629678613,
+        0.12618741301036196,
+        0.11796577857607882,
+        0.42626650875961714,
+        0.012191554890819096
+      ],
+      "smoothnessPerJoint": [
+        0.08322420098412342,
+        0.046387584618365396,
+        0.031638097441552805,
+        0.024330576390233588,
+        0.3736245645824696,
+        0.001017365710848888
+      ],
+      "maxAdjacentChangeRad": 0.42626650875961714,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.6669218714449154
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "adaptive",
+      "seed": 5801,
+      "maxAdjacentChangeRadPerJoint": [
+        0.3125972485022786,
+        0.16869477660713006,
+        0.12095116178765286,
+        0.09553843092122799,
+        0.15815513762829903,
+        0.015629401637891848
+      ],
+      "smoothnessPerJoint": [
+        0.057969250795123786,
+        0.02669340749596659,
+        0.019947648890087932,
+        0.023603355903677826,
+        0.06289288802974674,
+        0.0014352949287782261
+      ],
+      "maxAdjacentChangeRad": 0.3125972485022786,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.3266452946315707
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "adaptive",
+      "seed": 5802,
+      "maxAdjacentChangeRadPerJoint": [
+        0.2764787361753669,
+        0.1440399816131399,
+        0.10256086489831207,
+        0.14428625551441981,
+        0.21626486802012235,
+        0.014498634200301622
+      ],
+      "smoothnessPerJoint": [
+        0.05928959195773192,
+        0.02508468599482858,
+        0.0218641433730035,
+        0.033429094584368824,
+        0.059605264967002414,
+        0.0008440100868475919
+      ],
+      "maxAdjacentChangeRad": 0.2764787361753669,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.2978523924950895
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "adaptive",
+      "seed": 5803,
+      "maxAdjacentChangeRadPerJoint": [
+        0.21995797086701552,
+        0.1163433245920309,
+        0.08898445578550107,
+        0.07961190230991538,
+        0.10809628494684698,
+        0.011181077425068863
+      ],
+      "smoothnessPerJoint": [
+        0.03307568815816838,
+        0.02332171154288497,
+        0.021390581481713092,
+        0.0164603042606642,
+        0.0336195720482464,
+        0.0003844979842559904
+      ],
+      "maxAdjacentChangeRad": 0.21995797086701552,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.2621360981908455
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "adaptive",
+      "seed": 5804,
+      "maxAdjacentChangeRadPerJoint": [
+        0.2050945376753503,
+        0.1696039324310299,
+        0.16789728692516093,
+        0.10579014549424687,
+        0.1408964199166549,
+        4.598647298057062e-05
+      ],
+      "smoothnessPerJoint": [
+        0.04296654729883549,
+        0.02236016523908068,
+        0.020482845573248316,
+        0.018672910211659847,
+        0.027544232838154093,
+        3.57430203691985e-10
+      ],
+      "maxAdjacentChangeRad": 0.2050945376753503,
+      "dominantSmoothnessJoint": 1,
+      "dominantSmoothnessFraction": 0.32543831516418376
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "ambient",
+      "seed": 5800,
+      "maxAdjacentChangeRadPerJoint": [
+        0.2314003267597836,
+        0.19733240158176701,
+        0.158414066013983,
+        0.1193815179962241,
+        0.4451512178631569,
+        0.06312055318665337
+      ],
+      "smoothnessPerJoint": [
+        0.07786216178012843,
+        0.03538549037417088,
+        0.028701003033723783,
+        0.025044057229953457,
+        0.376208267937313,
+        0.014333869639983747
+      ],
+      "maxAdjacentChangeRad": 0.4451512178631569,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.6747708559213876
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "ambient",
+      "seed": 5801,
+      "maxAdjacentChangeRadPerJoint": [
+        0.15872408722344056,
+        0.19329541790736005,
+        0.12231753819434799,
+        0.16381507260429787,
+        0.1736721543750499,
+        0.015262803691150443
+      ],
+      "smoothnessPerJoint": [
+        0.03554777206473363,
+        0.024201621990602204,
+        0.019413349246437603,
+        0.026865975989994042,
+        0.05165986243320759,
+        0.0010304466356839178
+      ],
+      "maxAdjacentChangeRad": 0.19329541790736005,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.32547995641593974
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "ambient",
+      "seed": 5802,
+      "maxAdjacentChangeRadPerJoint": [
+        0.26932452140937957,
+        0.17611967261692407,
+        0.19555494635694481,
+        0.24186814368652665,
+        0.6114393377922462,
+        0.5705229423338443
+      ],
+      "smoothnessPerJoint": [
+        0.24759633731583844,
+        0.0629298374510873,
+        0.09867035295616895,
+        0.09485418980418558,
+        0.36413988145936066,
+        0.3620799508643135
+      ],
+      "maxAdjacentChangeRad": 0.6114393377922462,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.2959835797934655
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "ambient",
+      "seed": 5803,
+      "maxAdjacentChangeRadPerJoint": [
+        0.17152912862995848,
+        0.1857721953561151,
+        0.13067927399411006,
+        0.1226248840299978,
+        0.1763752154044259,
+        0.01739847298964309
+      ],
+      "smoothnessPerJoint": [
+        0.034063040054632066,
+        0.030561244884565228,
+        0.031999676885264526,
+        0.02663198479712229,
+        0.057118948524188765,
+        0.0017030523434295862
+      ],
+      "maxAdjacentChangeRad": 0.1857721953561151,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.3137060215794448
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "ambient",
+      "seed": 5804,
+      "maxAdjacentChangeRadPerJoint": [
+        0.13784661217446126,
+        0.13615095875090422,
+        0.09998574639024116,
+        0.1346435109058784,
+        0.16183130137032697,
+        0.007760073119661107
+      ],
+      "smoothnessPerJoint": [
+        0.028991230679368204,
+        0.018269759626481707,
+        0.019004099806011063,
+        0.025841283908238897,
+        0.06427321353194551,
+        0.000180508884400104
+      ],
+      "maxAdjacentChangeRad": 0.16183130137032697,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.4105338141385011
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "energy_control",
+      "seed": 5800,
+      "maxAdjacentChangeRadPerJoint": [
+        0.40165818059142777,
+        0.22089584076074908,
+        0.1296810936468069,
+        0.1096805767788517,
+        0.6401649764052381,
+        0.3968265675905149
+      ],
+      "smoothnessPerJoint": [
+        0.06821328590219365,
+        0.035394635336507975,
+        0.049104101418199604,
+        0.038223901716038906,
+        0.2962069439429066,
+        0.19229604950858623
+      ],
+      "maxAdjacentChangeRad": 0.6401649764052381,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.4359581651450918
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "energy_control",
+      "seed": 5801,
+      "maxAdjacentChangeRadPerJoint": [
+        0.16551899009657095,
+        0.18184948463803208,
+        0.0998902421139729,
+        0.1735079106865109,
+        0.14560000083593594,
+        0.01673781874798856
+      ],
+      "smoothnessPerJoint": [
+        0.032104568455483186,
+        0.017373133852147463,
+        0.023074853622638343,
+        0.019565291388658028,
+        0.04073690906417957,
+        0.0012549835808624507
+      ],
+      "maxAdjacentChangeRad": 0.18184948463803208,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.3037580199255048
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "energy_control",
+      "seed": 5802,
+      "maxAdjacentChangeRadPerJoint": [
+        0.20526453430001046,
+        0.16387226090309293,
+        0.12681459761750702,
+        0.13464858412821906,
+        0.1857045814903422,
+        0.00350591034893872
+      ],
+      "smoothnessPerJoint": [
+        0.04740964282318649,
+        0.029336283886268834,
+        0.02285504023278691,
+        0.023100133219574544,
+        0.047516813540635285,
+        8.159229363742212e-05
+      ],
+      "maxAdjacentChangeRad": 0.20526453430001046,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.27901909205612374
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "energy_control",
+      "seed": 5803,
+      "maxAdjacentChangeRadPerJoint": [
+        0.2774657018282912,
+        0.10473048677913699,
+        0.07693298706325802,
+        0.07455668328790319,
+        0.20532186530483,
+        0.02851175041613882
+      ],
+      "smoothnessPerJoint": [
+        0.03891473369878114,
+        0.021947653655540956,
+        0.02260883752429045,
+        0.014430986186595069,
+        0.06328614335474168,
+        0.0015375271358436314
+      ],
+      "maxAdjacentChangeRad": 0.2774657018282912,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.3889125856911896
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "energy_control",
+      "seed": 5804,
+      "maxAdjacentChangeRadPerJoint": [
+        0.21653513795803003,
+        0.172833850362079,
+        0.08312741495146514,
+        0.1043231842220943,
+        0.13834815246478915,
+        0.016602086643395658
+      ],
+      "smoothnessPerJoint": [
+        0.038462631527920836,
+        0.018554970600766652,
+        0.010290715517880435,
+        0.01711794457340069,
+        0.04348729646567611,
+        0.0024065896397099016
+      ],
+      "maxAdjacentChangeRad": 0.21653513795803003,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.33369587914454035
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed50",
+      "seed": 5800,
+      "maxAdjacentChangeRadPerJoint": [
+        0.27738318639399656,
+        0.131079947308125,
+        0.09926438381333691,
+        0.1194683646454453,
+        0.12060639158159514,
+        0.00016018095333892153
+      ],
+      "smoothnessPerJoint": [
+        0.04354038332150534,
+        0.026010065162446822,
+        0.024426156429499944,
+        0.018249444808355605,
+        0.04405251752587304,
+        2.105220639628255e-08
+      ],
+      "maxAdjacentChangeRad": 0.27738318639399656,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.28188453712762934
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed50",
+      "seed": 5801,
+      "maxAdjacentChangeRadPerJoint": [
+        0.2766389857192447,
+        0.13387194951861603,
+        0.11720740460995804,
+        0.0842332596885947,
+        0.1964873263047019,
+        0.01606054668561273
+      ],
+      "smoothnessPerJoint": [
+        0.04655738280303168,
+        0.02585579173415875,
+        0.02815506937484409,
+        0.02005569033844011,
+        0.08893646127796262,
+        0.0022657790419925465
+      ],
+      "maxAdjacentChangeRad": 0.2766389857192447,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.41985586275312853
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed50",
+      "seed": 5802,
+      "maxAdjacentChangeRadPerJoint": [
+        0.21584053137155612,
+        0.14855585021829798,
+        0.09720851206130687,
+        0.12389812770066067,
+        0.13396239345866512,
+        4.283517417617193e-05
+      ],
+      "smoothnessPerJoint": [
+        0.04206579946023056,
+        0.02960043154838739,
+        0.029166947797277184,
+        0.02628360684108386,
+        0.026715858370940895,
+        4.0695434043964373e-10
+      ],
+      "maxAdjacentChangeRad": 0.21584053137155612,
+      "dominantSmoothnessJoint": 1,
+      "dominantSmoothnessFraction": 0.273451708624653
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed50",
+      "seed": 5803,
+      "maxAdjacentChangeRadPerJoint": [
+        0.2749551013946279,
+        0.1473348489961479,
+        0.10919718421222191,
+        0.13694377702894867,
+        0.10690799231566905,
+        0.017293299747913167
+      ],
+      "smoothnessPerJoint": [
+        0.04098474935360972,
+        0.014577443409396049,
+        0.022143292103555475,
+        0.021320215205284453,
+        0.045708597876929394,
+        0.0026330534747368945
+      ],
+      "maxAdjacentChangeRad": 0.2749551013946279,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.3101677368521718
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed50",
+      "seed": 5804,
+      "maxAdjacentChangeRadPerJoint": [
+        0.16905040624264986,
+        0.146696620696247,
+        0.09482842028682503,
+        0.09512725474175704,
+        0.14687190241875303,
+        0.01503638124186038
+      ],
+      "smoothnessPerJoint": [
+        0.027821213334626588,
+        0.01655990821487214,
+        0.013371834440094084,
+        0.01179420010613092,
+        0.028685362268045928,
+        0.001417641196333565
+      ],
+      "maxAdjacentChangeRad": 0.16905040624264986,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.2878606757347395
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed75",
+      "seed": 5800,
+      "maxAdjacentChangeRadPerJoint": [
+        0.25598781588926134,
+        0.20094862166947003,
+        0.10817098157609006,
+        0.11234796304970013,
+        0.109623519035424,
+        0.01754384938214551
+      ],
+      "smoothnessPerJoint": [
+        0.046916694443509654,
+        0.04314596733268797,
+        0.03126811192764607,
+        0.0340128863904713,
+        0.054473856119903845,
+        0.0015560759356329972
+      ],
+      "maxAdjacentChangeRad": 0.25598781588926134,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.2577136318962919
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed75",
+      "seed": 5801,
+      "maxAdjacentChangeRadPerJoint": [
+        0.22707137717678727,
+        0.1539453463934939,
+        0.11624940222449998,
+        0.1360772207484881,
+        0.1646678217790689,
+        0.011415974946288253
+      ],
+      "smoothnessPerJoint": [
+        0.0428976083544459,
+        0.023203421549189935,
+        0.023460196208891105,
+        0.023689334821300194,
+        0.05057344969959119,
+        0.0003833478301721925
+      ],
+      "maxAdjacentChangeRad": 0.22707137717678727,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.30798528258893326
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed75",
+      "seed": 5802,
+      "maxAdjacentChangeRadPerJoint": [
+        0.2556583757250255,
+        0.1978324863752341,
+        0.15397295462718796,
+        0.1227890929308375,
+        0.14643266002106015,
+        0.014737418584456763
+      ],
+      "smoothnessPerJoint": [
+        0.06075652008716558,
+        0.037030472236728694,
+        0.031059336667593557,
+        0.03703630632016487,
+        0.10660845045478833,
+        0.0016935131592557251
+      ],
+      "maxAdjacentChangeRad": 0.2556583757250255,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.388819980671777
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed75",
+      "seed": 5803,
+      "maxAdjacentChangeRadPerJoint": [
+        0.2862287440993061,
+        0.20142459033144,
+        0.21500936670582305,
+        0.18443302915281468,
+        0.15618889069211717,
+        0.012290625429451113
+      ],
+      "smoothnessPerJoint": [
+        0.05770322076585346,
+        0.04177629855237873,
+        0.044146886824745435,
+        0.047634887346430024,
+        0.058169323805897996,
+        0.0007982372451482922
+      ],
+      "maxAdjacentChangeRad": 0.2862287440993061,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.23246449300471816
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed75",
+      "seed": 5804,
+      "maxAdjacentChangeRadPerJoint": [
+        0.20573546792532976,
+        0.16976177426793715,
+        0.16773922739812397,
+        0.10573750620873901,
+        0.13883029134728098,
+        5.700396655143169e-05
+      ],
+      "smoothnessPerJoint": [
+        0.042981112021777686,
+        0.022362665231260202,
+        0.02047273733784879,
+        0.018668899064591647,
+        0.027496408636178436,
+        5.661770515325313e-10
+      ],
+      "maxAdjacentChangeRad": 0.20573546792532976,
+      "dominantSmoothnessJoint": 1,
+      "dominantSmoothnessFraction": 0.325659330134237
+    },
+    {
+      "scenario": "layout",
+      "variant": "adaptive",
+      "seed": 5800,
+      "maxAdjacentChangeRadPerJoint": [
+        0.13870029030147468,
+        0.182063244840869,
+        0.10975713691324485,
+        0.1651333634894033,
+        0.1266049953077445,
+        0.017309617801400876
+      ],
+      "smoothnessPerJoint": [
+        0.033795793854168,
+        0.026602813601549632,
+        0.02029052096361233,
+        0.03028860156879939,
+        0.05982294998338288,
+        0.0016005548753227103
+      ],
+      "maxAdjacentChangeRad": 0.182063244840869,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.3469983845332135
+    },
+    {
+      "scenario": "layout",
+      "variant": "adaptive",
+      "seed": 5801,
+      "maxAdjacentChangeRadPerJoint": [
+        0.19466998391586315,
+        0.17725036897765079,
+        0.14462886235828387,
+        0.12605927246770413,
+        0.125995735314546,
+        0.01641344286781661
+      ],
+      "smoothnessPerJoint": [
+        0.046942898982805716,
+        0.04238425703516638,
+        0.03144397771815264,
+        0.031751044348974106,
+        0.046636966543959026,
+        0.000829892936391613
+      ],
+      "maxAdjacentChangeRad": 0.19466998391586315,
+      "dominantSmoothnessJoint": 1,
+      "dominantSmoothnessFraction": 0.2347273608306802
+    },
+    {
+      "scenario": "layout",
+      "variant": "adaptive",
+      "seed": 5802,
+      "maxAdjacentChangeRadPerJoint": [
+        0.22957294286308716,
+        0.12128187959864012,
+        0.08838419348508708,
+        0.10020851694818939,
+        0.09409497584398197,
+        0.014949956878157138
+      ],
+      "smoothnessPerJoint": [
+        0.03726292326423954,
+        0.0191764244414917,
+        0.023718703160818942,
+        0.02257808420786479,
+        0.029507839795697578,
+        0.00079849339786225
+      ],
+      "maxAdjacentChangeRad": 0.22957294286308716,
+      "dominantSmoothnessJoint": 1,
+      "dominantSmoothnessFraction": 0.2800829220124237
+    },
+    {
+      "scenario": "layout",
+      "variant": "adaptive",
+      "seed": 5803,
+      "maxAdjacentChangeRadPerJoint": [
+        0.22400744764325659,
+        0.12025239387666709,
+        0.08987406542370602,
+        0.08343252470022111,
+        0.08457082641091906,
+        0.011158277507949661
+      ],
+      "smoothnessPerJoint": [
+        0.027401349045019525,
+        0.01611286520370965,
+        0.017904501900877553,
+        0.01802663951268165,
+        0.029990604373619736,
+        0.0005375897392180538
+      ],
+      "maxAdjacentChangeRad": 0.22400744764325659,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.27270743224115707
+    },
+    {
+      "scenario": "layout",
+      "variant": "adaptive",
+      "seed": 5804,
+      "maxAdjacentChangeRadPerJoint": [
+        0.152408254631891,
+        0.17536688631546293,
+        0.08923221111747703,
+        0.16011819849048597,
+        0.132901191300836,
+        0.009849617327854865
+      ],
+      "smoothnessPerJoint": [
+        0.031813739833073375,
+        0.018929009097862007,
+        0.02178044369268648,
+        0.023164823574186824,
+        0.05711013672180475,
+        0.000892650818099269
+      ],
+      "maxAdjacentChangeRad": 0.17536688631546293,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.3715911123691459
+    },
+    {
+      "scenario": "layout",
+      "variant": "ambient",
+      "seed": 5800,
+      "maxAdjacentChangeRadPerJoint": [
+        0.11968971354171332,
+        0.12778190832347902,
+        0.11100542976331496,
+        0.0918400571276693,
+        0.09570769292043613,
+        0.015234113009270564
+      ],
+      "smoothnessPerJoint": [
+        0.01721171543019782,
+        0.018319028660492218,
+        0.01450896902215435,
+        0.014111794191643958,
+        0.02956396175495128,
+        0.0021149986212873114
+      ],
+      "maxAdjacentChangeRad": 0.12778190832347902,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.3085027389561313
+    },
+    {
+      "scenario": "layout",
+      "variant": "ambient",
+      "seed": 5801,
+      "maxAdjacentChangeRadPerJoint": [
+        0.12630958387547686,
+        0.08867870647577092,
+        0.04823748831883501,
+        0.09822259706591652,
+        0.101088114256354,
+        0.01394529168878234
+      ],
+      "smoothnessPerJoint": [
+        0.016133859481459546,
+        0.009219352004861778,
+        0.00960806045084163,
+        0.007106146587205808,
+        0.0192609386735051,
+        0.00030243111048202477
+      ],
+      "maxAdjacentChangeRad": 0.12630958387547686,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.3125213744977152
+    },
+    {
+      "scenario": "layout",
+      "variant": "ambient",
+      "seed": 5802,
+      "maxAdjacentChangeRadPerJoint": [
+        0.18379558402489105,
+        0.22990034978085183,
+        0.09961405360646403,
+        0.20201180250956108,
+        0.6553952565702086,
+        0.530334873074769
+      ],
+      "smoothnessPerJoint": [
+        0.087927725286303,
+        0.05175273522626196,
+        0.038950424889869294,
+        0.047256014108043747,
+        0.23158184573803556,
+        0.27035426839823673
+      ],
+      "maxAdjacentChangeRad": 0.6553952565702086,
+      "dominantSmoothnessJoint": 6,
+      "dominantSmoothnessFraction": 0.3714560591367251
+    },
+    {
+      "scenario": "layout",
+      "variant": "ambient",
+      "seed": 5803,
+      "maxAdjacentChangeRadPerJoint": [
+        0.22912385051287332,
+        0.11936441444739909,
+        0.10868298654713016,
+        0.068311427629235,
+        0.23899962662305285,
+        0.016003926760707617
+      ],
+      "smoothnessPerJoint": [
+        0.042785431118568196,
+        0.019699863278012646,
+        0.029307397405685123,
+        0.0244632881465992,
+        0.08327068833342247,
+        0.00254512375012029
+      ],
+      "maxAdjacentChangeRad": 0.23899962662305285,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.41208467295656814
+    },
+    {
+      "scenario": "layout",
+      "variant": "ambient",
+      "seed": 5804,
+      "maxAdjacentChangeRadPerJoint": [
+        0.13266589656438893,
+        0.13684512960768713,
+        0.09717351572660404,
+        0.13443212721637648,
+        0.160863737830651,
+        0.007760401658358445
+      ],
+      "smoothnessPerJoint": [
+        0.028996923355854052,
+        0.018240181576817584,
+        0.019001445907898977,
+        0.025834680853593934,
+        0.06425067522600152,
+        0.00017980832578554537
+      ],
+      "maxAdjacentChangeRad": 0.160863737830651,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.4105376995365836
+    },
+    {
+      "scenario": "layout",
+      "variant": "energy_control",
+      "seed": 5800,
+      "maxAdjacentChangeRadPerJoint": [
+        0.23906538849807513,
+        0.14673509924237993,
+        0.10744141312934308,
+        0.11621324677267565,
+        0.318156181478196,
+        0.045023803031425585
+      ],
+      "smoothnessPerJoint": [
+        0.0694325713501979,
+        0.024435966125567293,
+        0.020009837050470422,
+        0.017019523032606836,
+        0.3011196050146783,
+        0.005244603648349567
+      ],
+      "maxAdjacentChangeRad": 0.318156181478196,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.6886478401169476
+    },
+    {
+      "scenario": "layout",
+      "variant": "energy_control",
+      "seed": 5801,
+      "maxAdjacentChangeRadPerJoint": [
+        0.1967580948805432,
+        0.08754398011901299,
+        0.08377716861502704,
+        0.08749900769688236,
+        0.19021918125621196,
+        0.015381892725139509
+      ],
+      "smoothnessPerJoint": [
+        0.029345978953499923,
+        0.014936969410722326,
+        0.02043667391536435,
+        0.01389478425989868,
+        0.05596182838386969,
+        0.0005804543615832207
+      ],
+      "maxAdjacentChangeRad": 0.1967580948805432,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.4140514885348413
+    },
+    {
+      "scenario": "layout",
+      "variant": "energy_control",
+      "seed": 5802,
+      "maxAdjacentChangeRadPerJoint": [
+        0.21087243178288673,
+        0.15695868194013518,
+        0.10029144865816009,
+        0.1931087281154453,
+        0.3764147890714095,
+        0.37060586852142163
+      ],
+      "smoothnessPerJoint": [
+        0.06653427682078955,
+        0.029585647641827594,
+        0.026915891668423026,
+        0.03752702875500084,
+        0.14771254929560548,
+        0.1322733841925948
+      ],
+      "maxAdjacentChangeRad": 0.3764147890714095,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.33529215502698617
+    },
+    {
+      "scenario": "layout",
+      "variant": "energy_control",
+      "seed": 5803,
+      "maxAdjacentChangeRadPerJoint": [
+        0.1989123437562694,
+        0.14048481397749102,
+        0.10262897041626395,
+        0.08884836977812784,
+        0.26958822218181244,
+        0.018656173056267263
+      ],
+      "smoothnessPerJoint": [
+        0.0588551413150306,
+        0.01885307787753776,
+        0.028038869587600795,
+        0.030859217188977658,
+        0.14322819039871978,
+        0.0011268884503714898
+      ],
+      "maxAdjacentChangeRad": 0.26958822218181244,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.5097789167410965
+    },
+    {
+      "scenario": "layout",
+      "variant": "energy_control",
+      "seed": 5804,
+      "maxAdjacentChangeRadPerJoint": [
+        0.22879573425437416,
+        0.14288206492090816,
+        0.12634486235694098,
+        0.08648776574384531,
+        0.1760195134633291,
+        0.008772223580101868
+      ],
+      "smoothnessPerJoint": [
+        0.027247573223683295,
+        0.019968299348687095,
+        0.019300699174785718,
+        0.015562546024820758,
+        0.07456067075054823,
+        0.00033583144184709757
+      ],
+      "maxAdjacentChangeRad": 0.22879573425437416,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.47498248943033833
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed50",
+      "seed": 5800,
+      "maxAdjacentChangeRadPerJoint": [
+        0.2923345128768112,
+        0.18209173419494196,
+        0.12398341675965319,
+        0.1372722603456901,
+        1.3582502366725409,
+        0.023580516567848014
+      ],
+      "smoothnessPerJoint": [
+        0.15137235046823747,
+        0.03746521005847226,
+        0.024878221885811746,
+        0.025172351494813606,
+        3.3714751189664356,
+        0.0046927143307886
+      ],
+      "maxAdjacentChangeRad": 1.3582502366725409,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.9326204489092657
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed50",
+      "seed": 5801,
+      "maxAdjacentChangeRadPerJoint": [
+        0.19478673194546264,
+        0.176660781572461,
+        0.14381038925828604,
+        0.12608674025715327,
+        0.12923354505400186,
+        0.01638218752587591
+      ],
+      "smoothnessPerJoint": [
+        0.04696140601587125,
+        0.04234567822213222,
+        0.03143845864056143,
+        0.03174826814637641,
+        0.04729473996605279,
+        0.0008275140503057629
+      ],
+      "maxAdjacentChangeRad": 0.19478673194546264,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.23574752079957528
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed50",
+      "seed": 5802,
+      "maxAdjacentChangeRadPerJoint": [
+        0.23909506164677397,
+        0.13296647906996317,
+        0.080842144748686,
+        0.08424465167986347,
+        0.22004975195522303,
+        0.019039779562306822
+      ],
+      "smoothnessPerJoint": [
+        0.031202113406965,
+        0.01679548932190982,
+        0.013811376911248995,
+        0.013786361992272487,
+        0.05217602298729139,
+        0.001997097910071425
+      ],
+      "maxAdjacentChangeRad": 0.23909506164677397,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.40207013299033373
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed50",
+      "seed": 5803,
+      "maxAdjacentChangeRadPerJoint": [
+        0.22069730965981177,
+        0.121325496211665,
+        0.09039556908376611,
+        0.08326133179868937,
+        0.0919584718540587,
+        0.011429940584801363
+      ],
+      "smoothnessPerJoint": [
+        0.026801348213248075,
+        0.016201428353868248,
+        0.017778037156800732,
+        0.0180787279399876,
+        0.03156003516850812,
+        0.0004195848919223712
+      ],
+      "maxAdjacentChangeRad": 0.22069730965981177,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.2847372235365706
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed50",
+      "seed": 5804,
+      "maxAdjacentChangeRadPerJoint": [
+        0.1984598762705612,
+        0.13380107787721696,
+        0.0882692989896019,
+        0.10668204927713458,
+        0.10713007249546114,
+        0.014619237854854495
+      ],
+      "smoothnessPerJoint": [
+        0.03189417983386289,
+        0.01418314023799438,
+        0.015049206421203295,
+        0.01596806428238037,
+        0.029166888451746455,
+        0.0012143003231252247
+      ],
+      "maxAdjacentChangeRad": 0.1984598762705612,
+      "dominantSmoothnessJoint": 1,
+      "dominantSmoothnessFraction": 0.2967569062286473
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed75",
+      "seed": 5800,
+      "maxAdjacentChangeRadPerJoint": [
+        0.2675444975546537,
+        0.2611532102428722,
+        0.1771037505257751,
+        0.13026809177534854,
+        0.11963181548391089,
+        3.957608789825203e-05
+      ],
+      "smoothnessPerJoint": [
+        0.0407471619054316,
+        0.039929870551395914,
+        0.030286754047658872,
+        0.019822447372308098,
+        0.03870228639954891,
+        2.5216702963065116e-10
+      ],
+      "maxAdjacentChangeRad": 0.2675444975546537,
+      "dominantSmoothnessJoint": 1,
+      "dominantSmoothnessFraction": 0.24041251748714945
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed75",
+      "seed": 5801,
+      "maxAdjacentChangeRadPerJoint": [
+        0.19519987361500482,
+        0.17716675923776504,
+        0.1444749370597831,
+        0.1260499962799991,
+        0.12643692408340712,
+        0.01645201876619244
+      ],
+      "smoothnessPerJoint": [
+        0.0469530623661572,
+        0.04235864069291126,
+        0.03138972456435483,
+        0.03175154166874356,
+        0.046822240088329976,
+        0.0008361273672173512
+      ],
+      "maxAdjacentChangeRad": 0.19519987361500482,
+      "dominantSmoothnessJoint": 1,
+      "dominantSmoothnessFraction": 0.2346346945118467
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed75",
+      "seed": 5802,
+      "maxAdjacentChangeRadPerJoint": [
+        0.1949739829017323,
+        0.13282091720282097,
+        0.10577934752240803,
+        0.10197473951172897,
+        0.12201168845492727,
+        0.014672280820652778
+      ],
+      "smoothnessPerJoint": [
+        0.0320449785716516,
+        0.027185962377364172,
+        0.034295872208253954,
+        0.028854757198421004,
+        0.038180732218367854,
+        0.00109254626265582
+      ],
+      "maxAdjacentChangeRad": 0.1949739829017323,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.23618674288535413
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed75",
+      "seed": 5803,
+      "maxAdjacentChangeRadPerJoint": [
+        0.16344218690597156,
+        0.16580582176523495,
+        0.10904276773188504,
+        0.14183636516723003,
+        0.06490493037267919,
+        4.0399161865807423e-05
+      ],
+      "smoothnessPerJoint": [
+        0.043945806735584396,
+        0.02038428026504202,
+        0.021110012795934482,
+        0.026252044666435662,
+        0.020125848282814024,
+        2.520276824687845e-10
+      ],
+      "maxAdjacentChangeRad": 0.16580582176523495,
+      "dominantSmoothnessJoint": 1,
+      "dominantSmoothnessFraction": 0.3333824596791204
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed75",
+      "seed": 5804,
+      "maxAdjacentChangeRadPerJoint": [
+        0.22935975520473384,
+        0.11629624171408004,
+        0.09110770904956,
+        0.0790486480692459,
+        0.1582267465904139,
+        4.2262449225547626e-05
+      ],
+      "smoothnessPerJoint": [
+        0.038795000348478624,
+        0.017050907172199082,
+        0.020045706865133003,
+        0.019201242195083176,
+        0.044283730577784945,
+        1.382862998345218e-09
+      ],
+      "maxAdjacentChangeRad": 0.22935975520473384,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.31772718102212677
+    },
+    {
+      "scenario": "workcell",
+      "variant": "adaptive",
+      "seed": 5800,
+      "maxAdjacentChangeRadPerJoint": [
+        0.2918814890575658,
+        0.18722143898409094,
+        0.1186102899177961,
+        0.10676100366566141,
+        0.18625225406743096,
+        0.010990101408768894
+      ],
+      "smoothnessPerJoint": [
+        0.041028383179814165,
+        0.030485411590834868,
+        0.02716888929345375,
+        0.026826708755803768,
+        0.06505301422420735,
+        0.0006197831560698064
+      ],
+      "maxAdjacentChangeRad": 0.2918814890575658,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.3402671250710718
+    },
+    {
+      "scenario": "workcell",
+      "variant": "adaptive",
+      "seed": 5801,
+      "maxAdjacentChangeRadPerJoint": [
+        0.2505017662543453,
+        0.17816215555144788,
+        0.156548250200234,
+        0.2283942329658523,
+        0.14682266065149108,
+        0.006182186925116107
+      ],
+      "smoothnessPerJoint": [
+        0.0634400365729732,
+        0.06698639209754702,
+        0.04610045366240427,
+        0.0753126880995016,
+        0.13675893820829071,
+        0.0003215299950020483
+      ],
+      "maxAdjacentChangeRad": 0.2505017662543453,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.3516376751581723
+    },
+    {
+      "scenario": "workcell",
+      "variant": "adaptive",
+      "seed": 5802,
+      "maxAdjacentChangeRadPerJoint": [
+        0.2431197433047675,
+        0.12007772286284202,
+        0.07848177644667498,
+        0.10595273503087838,
+        0.12141215572546504,
+        0.017936667925032384
+      ],
+      "smoothnessPerJoint": [
+        0.042653928608467555,
+        0.02836958286614274,
+        0.026862294035645135,
+        0.030039026629810287,
+        0.03704594846764224,
+        0.0010822760563184762
+      ],
+      "maxAdjacentChangeRad": 0.2431197433047675,
+      "dominantSmoothnessJoint": 1,
+      "dominantSmoothnessFraction": 0.2568692769972241
+    },
+    {
+      "scenario": "workcell",
+      "variant": "adaptive",
+      "seed": 5803,
+      "maxAdjacentChangeRadPerJoint": [
+        0.27185469964380105,
+        0.1436039869380521,
+        0.10369133880793613,
+        0.1082831839000678,
+        0.1791474856017239,
+        0.016896476172605514
+      ],
+      "smoothnessPerJoint": [
+        0.058850816155940074,
+        0.029487174293433647,
+        0.04218455662779394,
+        0.033060076824418666,
+        0.07255588094626624,
+        0.0012501355845790827
+      ],
+      "maxAdjacentChangeRad": 0.27185469964380105,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.3056417561265656
+    },
+    {
+      "scenario": "workcell",
+      "variant": "adaptive",
+      "seed": 5804,
+      "maxAdjacentChangeRadPerJoint": [
+        0.13834902446260705,
+        0.1685301559807848,
+        0.1112933948968029,
+        0.11918121428112285,
+        0.19142523622313035,
+        0.0017014793036930441
+      ],
+      "smoothnessPerJoint": [
+        0.02759643623936886,
+        0.020908386533090528,
+        0.02169802414700925,
+        0.023752802321881174,
+        0.05627354988803657,
+        1.543615641422383e-05
+      ],
+      "maxAdjacentChangeRad": 0.19142523622313035,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.37454615122191254
+    },
+    {
+      "scenario": "workcell",
+      "variant": "ambient",
+      "seed": 5800,
+      "maxAdjacentChangeRadPerJoint": [
+        0.25467145145248715,
+        0.12575519830790394,
+        0.10644470936591488,
+        0.1215873725737221,
+        0.1627939345751539,
+        0.0023258626422336982
+      ],
+      "smoothnessPerJoint": [
+        0.054984623066718606,
+        0.030483129134153245,
+        0.02838036189994852,
+        0.02259087742646974,
+        0.07110189228140128,
+        2.05618056069584e-05
+      ],
+      "maxAdjacentChangeRad": 0.25467145145248715,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.3425582823003005
+    },
+    {
+      "scenario": "workcell",
+      "variant": "ambient",
+      "seed": 5801,
+      "maxAdjacentChangeRadPerJoint": [
+        0.1708857721577388,
+        0.1212129512015141,
+        0.10260686050811296,
+        0.13176067709131264,
+        0.1804037590178148,
+        0.01418010941517965
+      ],
+      "smoothnessPerJoint": [
+        0.035154633851111894,
+        0.02654987830809946,
+        0.021022277857165865,
+        0.030029320488482624,
+        0.07878879671139286,
+        0.0006311607519600844
+      ],
+      "maxAdjacentChangeRad": 0.1804037590178148,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.4099823539132097
+    },
+    {
+      "scenario": "workcell",
+      "variant": "ambient",
+      "seed": 5802,
+      "maxAdjacentChangeRadPerJoint": [
+        0.2154513525637528,
+        0.12536247551729196,
+        0.11111198414190615,
+        0.08029257446117423,
+        0.18471803226567607,
+        0.017764506449083173
+      ],
+      "smoothnessPerJoint": [
+        0.037901288809698355,
+        0.021504567765104777,
+        0.028576776439436583,
+        0.028759631929085906,
+        0.07473893814601083,
+        0.0015073682507816763
+      ],
+      "maxAdjacentChangeRad": 0.2154513525637528,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.3872713167780948
+    },
+    {
+      "scenario": "workcell",
+      "variant": "ambient",
+      "seed": 5803,
+      "maxAdjacentChangeRadPerJoint": [
+        0.18863119760159108,
+        0.22264092053724083,
+        0.1584470784780181,
+        0.13780417647632626,
+        0.5845913490477342,
+        0.5168853648141765
+      ],
+      "smoothnessPerJoint": [
+        0.04536833946537706,
+        0.051657810783676886,
+        0.04632874882739474,
+        0.04384053721389758,
+        0.28423364996116585,
+        0.26752594083479797
+      ],
+      "maxAdjacentChangeRad": 0.5845913490477342,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.38464269074925356
+    },
+    {
+      "scenario": "workcell",
+      "variant": "ambient",
+      "seed": 5804,
+      "maxAdjacentChangeRadPerJoint": [
+        0.1484735731374165,
+        0.17264717207425906,
+        0.1022612744134479,
+        0.10070948147025241,
+        0.17239238882588692,
+        0.015054328873058095
+      ],
+      "smoothnessPerJoint": [
+        0.027491886944155882,
+        0.019792926489075005,
+        0.021184866422120006,
+        0.018305078276651784,
+        0.05540336418031329,
+        0.0008255080666485194
+      ],
+      "maxAdjacentChangeRad": 0.17264717207425906,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.38742627745528196
+    },
+    {
+      "scenario": "workcell",
+      "variant": "energy_control",
+      "seed": 5800,
+      "maxAdjacentChangeRadPerJoint": [
+        0.2544318543342365,
+        0.13797161157764815,
+        0.10130026391395996,
+        0.10193488459184592,
+        0.4239593104498663,
+        0.23338036102324797
+      ],
+      "smoothnessPerJoint": [
+        0.043076509837770977,
+        0.03490589249672333,
+        0.04704186104785993,
+        0.028641441595641935,
+        0.16198787051873023,
+        0.11897892058859136
+      ],
+      "maxAdjacentChangeRad": 0.4239593104498663,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.37270078049325667
+    },
+    {
+      "scenario": "workcell",
+      "variant": "energy_control",
+      "seed": 5801,
+      "maxAdjacentChangeRadPerJoint": [
+        0.19333870106763804,
+        0.1237309525832202,
+        0.07867296870177509,
+        0.1188296602198974,
+        0.13326774325829893,
+        0.011387343219643832
+      ],
+      "smoothnessPerJoint": [
+        0.036452370675649375,
+        0.017223225064351047,
+        0.017051548627365944,
+        0.018848972607265358,
+        0.061336022182727074,
+        0.0003281612307400367
+      ],
+      "maxAdjacentChangeRad": 0.19333870106763804,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.40555342739555705
+    },
+    {
+      "scenario": "workcell",
+      "variant": "energy_control",
+      "seed": 5802,
+      "maxAdjacentChangeRadPerJoint": [
+        0.18452368205440758,
+        0.13492745325621103,
+        0.10983181593302893,
+        0.0775467614555544,
+        0.13073256190863702,
+        0.013238643353127853
+      ],
+      "smoothnessPerJoint": [
+        0.03324066318248471,
+        0.02082163991555967,
+        0.018233803462761683,
+        0.012344872653762707,
+        0.05810767962204581,
+        0.0007796329589408981
+      ],
+      "maxAdjacentChangeRad": 0.18452368205440758,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.4048517466146363
+    },
+    {
+      "scenario": "workcell",
+      "variant": "energy_control",
+      "seed": 5803,
+      "maxAdjacentChangeRadPerJoint": [
+        0.2143946099512285,
+        0.18308870851215509,
+        0.09632871318258096,
+        0.1019670687572864,
+        0.1291308680714871,
+        0.0121866973565585
+      ],
+      "smoothnessPerJoint": [
+        0.045765507797896225,
+        0.019665784294181473,
+        0.021403673892227984,
+        0.02343039018651337,
+        0.05467400364158075,
+        0.0009827489526697526
+      ],
+      "maxAdjacentChangeRad": 0.2143946099512285,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.3295160846767812
+    },
+    {
+      "scenario": "workcell",
+      "variant": "energy_control",
+      "seed": 5804,
+      "maxAdjacentChangeRadPerJoint": [
+        0.17071705758225714,
+        0.13609006318046202,
+        0.09745669512398791,
+        0.10514789397397958,
+        0.2345770069516555,
+        0.018779465740381564
+      ],
+      "smoothnessPerJoint": [
+        0.022406131648461534,
+        0.011466276406523953,
+        0.01810977160167817,
+        0.018134823630028912,
+        0.07965095017947578,
+        0.002410539112912513
+      ],
+      "maxAdjacentChangeRad": 0.2345770069516555,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.5234047783597572
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed50",
+      "seed": 5800,
+      "maxAdjacentChangeRadPerJoint": [
+        0.2273244754270392,
+        0.31283866499816915,
+        0.25747971836930006,
+        0.38100601810542517,
+        2.536652012549139,
+        0.8304902208212097
+      ],
+      "smoothnessPerJoint": [
+        0.10674162596483538,
+        0.20705227976838875,
+        0.18746686931774217,
+        0.16448569440704425,
+        12.135448367779135,
+        1.3549216569665465
+      ],
+      "maxAdjacentChangeRad": 2.536652012549139,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.8572583005196424
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed50",
+      "seed": 5801,
+      "maxAdjacentChangeRadPerJoint": [
+        0.154992489619853,
+        0.21615471786785934,
+        0.12330416137963707,
+        0.20013102038793007,
+        0.15486732930094005,
+        0.012527606633670038
+      ],
+      "smoothnessPerJoint": [
+        0.03752287615631987,
+        0.04029257114410389,
+        0.02357605244577009,
+        0.040148708678384985,
+        0.07183336548687125,
+        0.0010193902792128681
+      ],
+      "maxAdjacentChangeRad": 0.21615471786785934,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.3350546775545709
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed50",
+      "seed": 5802,
+      "maxAdjacentChangeRadPerJoint": [
+        0.3453053206697284,
+        0.12895928820268,
+        0.10260051949977811,
+        0.1058157745736843,
+        0.1301903084776741,
+        0.01704880860058345
+      ],
+      "smoothnessPerJoint": [
+        0.055664691549067044,
+        0.038692542389794735,
+        0.036734266773355395,
+        0.030179306352651807,
+        0.05313021512452012,
+        0.001025266486300394
+      ],
+      "maxAdjacentChangeRad": 0.3453053206697284,
+      "dominantSmoothnessJoint": 1,
+      "dominantSmoothnessFraction": 0.25839321603347437
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed50",
+      "seed": 5803,
+      "maxAdjacentChangeRadPerJoint": [
+        0.2699696183731672,
+        0.10351013955620614,
+        0.08493093776256,
+        0.09752083388820701,
+        0.14775128965224504,
+        0.016337082733047636
+      ],
+      "smoothnessPerJoint": [
+        0.04204463220410015,
+        0.018740509509821486,
+        0.018118275724863846,
+        0.02256789444239597,
+        0.058839934099363535,
+        0.0015908803961543006
+      ],
+      "maxAdjacentChangeRad": 0.2699696183731672,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.3634290383713681
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed50",
+      "seed": 5804,
+      "maxAdjacentChangeRadPerJoint": [
+        0.1848590563349337,
+        0.172934259098124,
+        0.15848396301488799,
+        0.10586924091680164,
+        0.13054710985815066,
+        0.014768507305716782
+      ],
+      "smoothnessPerJoint": [
+        0.052503021106061865,
+        0.027547276535042332,
+        0.03058608095328089,
+        0.022212104294851584,
+        0.05953389467887774,
+        0.000878475228606916
+      ],
+      "maxAdjacentChangeRad": 0.1848590563349337,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.3080494255165976
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed75",
+      "seed": 5800,
+      "maxAdjacentChangeRadPerJoint": [
+        0.3138058262972801,
+        0.2772005017942072,
+        0.19675586613210005,
+        0.1620156908157584,
+        0.13585548741143105,
+        0.009053660963205732
+      ],
+      "smoothnessPerJoint": [
+        0.05206415931175214,
+        0.048342427117564236,
+        0.037832000182947974,
+        0.02579899596448604,
+        0.03982444018160488,
+        0.00021687952925947144
+      ],
+      "maxAdjacentChangeRad": 0.3138058262972801,
+      "dominantSmoothnessJoint": 1,
+      "dominantSmoothnessFraction": 0.2551177937951494
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed75",
+      "seed": 5801,
+      "maxAdjacentChangeRadPerJoint": [
+        0.21435996144792974,
+        0.12354603026002398,
+        0.11699220372090313,
+        0.09461584364540301,
+        0.12675243395547398,
+        3.5288876217681384e-05
+      ],
+      "smoothnessPerJoint": [
+        0.04043914100154173,
+        0.024439518142547675,
+        0.03206293240992315,
+        0.034592115181243145,
+        0.05593313869096549,
+        1.776115745402254e-09
+      ],
+      "maxAdjacentChangeRad": 0.21435996144792974,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.2983628280183091
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed75",
+      "seed": 5802,
+      "maxAdjacentChangeRadPerJoint": [
+        0.23004267410678947,
+        0.23074351987561803,
+        0.14929345189593413,
+        0.17322751679565698,
+        0.4516351620189937,
+        0.24335017158798855
+      ],
+      "smoothnessPerJoint": [
+        0.03391916122404335,
+        0.03893455084015381,
+        0.041207206789992186,
+        0.038838042722010156,
+        0.25900688908486835,
+        0.10326602393589522
+      ],
+      "maxAdjacentChangeRad": 0.4516351620189937,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.5027582091656274
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed75",
+      "seed": 5803,
+      "maxAdjacentChangeRadPerJoint": [
+        0.23045712637902935,
+        0.11429145821628395,
+        0.11879687403317907,
+        0.1000798819714449,
+        0.12091635594353711,
+        0.011309570790982292
+      ],
+      "smoothnessPerJoint": [
+        0.027278671653427476,
+        0.015420981924460961,
+        0.018652397246969765,
+        0.02061573165233413,
+        0.03502907220548307,
+        0.0005071867480567232
+      ],
+      "maxAdjacentChangeRad": 0.23045712637902935,
+      "dominantSmoothnessJoint": 5,
+      "dominantSmoothnessFraction": 0.298109509928069
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed75",
+      "seed": 5804,
+      "maxAdjacentChangeRadPerJoint": [
+        0.2280727266756413,
+        0.12300965667407904,
+        0.112958157075431,
+        0.1243121217364388,
+        0.11638686108887497,
+        6.186800940276554e-05
+      ],
+      "smoothnessPerJoint": [
+        0.03342007026516496,
+        0.020050784932640148,
+        0.02110591514651388,
+        0.01652602992786089,
+        0.02449009163343939,
+        5.089491418881321e-10
+      ],
+      "maxAdjacentChangeRad": 0.2280727266756413,
+      "dominantSmoothnessJoint": 1,
+      "dominantSmoothnessFraction": 0.2891187301145253
+    }
+  ]
+}

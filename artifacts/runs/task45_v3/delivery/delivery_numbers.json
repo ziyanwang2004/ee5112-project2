@@ -1,0 +1,29 @@
+{
+  "groups": {
+    "4": {
+      "task": 4,
+      "mode": "none",
+      "n": 20,
+      "successes": 20,
+      "medianTime": 30.422382149999997,
+      "worstTilt": 169.59057347149283,
+      "minGap": 0.03540830467317305,
+      "minHeight": 0.2730927320930279,
+      "minMeshGap": 0.08253010563295318
+    },
+    "5": {
+      "task": 5,
+      "mode": "projected",
+      "n": 20,
+      "successes": 20,
+      "medianTime": 68.1873606,
+      "worstTilt": 0.9966206148281029,
+      "minGap": 0.035225437209558834,
+      "minHeight": 0.2809048282762481,
+      "minMeshGap": 0.07991872143482598
+    }
+  },
+  "formalReplays": 804,
+  "demoReplays": 20,
+  "fineJointStep": 0.00625
+}

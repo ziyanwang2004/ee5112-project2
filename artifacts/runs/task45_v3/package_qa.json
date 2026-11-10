@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "pdfs": [
+    {
+      "path": "task45_v3_report.pdf",
+      "pages": 3
+    },
+    {
+      "path": "task45_v3_slides.pdf",
+      "pages": 4
+    }
+  ],
+  "slides": 4,
+  "nativeTables": 1,
+  "speakerNotesWithChineseAndSources": 4,
+  "textOverflow": [],
+  "allVideoFramesDecoded": 450,
+  "scope": "Structural/layout/data checks; rendered-page visual review recorded separately."
+}

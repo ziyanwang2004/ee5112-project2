@@ -1,0 +1,131 @@
+{
+  "baseCommit": "fea847b684e1c777fe9715a13a9a6fae08f2919c",
+  "v3": {
+    "4": {
+      "n": 20,
+      "successes": 20,
+      "medianTime": 30.422382149999997,
+      "worstTilt": 169.59057347149283,
+      "minGap": 35.40830467317305,
+      "minHeight": 273.0927320930279
+    },
+    "5": {
+      "n": 20,
+      "successes": 20,
+      "medianTime": 68.1873606,
+      "worstTilt": 0.9966206148281029,
+      "minGap": 35.225437209558834,
+      "minHeight": 280.90482827624805
+    }
+  },
+  "v5": [
+    {
+      "arm": "ambient",
+      "n": 15,
+      "successes": 14,
+      "medianTime": 103.5671371,
+      "medianQ": 8.636029336533202,
+      "byScene": {
+        "workcell": 4,
+        "endpoints": 5,
+        "layout": 5
+      }
+    },
+    {
+      "arm": "energy_control",
+      "n": 15,
+      "successes": 15,
+      "medianTime": 92.943133,
+      "medianQ": 8.776898324841184,
+      "byScene": {
+        "workcell": 5,
+        "endpoints": 5,
+        "layout": 5
+      }
+    },
+    {
+      "arm": "fixed50",
+      "n": 15,
+      "successes": 14,
+      "medianTime": 151.1185823,
+      "medianQ": 9.037792253924955,
+      "byScene": {
+        "workcell": 5,
+        "endpoints": 4,
+        "layout": 5
+      }
+    },
+    {
+      "arm": "fixed75",
+      "n": 15,
+      "successes": 15,
+      "medianTime": 90.8018346,
+      "medianQ": 9.02931272356085,
+      "byScene": {
+        "workcell": 5,
+        "endpoints": 5,
+        "layout": 5
+      }
+    },
+    {
+      "arm": "adaptive",
+      "n": 15,
+      "successes": 13,
+      "medianTime": 98.8629438,
+      "medianQ": 8.387004016759358,
+      "byScene": {
+        "workcell": 4,
+        "endpoints": 4,
+        "layout": 5
+      }
+    }
+  ],
+  "failures": [
+    {
+      "scenario": "endpoints",
+      "arm": "adaptive",
+      "seed": 5801,
+      "failures": [
+        "proxy_margin"
+      ],
+      "gapMm": 33.528940421082595,
+      "tilt": 0.8581197977429532,
+      "seconds": 301.4895187
+    },
+    {
+      "scenario": "endpoints",
+      "arm": "fixed50",
+      "seed": 5800,
+      "failures": [
+        "proxy_margin"
+      ],
+      "gapMm": 34.22358785245619,
+      "tilt": 0.08284562148676217,
+      "seconds": 277.8734774
+    },
+    {
+      "scenario": "workcell",
+      "arm": "adaptive",
+      "seed": 5801,
+      "failures": [
+        "proxy_margin"
+      ],
+      "gapMm": 30.417831283547496,
+      "tilt": 0.5111519900213418,
+      "seconds": 282.8978346
+    },
+    {
+      "scenario": "workcell",
+      "arm": "ambient",
+      "seed": 5800,
+      "failures": [
+        "proxy_margin"
+      ],
+      "gapMm": 30.132816773392772,
+      "tilt": 0.15176087647221065,
+      "seconds": 302.9062567
+    }
+  ],
+  "v3FormalReplay": 804,
+  "v5FormalReplay": 3005
+}

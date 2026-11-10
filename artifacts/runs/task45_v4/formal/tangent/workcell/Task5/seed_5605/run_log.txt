@@ -1,0 +1,4 @@
+TASK5 workcell seed 5605 mode projected weight 1000 noise 0.55
+restart 1 iteration 1 cost 1743.536 waypoint gap -0.11573 elapsed 2.9 s
+restart 1 iteration 10 cost 12.30183 waypoint gap 0.04414 elapsed 27.1 s
+RESULT success=1 voxel=0.044142 m tilt=0.7918 deg iterations=10 time=31.16 s

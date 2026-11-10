@@ -1,0 +1,18 @@
+[
+  {
+    "path": "scripts/develop_task45_v3.m",
+    "sha256": "af246a2cea93df0c9f8770235ba64ca47d895956ede324807553c11d63d9087e"
+  },
+  {
+    "path": "scripts/run_task45_v3_worker.m",
+    "sha256": "cc5baf914b34148cc7896fabfee0ef1fefd14eb28660b9016d2167c67f1e1439"
+  },
+  {
+    "path": "scripts/prepare_task45_v3_formal.m",
+    "sha256": "ea5d71fbe7e72cdfd156618ad1d14636f4e3de7dcafdb120d5e9d8c43185ca25"
+  },
+  {
+    "path": "scripts/continue_task45_v3.ps1",
+    "sha256": "1667b3c836123d9edcdf7392d059205672ac505e045df80b6b5dc2670b235460"
+  }
+]

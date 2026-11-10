@@ -1,0 +1,1 @@
+Numerical checks, analysis and figure exports finished. Visual inspection is recorded in visual_qa.json; final inventory checks are in delivery_checks.json.

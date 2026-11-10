@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "details": [
+    {
+      "scene": "main",
+      "denseStates": 241,
+      "worldCollisionStates": 122,
+      "selfCollisionStates": 0,
+      "endpointsUpright": true
+    },
+    {
+      "scene": "variant",
+      "denseStates": 241,
+      "worldCollisionStates": 111,
+      "selfCollisionStates": 0,
+      "endpointsUpright": true
+    }
+  ]
+}

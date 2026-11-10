@@ -1,0 +1,23 @@
+{
+  "type": "postprocessing-only",
+  "clientDate": "2026-11-08",
+  "originalSourceFingerprint": "8a8fa3e036dc4d4c7124efefa9957d61b536b6180a6cfea87cac9d7429dcee23",
+  "approvedSourceFingerprint": "af8bac795e4e8149125c6a3084a83a2514cec55ee95ba715a4181bfed2345977",
+  "reason": "Empty common-success intersection can be 0-by-1; iterate over a row vector so it performs zero iterations. The benchmark accepts only the original or this exact audited postprocessing source fingerprint.",
+  "planningParametersChanged": false,
+  "rawResultsChanged": false,
+  "changes": [
+    {
+      "path": "+memberC/aggregateStudy.m",
+      "originalSha256": "c2c3995c427031f38897429357f3ed8c0c13403a885bd3b1b32ca3a25bb76044",
+      "patchedSha256": "e3715c5334ec809fa3e0bc6d7b8d62bfc66d5c16a32082611321469f6d48632f",
+      "snapshotPath": "provenance/pre_postprocessing_fix/+memberC/aggregateStudy.m"
+    },
+    {
+      "path": "run_task45_benchmark.m",
+      "originalSha256": "7bc751a9b6e7b357d32380766154104963c44eb6209a912634ff5f4c8d1d4f90",
+      "patchedSha256": "957cf10b937b2380d72490cffca0aef9c146610dd107aa654bd0b584397af44c",
+      "snapshotPath": "provenance/pre_postprocessing_fix/run_task45_benchmark.m"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "completedNominalCases": 50,
+  "completedSuccesses": 20,
+  "technicalInterruptions": 1,
+  "observedAttempts": 51,
+  "interruptedCaseIds": [
+    {
+      "scenario": "main",
+      "mode": "penalty",
+      "seed": 5122,
+      "checkpoints": 288,
+      "archivePath": "technical_interruptions/main_penalty_seed_5122_attempt_1"
+    }
+  ],
+  "interpretation": "Interrupted attempts had no final output. They are retained and counted separately; complete-case and all-attempt fractions are both reported."
+}

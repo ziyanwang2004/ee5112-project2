@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "tangentProjectorResidual": 1.4847244369999941E-15,
+  "rngDrawsUnchanged": true,
+  "actualNoiseSaved": true,
+  "task4SamplingUnchanged": true,
+  "zeroBudgetRetainsIncumbent": true,
+  "failedProjectionsReceiveZeroWeight": true,
+  "rejectedCandidatesCannotOverwriteIncumbent": true
+}

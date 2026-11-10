@@ -1,0 +1,686 @@
+{
+  "passed": true,
+  "paths": 75,
+  "states": 40429,
+  "maxTiltError_deg": 9.012235402394708e-14,
+  "maxToolLengthError_m": 2.220446049250313e-15,
+  "maxMinHeightError_m": 3.3306690738754696e-16,
+  "scope": "Independent NumPy FK/tilt/tool metrics at nominal dense states. Actual collision and finer validation remain separate MATLAB checks.",
+  "records": [
+    {
+      "scenario": "endpoints",
+      "variant": "adaptive",
+      "seed": 5800,
+      "states": 687,
+      "maxTiltError_deg": 6.089573290068984e-14,
+      "toolLengthError_m": 2.220446049250313e-15,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "adaptive",
+      "seed": 5801,
+      "states": 599,
+      "maxTiltError_deg": 7.261552470438914e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 2.7755575615628914e-17
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "adaptive",
+      "seed": 5802,
+      "states": 583,
+      "maxTiltError_deg": 6.487865800153259e-14,
+      "toolLengthError_m": 1.3322676295501878e-15,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "adaptive",
+      "seed": 5803,
+      "states": 453,
+      "maxTiltError_deg": 7.675804436502176e-14,
+      "toolLengthError_m": 1.3322676295501878e-15,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "adaptive",
+      "seed": 5804,
+      "states": 519,
+      "maxTiltError_deg": 5.130271207853809e-14,
+      "toolLengthError_m": 1.7763568394002505e-15,
+      "minHeightError_m": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "ambient",
+      "seed": 5800,
+      "states": 683,
+      "maxTiltError_deg": 7.20951076615961e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "ambient",
+      "seed": 5801,
+      "states": 500,
+      "maxTiltError_deg": 6.999956170261612e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "ambient",
+      "seed": 5802,
+      "states": 898,
+      "maxTiltError_deg": 6.014633235906786e-14,
+      "toolLengthError_m": 2.220446049250313e-15,
+      "minHeightError_m": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "ambient",
+      "seed": 5803,
+      "states": 443,
+      "maxTiltError_deg": 4.0745185003743245e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "ambient",
+      "seed": 5804,
+      "states": 465,
+      "maxTiltError_deg": 5.630218513630325e-14,
+      "toolLengthError_m": 0.0,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "energy_control",
+      "seed": 5800,
+      "states": 639,
+      "maxTiltError_deg": 5.191680418903388e-14,
+      "toolLengthError_m": 1.3322676295501878e-15,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "energy_control",
+      "seed": 5801,
+      "states": 499,
+      "maxTiltError_deg": 5.605238495576259e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "energy_control",
+      "seed": 5802,
+      "states": 563,
+      "maxTiltError_deg": 5.372785549795367e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "energy_control",
+      "seed": 5803,
+      "states": 525,
+      "maxTiltError_deg": 5.623800036769211e-14,
+      "toolLengthError_m": 1.7763568394002505e-15,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "energy_control",
+      "seed": 5804,
+      "states": 518,
+      "maxTiltError_deg": 6.38378239159465e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed50",
+      "seed": 5800,
+      "states": 583,
+      "maxTiltError_deg": 8.462675005205256e-14,
+      "toolLengthError_m": 1.3322676295501878e-15,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed50",
+      "seed": 5801,
+      "states": 537,
+      "maxTiltError_deg": 5.072331443756184e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed50",
+      "seed": 5802,
+      "states": 515,
+      "maxTiltError_deg": 7.096753740221118e-14,
+      "toolLengthError_m": 1.7763568394002505e-15,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed50",
+      "seed": 5803,
+      "states": 530,
+      "maxTiltError_deg": 5.839773109528323e-14,
+      "toolLengthError_m": 1.7763568394002505e-15,
+      "minHeightError_m": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed50",
+      "seed": 5804,
+      "states": 451,
+      "maxTiltError_deg": 3.8495248655401326e-14,
+      "toolLengthError_m": 1.7763568394002505e-15,
+      "minHeightError_m": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed75",
+      "seed": 5800,
+      "states": 549,
+      "maxTiltError_deg": 6.993017276357705e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed75",
+      "seed": 5801,
+      "states": 538,
+      "maxTiltError_deg": 6.097206073363282e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed75",
+      "seed": 5802,
+      "states": 597,
+      "maxTiltError_deg": 6.088879400678593e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 1.3877787807814457e-16
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed75",
+      "seed": 5803,
+      "states": 649,
+      "maxTiltError_deg": 9.012235402394708e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "endpoints",
+      "variant": "fixed75",
+      "seed": 5804,
+      "states": 518,
+      "maxTiltError_deg": 5.542788450441094e-14,
+      "toolLengthError_m": 0.0,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "layout",
+      "variant": "adaptive",
+      "seed": 5800,
+      "states": 429,
+      "maxTiltError_deg": 5.269396030627149e-14,
+      "toolLengthError_m": 0.0,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "layout",
+      "variant": "adaptive",
+      "seed": 5801,
+      "states": 513,
+      "maxTiltError_deg": 6.417089082333405e-14,
+      "toolLengthError_m": 0.0,
+      "minHeightError_m": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "layout",
+      "variant": "adaptive",
+      "seed": 5802,
+      "states": 452,
+      "maxTiltError_deg": 5.970224314921779e-14,
+      "toolLengthError_m": 1.7763568394002505e-15,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "layout",
+      "variant": "adaptive",
+      "seed": 5803,
+      "states": 418,
+      "maxTiltError_deg": 4.894001870425768e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "layout",
+      "variant": "adaptive",
+      "seed": 5804,
+      "states": 478,
+      "maxTiltError_deg": 5.091760346687124e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "layout",
+      "variant": "ambient",
+      "seed": 5800,
+      "states": 375,
+      "maxTiltError_deg": 4.528322161689857e-14,
+      "toolLengthError_m": 1.3322676295501878e-15,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "layout",
+      "variant": "ambient",
+      "seed": 5801,
+      "states": 350,
+      "maxTiltError_deg": 4.854450175173497e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "layout",
+      "variant": "ambient",
+      "seed": 5802,
+      "states": 698,
+      "maxTiltError_deg": 4.335420911161236e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "layout",
+      "variant": "ambient",
+      "seed": 5803,
+      "states": 449,
+      "maxTiltError_deg": 7.620293285270918e-14,
+      "toolLengthError_m": 6.661338147750939e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "layout",
+      "variant": "ambient",
+      "seed": 5804,
+      "states": 461,
+      "maxTiltError_deg": 6.183942247162122e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "layout",
+      "variant": "energy_control",
+      "seed": 5800,
+      "states": 532,
+      "maxTiltError_deg": 4.6629367034256575e-14,
+      "toolLengthError_m": 1.3322676295501878e-15,
+      "minHeightError_m": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "layout",
+      "variant": "energy_control",
+      "seed": 5801,
+      "states": 412,
+      "maxTiltError_deg": 5.877243136609422e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "layout",
+      "variant": "energy_control",
+      "seed": 5802,
+      "states": 679,
+      "maxTiltError_deg": 6.468436897222318e-14,
+      "toolLengthError_m": 0.0,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "layout",
+      "variant": "energy_control",
+      "seed": 5803,
+      "states": 524,
+      "maxTiltError_deg": 6.473944644258545e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "layout",
+      "variant": "energy_control",
+      "seed": 5804,
+      "states": 551,
+      "maxTiltError_deg": 5.911590661433763e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed50",
+      "seed": 5800,
+      "states": 848,
+      "maxTiltError_deg": 7.560618797697316e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed50",
+      "seed": 5801,
+      "states": 512,
+      "maxTiltError_deg": 6.721706524714932e-14,
+      "toolLengthError_m": 1.3322676295501878e-15,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed50",
+      "seed": 5802,
+      "states": 508,
+      "maxTiltError_deg": 6.794564910705958e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 2.220446049250313e-16
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed50",
+      "seed": 5803,
+      "states": 418,
+      "maxTiltError_deg": 5.107719802666111e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed50",
+      "seed": 5804,
+      "states": 431,
+      "maxTiltError_deg": 4.627895289210926e-14,
+      "toolLengthError_m": 1.3322676295501878e-15,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed75",
+      "seed": 5800,
+      "states": 563,
+      "maxTiltError_deg": 4.925226892993351e-14,
+      "toolLengthError_m": 0.0,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed75",
+      "seed": 5801,
+      "states": 513,
+      "maxTiltError_deg": 4.016231791581504e-14,
+      "toolLengthError_m": 1.3322676295501878e-15,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed75",
+      "seed": 5802,
+      "states": 444,
+      "maxTiltError_deg": 5.8938964819788e-14,
+      "toolLengthError_m": 1.3322676295501878e-15,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed75",
+      "seed": 5803,
+      "states": 426,
+      "maxTiltError_deg": 5.3512749786932545e-14,
+      "toolLengthError_m": 0.0,
+      "minHeightError_m": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "layout",
+      "variant": "fixed75",
+      "seed": 5804,
+      "states": 484,
+      "maxTiltError_deg": 6.8063610303426e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "adaptive",
+      "seed": 5800,
+      "states": 596,
+      "maxTiltError_deg": 6.941669461468791e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "adaptive",
+      "seed": 5801,
+      "states": 673,
+      "maxTiltError_deg": 7.55506768257419e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "adaptive",
+      "seed": 5802,
+      "states": 487,
+      "maxTiltError_deg": 5.209721543053547e-14,
+      "toolLengthError_m": 1.7763568394002505e-15,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "adaptive",
+      "seed": 5803,
+      "states": 576,
+      "maxTiltError_deg": 5.705852457182914e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "adaptive",
+      "seed": 5804,
+      "states": 437,
+      "maxTiltError_deg": 4.4048098502003086e-14,
+      "toolLengthError_m": 0.0,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "ambient",
+      "seed": 5800,
+      "states": 596,
+      "maxTiltError_deg": 8.100464743421298e-14,
+      "toolLengthError_m": 1.3322676295501878e-15,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "ambient",
+      "seed": 5801,
+      "states": 509,
+      "maxTiltError_deg": 8.064382495120981e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "ambient",
+      "seed": 5802,
+      "states": 513,
+      "maxTiltError_deg": 6.63358257213531e-14,
+      "toolLengthError_m": 1.3322676295501878e-15,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "ambient",
+      "seed": 5803,
+      "states": 637,
+      "maxTiltError_deg": 5.978550987606468e-14,
+      "toolLengthError_m": 0.0,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "ambient",
+      "seed": 5804,
+      "states": 468,
+      "maxTiltError_deg": 5.0612292135099324e-14,
+      "toolLengthError_m": 0.0,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "energy_control",
+      "seed": 5800,
+      "states": 537,
+      "maxTiltError_deg": 6.822320486321587e-14,
+      "toolLengthError_m": 2.220446049250313e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "energy_control",
+      "seed": 5801,
+      "states": 483,
+      "maxTiltError_deg": 7.368411436559086e-14,
+      "toolLengthError_m": 1.3322676295501878e-15,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "energy_control",
+      "seed": 5802,
+      "states": 456,
+      "maxTiltError_deg": 5.408173908705294e-14,
+      "toolLengthError_m": 1.9984014443252818e-15,
+      "minHeightError_m": 1.1102230246251565e-16
+    },
+    {
+      "scenario": "workcell",
+      "variant": "energy_control",
+      "seed": 5803,
+      "states": 479,
+      "maxTiltError_deg": 5.1736392947532295e-14,
+      "toolLengthError_m": 0.0,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "energy_control",
+      "seed": 5804,
+      "states": 489,
+      "maxTiltError_deg": 5.499767308236869e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 3.3306690738754696e-16
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed50",
+      "seed": 5800,
+      "states": 1269,
+      "maxTiltError_deg": 7.652212197228891e-14,
+      "toolLengthError_m": 2.220446049250313e-15,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed50",
+      "seed": 5801,
+      "states": 536,
+      "maxTiltError_deg": 5.880018694170985e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed50",
+      "seed": 5802,
+      "states": 522,
+      "maxTiltError_deg": 6.505906924303417e-14,
+      "toolLengthError_m": 2.220446049250313e-15,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed50",
+      "seed": 5803,
+      "states": 450,
+      "maxTiltError_deg": 4.5373427237649366e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed50",
+      "seed": 5804,
+      "states": 516,
+      "maxTiltError_deg": 6.076215919303962e-14,
+      "toolLengthError_m": 1.7763568394002505e-15,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed75",
+      "seed": 5800,
+      "states": 618,
+      "maxTiltError_deg": 7.019732017887748e-14,
+      "toolLengthError_m": 4.440892098500626e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed75",
+      "seed": 5801,
+      "states": 487,
+      "maxTiltError_deg": 6.591775736364269e-14,
+      "toolLengthError_m": 8.881784197001252e-16,
+      "minHeightError_m": 0.0
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed75",
+      "seed": 5802,
+      "states": 669,
+      "maxTiltError_deg": 7.66053886991358e-14,
+      "toolLengthError_m": 1.3322676295501878e-15,
+      "minHeightError_m": 5.551115123125783e-17
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed75",
+      "seed": 5803,
+      "states": 409,
+      "maxTiltError_deg": 4.9835136017861714e-14,
+      "toolLengthError_m": 6.661338147750939e-16,
+      "minHeightError_m": 1.6653345369377348e-16
+    },
+    {
+      "scenario": "workcell",
+      "variant": "fixed75",
+      "seed": 5804,
+      "states": 508,
+      "maxTiltError_deg": 5.4186689857349535e-14,
+      "toolLengthError_m": 1.3322676295501878e-15,
+      "minHeightError_m": 0.0
+    }
+  ]
+}

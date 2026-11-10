@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "priorReleases": [
+    {
+      "manifest": "TASK45_FILES_SHA256.csv",
+      "verifiedEntries": 6458,
+      "manifestSha256": "5b561645169000dd2546c7a2d6663f08291feb5cbe89723477d93a0065088e53"
+    },
+    {
+      "manifest": "TASK45_V2_FILES_SHA256.csv",
+      "verifiedEntries": 3057,
+      "manifestSha256": "8ec075e57deddf750d76d870850ea43441384cdd04c3753857f6db70923c9e99"
+    }
+  ],
+  "verifiedPriorEntries": 9515
+}

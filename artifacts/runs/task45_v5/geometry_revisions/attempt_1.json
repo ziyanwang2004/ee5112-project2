@@ -1,0 +1,322 @@
+{
+  "passed": false,
+  "scenarios": [
+    {
+      "scenario": "workcell",
+      "passed": true,
+      "scene": {
+        "id": "workcell",
+        "anchor": [
+          0.63610523342086323,
+          0.0002491034775405571,
+          0.49682406534238549
+        ],
+        "boxes": [
+          [
+            0,
+            0,
+            -0.2,
+            1,
+            1,
+            0.2
+          ],
+          [
+            0.6,
+            0,
+            0.325,
+            0.075,
+            0.1,
+            0.325
+          ],
+          [
+            0.3,
+            -0.23,
+            0.18,
+            0.09,
+            0.065,
+            0.18
+          ],
+          [
+            0.4,
+            0.24,
+            0.24,
+            0.08,
+            0.07,
+            0.24
+          ],
+          [
+            0.85,
+            0,
+            0.35,
+            0.025,
+            0.45,
+            0.35
+          ]
+        ],
+        "qStart": [
+          -1.1,
+          -1.05,
+          1.35,
+          -0.3,
+          -1.5707963267948966,
+          0
+        ],
+        "qGoal": [
+          1.05,
+          -0.75,
+          1.1,
+          -0.35,
+          -1.5707963267948966,
+          0
+        ],
+        "description": "Original mounted workcell, upright endpoints",
+        "floorIndex": 1,
+        "tableHeight": 0,
+        "mountHeight": 0.2,
+        "boxNames": [
+          "table_and_subtable_forbidden",
+          "central_rack",
+          "left_equipment",
+          "right_equipment",
+          "rear_guard"
+        ],
+        "allowedWorldContactBody": "mount_pedestal",
+        "allowedWorldContactObstacle": 1,
+        "mountPolicy": "Only the fixed pedestal bottom may contact the table. No UR5 link or tool contact is allowed."
+      },
+      "endpoints": [
+        {
+          "passed": true,
+          "gap": 0.048484818265390743,
+          "tilt": 8.4166873884630082E-10,
+          "failures": []
+        },
+        {
+          "passed": true,
+          "gap": 0.058778234971504986,
+          "tilt": 8.4164742644008607E-10,
+          "failures": []
+        }
+      ],
+      "initialWorldCollisionStates": 92,
+      "initialStates": 181,
+      "initialSelfCollisionStates": 0,
+      "witnessPassed": true,
+      "witnessGap": 0.048484818265390743,
+      "witnessFailures": []
+    },
+    {
+      "scenario": "endpoints",
+      "passed": false,
+      "scene": {
+        "id": "endpoints",
+        "anchor": [
+          0.62899968288878094,
+          -0.0948120718250913,
+          0.49682406534238549
+        ],
+        "boxes": [
+          [
+            0,
+            0,
+            -0.2,
+            1,
+            1,
+            0.2
+          ],
+          [
+            0.6,
+            0,
+            0.325,
+            0.075,
+            0.1,
+            0.325
+          ],
+          [
+            0.3,
+            -0.23,
+            0.18,
+            0.09,
+            0.065,
+            0.18
+          ],
+          [
+            0.4,
+            0.24,
+            0.24,
+            0.08,
+            0.07,
+            0.24
+          ],
+          [
+            0.85,
+            0,
+            0.35,
+            0.025,
+            0.45,
+            0.35
+          ]
+        ],
+        "qStart": [
+          -1.25,
+          -1.1,
+          1.4,
+          -0.3,
+          -1.5707963267948966,
+          0
+        ],
+        "qGoal": [
+          0.9,
+          -0.7,
+          1.05,
+          -0.35,
+          -1.5707963267948966,
+          0
+        ],
+        "description": "Same workcell, independently changed upright endpoint pair",
+        "floorIndex": 1,
+        "tableHeight": 0,
+        "mountHeight": 0.2,
+        "boxNames": [
+          "table_and_subtable_forbidden",
+          "central_rack",
+          "left_equipment",
+          "right_equipment",
+          "rear_guard"
+        ],
+        "allowedWorldContactBody": "mount_pedestal",
+        "allowedWorldContactObstacle": 1,
+        "mountPolicy": "Only the fixed pedestal bottom may contact the table. No UR5 link or tool contact is allowed."
+      },
+      "endpoints": [
+        {
+          "passed": true,
+          "gap": 0.042868734937646008,
+          "tilt": 8.4167545535743079E-10,
+          "failures": []
+        },
+        {
+          "passed": false,
+          "gap": -0.0052926901450340152,
+          "tilt": 8.4164921018815679E-10,
+          "failures": [
+            "proxy_margin"
+          ]
+        }
+      ],
+      "initialWorldCollisionStates": 102,
+      "initialStates": 181,
+      "initialSelfCollisionStates": 0,
+      "witnessPassed": false,
+      "witnessGap": -0.0052926901450340152,
+      "witnessFailures": [
+        "proxy_margin"
+      ]
+    },
+    {
+      "scenario": "layout",
+      "passed": true,
+      "scene": {
+        "id": "layout",
+        "anchor": [
+          0.63610523342086323,
+          0.0002491034775405571,
+          0.49682406534238549
+        ],
+        "boxes": [
+          [
+            0,
+            0,
+            -0.2,
+            1,
+            1,
+            0.2
+          ],
+          [
+            0.58,
+            0.025,
+            0.325,
+            0.075,
+            0.12,
+            0.325
+          ],
+          [
+            0.3,
+            -0.2,
+            0.18,
+            0.09,
+            0.065,
+            0.18
+          ],
+          [
+            0.4,
+            0.21,
+            0.24,
+            0.08,
+            0.07,
+            0.24
+          ],
+          [
+            0.82,
+            0,
+            0.35,
+            0.025,
+            0.45,
+            0.35
+          ]
+        ],
+        "qStart": [
+          -1.1,
+          -1.05,
+          1.35,
+          -0.3,
+          -1.5707963267948966,
+          0
+        ],
+        "qGoal": [
+          1.05,
+          -0.75,
+          1.1,
+          -0.35,
+          -1.5707963267948966,
+          0
+        ],
+        "description": "Original endpoints, wider shifted rack and equipment moved inward",
+        "floorIndex": 1,
+        "tableHeight": 0,
+        "mountHeight": 0.2,
+        "boxNames": [
+          "table_and_subtable_forbidden",
+          "central_rack",
+          "left_equipment",
+          "right_equipment",
+          "rear_guard"
+        ],
+        "allowedWorldContactBody": "mount_pedestal",
+        "allowedWorldContactObstacle": 1,
+        "mountPolicy": "Only the fixed pedestal bottom may contact the table. No UR5 link or tool contact is allowed."
+      },
+      "endpoints": [
+        {
+          "passed": true,
+          "gap": 0.037956135016419507,
+          "tilt": 8.4166873884630082E-10,
+          "failures": []
+        },
+        {
+          "passed": true,
+          "gap": 0.071002775085907757,
+          "tilt": 8.4164742644008607E-10,
+          "failures": []
+        }
+      ],
+      "initialWorldCollisionStates": 88,
+      "initialStates": 181,
+      "initialSelfCollisionStates": 0,
+      "witnessPassed": true,
+      "witnessGap": 0.037956135016419507,
+      "witnessFailures": []
+    }
+  ],
+  "witnessUse": "Geometry-only feasibility proof. Never used as initialization, restart or optimizer output."
+}

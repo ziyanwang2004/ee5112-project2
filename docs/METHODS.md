@@ -1,5 +1,7 @@
 # 实现与过程说明
 
+Task 4–5 的新增场景、直立约束、验收、固定实验协议和贡献边界见 [TASK45_METHODS.md](TASK45_METHODS.md)，复现入口见 [TASK45_RUNBOOK.md](TASK45_RUNBOOK.md)。下文保留 Task 1–3 原交付方法。
+
 本文件保留算法与几何细节，供组员理解、继续开发及后期报告/PPT 使用。最终实验结果见 `VALIDATION.md`。
 
 ## Task 1 原始场景

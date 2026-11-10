@@ -1,0 +1,226 @@
+{
+  "passed": true,
+  "pairs": 20,
+  "details": [
+    {
+      "a": "baseline",
+      "b": "anytime",
+      "seed": 5600,
+      "commonSearchIterations": 10,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    },
+    {
+      "a": "baseline",
+      "b": "anytime",
+      "seed": 5601,
+      "commonSearchIterations": 35,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    },
+    {
+      "a": "baseline",
+      "b": "anytime",
+      "seed": 5602,
+      "commonSearchIterations": 10,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    },
+    {
+      "a": "baseline",
+      "b": "anytime",
+      "seed": 5603,
+      "commonSearchIterations": 20,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    },
+    {
+      "a": "baseline",
+      "b": "anytime",
+      "seed": 5604,
+      "commonSearchIterations": 10,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    },
+    {
+      "a": "baseline",
+      "b": "anytime",
+      "seed": 5605,
+      "commonSearchIterations": 10,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    },
+    {
+      "a": "baseline",
+      "b": "anytime",
+      "seed": 5606,
+      "commonSearchIterations": 28,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    },
+    {
+      "a": "baseline",
+      "b": "anytime",
+      "seed": 5607,
+      "commonSearchIterations": 15,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    },
+    {
+      "a": "baseline",
+      "b": "anytime",
+      "seed": 5608,
+      "commonSearchIterations": 10,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    },
+    {
+      "a": "baseline",
+      "b": "anytime",
+      "seed": 5609,
+      "commonSearchIterations": 90,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    },
+    {
+      "a": "tangent",
+      "b": "combined",
+      "seed": 5600,
+      "commonSearchIterations": 10,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    },
+    {
+      "a": "tangent",
+      "b": "combined",
+      "seed": 5601,
+      "commonSearchIterations": 10,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    },
+    {
+      "a": "tangent",
+      "b": "combined",
+      "seed": 5602,
+      "commonSearchIterations": 30,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    },
+    {
+      "a": "tangent",
+      "b": "combined",
+      "seed": 5603,
+      "commonSearchIterations": 62,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    },
+    {
+      "a": "tangent",
+      "b": "combined",
+      "seed": 5604,
+      "commonSearchIterations": 10,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    },
+    {
+      "a": "tangent",
+      "b": "combined",
+      "seed": 5605,
+      "commonSearchIterations": 10,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    },
+    {
+      "a": "tangent",
+      "b": "combined",
+      "seed": 5606,
+      "commonSearchIterations": 15,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    },
+    {
+      "a": "tangent",
+      "b": "combined",
+      "seed": 5607,
+      "commonSearchIterations": 10,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    },
+    {
+      "a": "tangent",
+      "b": "combined",
+      "seed": 5608,
+      "commonSearchIterations": 63,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    },
+    {
+      "a": "tangent",
+      "b": "combined",
+      "seed": 5609,
+      "commonSearchIterations": 99,
+      "maxHistoryDifference": 0,
+      "bothSuccessful": true,
+      "sameFirstSolution": true,
+      "firstSolutionMaxError": 0,
+      "bitwiseFirstSolution": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "runs": 1,
+  "successfulRuns": 1,
+  "replayedCheckpoints": 22,
+  "details": [
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\local_runs\\task45_development\\protocol_v2_20261105\\profile_1\\main\\Task4\\seed_5114",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 22,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "passed": true
+      },
+      "failures": []
+    }
+  ]
+}

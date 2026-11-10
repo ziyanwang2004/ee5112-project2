@@ -1,0 +1,355 @@
+{
+  "passed": true,
+  "runs": 2,
+  "successfulRuns": 2,
+  "replayedCheckpoints": 43,
+  "details": [
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v5\\development\\layout\\adaptive\\Task5\\seed_5700",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 19,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 10,
+        "refinement": {
+          "checkpoints": 9,
+          "accepted": 9,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    },
+    {
+      "folder": "D:\\Users\\NUS-courses\\EE5112_Project_2\\ee5112-project2\\artifacts\\runs\\task45_v5\\development\\layout\\adaptive\\Task5\\seed_5701",
+      "planningSuccess": true,
+      "replay": {
+        "checkpoints": 24,
+        "sampleMaxError": 0,
+        "probabilityMaxError": 0,
+        "acceptedMaxError": 0,
+        "rngIdentical": true,
+        "searchCheckpoints": 10,
+        "refinement": {
+          "checkpoints": 14,
+          "accepted": 13,
+          "maxAcceptedError": 0,
+          "passed": true
+        },
+        "passed": true
+      },
+      "failures": []
+    }
+  ],
+  "sourceFingerprint": "49582437dfd1d4ca4ca10452afd73d777a690a2531a7cd6fe9bb03dd4d8c3457",
+  "fineJointStep": 0.00625,
+  "fineDetails": [
+    {
+      "scenario": "layout",
+      "variant": "adaptive",
+      "task": 5,
+      "seed": 5700,
+      "nominalSuccess": true,
+      "fineSuccess": true,
+      "studySuccess": true,
+      "fineStates": 994,
+      "maxTilt": 0.79900740420687011,
+      "minGap": 0.0377696618852397,
+      "minHeight": 0.34970380803803713,
+      "failures": [],
+      "firstJointLength": 8.4921590892450567,
+      "firstSmoothness": 0.20182263625923844,
+      "finalJointLength": 8.2811057031530488,
+      "finalSmoothness": 0.20149917502314968,
+      "searchSampling": {
+        "iterations": 10,
+        "samples": 640,
+        "validSamples": 640,
+        "waypoints": 37760,
+        "elements": 226560,
+        "corrections": 44989,
+        "preEnergy": 27387.786684161038,
+        "postEnergy": 24854.567085587678,
+        "ambientEnergy": 32755.566171624927,
+        "projectionSeconds": 17.523870399999996,
+        "tangentSeconds": 0.16611739999999997,
+        "fractionSum": 5.5,
+        "minFraction": 0.25,
+        "maxFraction": 0.75,
+        "maxEnergyMatchError": 0,
+        "controllerChanges": 3,
+        "stagnationExploration": 0,
+        "meanProjectionCorrectionsPerWaypoint": 1.1914459745762711,
+        "meanFraction": 0.55,
+        "preProjectionRms": 0.3476857171249057,
+        "postProjectionRms": 0.33121613384595394,
+        "ambientRms": 0.3802339903402478,
+        "validFraction": 1
+      },
+      "controllerHistory": [
+        [
+          1,
+          1,
+          0.5,
+          0.25,
+          -0.027983581403591237,
+          0
+        ],
+        [
+          1,
+          2,
+          0.25,
+          0.25,
+          -0.132839963809273,
+          0
+        ],
+        [
+          1,
+          3,
+          0.25,
+          0.25,
+          -0.01711220919022808,
+          0
+        ],
+        [
+          1,
+          4,
+          0.25,
+          0.5,
+          0.040872265593286689,
+          1
+        ],
+        [
+          1,
+          5,
+          0.5,
+          0.75,
+          0.25889256925757542,
+          2
+        ],
+        [
+          1,
+          6,
+          0.75,
+          0.75,
+          0.3446643150696807,
+          0
+        ],
+        [
+          1,
+          7,
+          0.75,
+          0.75,
+          0.31686580041198792,
+          0
+        ],
+        [
+          1,
+          8,
+          0.75,
+          0.75,
+          0.5063832950637932,
+          0
+        ],
+        [
+          1,
+          9,
+          0.75,
+          0.75,
+          0.25666944229244709,
+          0
+        ],
+        [
+          1,
+          10,
+          0.75,
+          0.75,
+          0.083890776599071334,
+          1
+        ]
+      ],
+      "refineSampling": {
+        "iterations": 9,
+        "samples": 288,
+        "validSamples": 288,
+        "waypoints": 16992,
+        "elements": 101952,
+        "corrections": 7567,
+        "preEnergy": 387.81262385821742,
+        "postEnergy": 315.312842371069,
+        "ambientEnergy": 483.99569200391306,
+        "projectionSeconds": 4.7914402,
+        "tangentSeconds": 0.10899099999999998,
+        "fractionSum": 4.5,
+        "minFraction": 0.5,
+        "maxFraction": 0.5,
+        "maxEnergyMatchError": 0,
+        "controllerChanges": 0,
+        "stagnationExploration": 0,
+        "meanProjectionCorrectionsPerWaypoint": 0.44532721280602638,
+        "meanFraction": 0.5,
+        "preProjectionRms": 0.061675559229469712,
+        "postProjectionRms": 0.055612568647908187,
+        "ambientRms": 0.068900579262441808,
+        "validFraction": 1
+      }
+    },
+    {
+      "scenario": "layout",
+      "variant": "adaptive",
+      "task": 5,
+      "seed": 5701,
+      "nominalSuccess": true,
+      "fineSuccess": true,
+      "studySuccess": true,
+      "fineStates": 1101,
+      "maxTilt": 0.064683745447487534,
+      "minGap": 0.037082196813561535,
+      "minHeight": 0.34970380803803713,
+      "failures": [],
+      "firstJointLength": 9.65186726463438,
+      "firstSmoothness": 0.20395143914458039,
+      "finalJointLength": 8.9953607007556187,
+      "finalSmoothness": 0.19990959262482738,
+      "searchSampling": {
+        "iterations": 10,
+        "samples": 640,
+        "validSamples": 640,
+        "waypoints": 37760,
+        "elements": 226560,
+        "corrections": 37509,
+        "preEnergy": 24230.972127972364,
+        "postEnergy": 21695.906300447856,
+        "ambientEnergy": 30595.446738873812,
+        "projectionSeconds": 8.486361200000001,
+        "tangentSeconds": 0.095457400000000012,
+        "fractionSum": 6,
+        "minFraction": 0.25,
+        "maxFraction": 0.75,
+        "maxEnergyMatchError": 0,
+        "controllerChanges": 3,
+        "stagnationExploration": 0,
+        "meanProjectionCorrectionsPerWaypoint": 0.99335275423728808,
+        "meanFraction": 0.6,
+        "preProjectionRms": 0.32703467373466194,
+        "postProjectionRms": 0.3094548404685345,
+        "ambientRms": 0.36748260087752838,
+        "validFraction": 1
+      },
+      "controllerHistory": [
+        [
+          1,
+          1,
+          0.5,
+          0.25,
+          -0.18980204549892385,
+          0
+        ],
+        [
+          1,
+          2,
+          0.25,
+          0.25,
+          -0.020407512040377718,
+          0
+        ],
+        [
+          1,
+          3,
+          0.25,
+          0.5,
+          0.0760201647254642,
+          0
+        ],
+        [
+          1,
+          4,
+          0.5,
+          0.75,
+          0.098621191237426131,
+          0
+        ],
+        [
+          1,
+          5,
+          0.75,
+          0.75,
+          0.24369640347917448,
+          0
+        ],
+        [
+          1,
+          6,
+          0.75,
+          0.75,
+          0.23647601268705612,
+          0
+        ],
+        [
+          1,
+          7,
+          0.75,
+          0.75,
+          0.2964022032311916,
+          0
+        ],
+        [
+          1,
+          8,
+          0.75,
+          0.75,
+          0.42183706695914036,
+          0
+        ],
+        [
+          1,
+          9,
+          0.75,
+          0.75,
+          0.46885402655621761,
+          1
+        ],
+        [
+          1,
+          10,
+          0.75,
+          0.75,
+          0.26348172569958728,
+          2
+        ]
+      ],
+      "refineSampling": {
+        "iterations": 14,
+        "samples": 448,
+        "validSamples": 448,
+        "waypoints": 26432,
+        "elements": 158592,
+        "corrections": 11849,
+        "preEnergy": 602.08568970063629,
+        "postEnergy": 490.50475356594927,
+        "ambientEnergy": 739.13896453580662,
+        "projectionSeconds": 4.8905033000000007,
+        "tangentSeconds": 0.10629260000000001,
+        "fractionSum": 7,
+        "minFraction": 0.5,
+        "maxFraction": 0.5,
+        "maxEnergyMatchError": 0,
+        "controllerChanges": 0,
+        "stagnationExploration": 0,
+        "meanProjectionCorrectionsPerWaypoint": 0.44828238498789347,
+        "meanFraction": 0.5,
+        "preProjectionRms": 0.061615292502809692,
+        "postProjectionRms": 0.055613595309417757,
+        "ambientRms": 0.0682688222452048,
+        "validFraction": 1
+      }
+    }
+  ],
+  "fineSuccessfulRuns": 2,
+  "recomputedSearchCosts": 4,
+  "verifiedRefineSampleCosts": 8
+}

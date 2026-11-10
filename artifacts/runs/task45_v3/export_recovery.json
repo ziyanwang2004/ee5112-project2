@@ -1,0 +1,36 @@
+{
+  "problem": "Export flag named writeVideo shadowed the MATLAB video writer method.",
+  "scope": "Export only; formal/demonstration audits and fine path validation completed successfully before the failure.",
+  "failedExportPreservedLocally": "artifacts/local_runs/task45_v3_failed_export_1",
+  "records": [
+    {
+      "path": "artifacts/runs/task45_v3/finalize_log.txt",
+      "bytes": 7722,
+      "sha256": "57cfb5075202af03fe89e27422416b92918b856f132590be88ba941a88b52c82"
+    },
+    {
+      "path": "artifacts/runs/task45_v3/demos/exports/workcell/paired_motion.avi",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "artifacts/runs/task45_v3/demos/exports/workcell/task4_motion.avi",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "artifacts/runs/task45_v3/demos/exports/workcell/task5_motion.avi",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "repair": "Rename flag to includeVideo and re-export saved trajectories. No experiment reruns.",
+  "recoveryPassed": true,
+  "validatedFrames": 450,
+  "validationReceipts": [
+    "assets_matlab_qa.json",
+    "video_qa.json",
+    "package_qa.json",
+    "visual_qa.json"
+  ]
+}

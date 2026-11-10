@@ -1,0 +1,15 @@
+{
+  "clientDate": "2026-11-09",
+  "source": "https://api.github.com/repos/ziyanwang2004/ee5112-project2/branches",
+  "branches": [
+    {
+      "name": "main",
+      "commit": {
+        "sha": "9490df569bc1b16b4d1c7e3c6ef8d375a153251c",
+        "url": "https://api.github.com/repos/ziyanwang2004/ee5112-project2/commits/9490df569bc1b16b4d1c7e3c6ef8d375a153251c"
+      },
+      "protected": false
+    }
+  ],
+  "readOnly": true
+}

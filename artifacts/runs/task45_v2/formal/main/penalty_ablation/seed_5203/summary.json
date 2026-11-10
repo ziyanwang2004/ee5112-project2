@@ -1,0 +1,28 @@
+{
+  "task": 5,
+  "scenario": "main",
+  "seed": 5203,
+  "mode": "penalty",
+  "success": false,
+  "failures": [
+    "orientation"
+  ],
+  "plannerSeconds": 301.6104524,
+  "totalSeconds": 305.866672,
+  "iterations": 163,
+  "restarts": 1,
+  "minVoxelClearance": 0.05936210010621748,
+  "minMeshClearance": 0.12158964260540694,
+  "maxOrientationDeg": 20.755363177987963,
+  "meanOrientationDeg": 9.5229836795596725,
+  "jointPathLength": 8.0959095709085585,
+  "toolPathLength": 2.2264285522934868,
+  "smoothness": 0.1502621737940692,
+  "orientationWeight": 1000,
+  "noiseStd": 0.55,
+  "nWaypoints": 61,
+  "nRollouts": 64,
+  "termination": "time budget",
+  "denseStates": 505,
+  "sourceFingerprint": "cfb2c25020cbda97ca72310b4dc253f10bbffa3137f1a99d4448fefb68ff857d"
+}

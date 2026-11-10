@@ -1,0 +1,31 @@
+{
+  "matlabRoot": "D:\\Program Files\\MATLAB",
+  "matlabVersion": "23.2.0.3097123 (R2023b) Update 11",
+  "toolboxes": [
+    {
+      "Name": "Image Processing Toolbox",
+      "Version": "23.2",
+      "Release": "(R2023b)",
+      "Date": "01-Aug-2023"
+    },
+    {
+      "Name": "MATLAB",
+      "Version": "23.2",
+      "Release": "(R2023b)",
+      "Date": "01-Aug-2023"
+    },
+    {
+      "Name": "ROS Toolbox",
+      "Version": "23.2",
+      "Release": "(R2023b)",
+      "Date": "01-Aug-2023"
+    },
+    {
+      "Name": "Robotics System Toolbox",
+      "Version": "23.2",
+      "Release": "(R2023b)",
+      "Date": "01-Aug-2023"
+    }
+  ],
+  "maxComputationalThreads": 4
+}

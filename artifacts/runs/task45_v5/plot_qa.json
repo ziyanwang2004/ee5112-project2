@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "reopenedEditableFigures": 3,
+  "figures": [
+    "benchmark",
+    "energy",
+    "demo"
+  ]
+}

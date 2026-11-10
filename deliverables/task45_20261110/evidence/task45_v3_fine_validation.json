@@ -1,0 +1,327 @@
+{
+  "passed": true,
+  "jointStep": 0.00625,
+  "checkedSuccessfulPaths": 40,
+  "details": [
+    {
+      "task": 4,
+      "seed": 5400,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.048484818265390743,
+      "maxOrientationDeg": 140.19741968260962,
+      "denseStates": 1221
+    },
+    {
+      "task": 4,
+      "seed": 5401,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.038975724233132183,
+      "maxOrientationDeg": 160.95673212676778,
+      "denseStates": 1075
+    },
+    {
+      "task": 4,
+      "seed": 5402,
+      "minToolHeight": 0.34358302402424579,
+      "minVoxelClearance": 0.035508216958977795,
+      "maxOrientationDeg": 152.51195124718888,
+      "denseStates": 1408
+    },
+    {
+      "task": 4,
+      "seed": 5403,
+      "minToolHeight": 0.34830249184358608,
+      "minVoxelClearance": 0.046342962635498822,
+      "maxOrientationDeg": 153.46427075720334,
+      "denseStates": 1246
+    },
+    {
+      "task": 4,
+      "seed": 5404,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.048484818265390743,
+      "maxOrientationDeg": 161.0113845649756,
+      "denseStates": 1176
+    },
+    {
+      "task": 4,
+      "seed": 5405,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.048484818265390743,
+      "maxOrientationDeg": 100.19117494896658,
+      "denseStates": 1039
+    },
+    {
+      "task": 4,
+      "seed": 5406,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.047398121283007015,
+      "maxOrientationDeg": 162.51924403180951,
+      "denseStates": 1465
+    },
+    {
+      "task": 4,
+      "seed": 5407,
+      "minToolHeight": 0.33520291743935937,
+      "minVoxelClearance": 0.03769300989861523,
+      "maxOrientationDeg": 164.56717699947214,
+      "denseStates": 1309
+    },
+    {
+      "task": 4,
+      "seed": 5408,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.044989357781897291,
+      "maxOrientationDeg": 139.82018596534675,
+      "denseStates": 1195
+    },
+    {
+      "task": 4,
+      "seed": 5409,
+      "minToolHeight": 0.34046552671564484,
+      "minVoxelClearance": 0.048484818265390743,
+      "maxOrientationDeg": 161.08793583145598,
+      "denseStates": 1135
+    },
+    {
+      "task": 4,
+      "seed": 5410,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.041603648317795575,
+      "maxOrientationDeg": 156.90170429793199,
+      "denseStates": 1026
+    },
+    {
+      "task": 4,
+      "seed": 5411,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.036887185317017651,
+      "maxOrientationDeg": 154.30784540156878,
+      "denseStates": 1196
+    },
+    {
+      "task": 4,
+      "seed": 5412,
+      "minToolHeight": 0.33897025859231961,
+      "minVoxelClearance": 0.0479060571646217,
+      "maxOrientationDeg": 155.07004248465842,
+      "denseStates": 1141
+    },
+    {
+      "task": 4,
+      "seed": 5413,
+      "minToolHeight": 0.3400382069422796,
+      "minVoxelClearance": 0.036725738272619594,
+      "maxOrientationDeg": 160.74865076514766,
+      "denseStates": 1245
+    },
+    {
+      "task": 4,
+      "seed": 5414,
+      "minToolHeight": 0.3357114757647422,
+      "minVoxelClearance": 0.0444293704161461,
+      "maxOrientationDeg": 132.14001324654603,
+      "denseStates": 1284
+    },
+    {
+      "task": 4,
+      "seed": 5415,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.035408304673173047,
+      "maxOrientationDeg": 133.32373614144248,
+      "denseStates": 1123
+    },
+    {
+      "task": 4,
+      "seed": 5416,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.044425406707268536,
+      "maxOrientationDeg": 169.59057347149283,
+      "denseStates": 1006
+    },
+    {
+      "task": 4,
+      "seed": 5417,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.039995164797258724,
+      "maxOrientationDeg": 158.25786847880454,
+      "denseStates": 1312
+    },
+    {
+      "task": 4,
+      "seed": 5418,
+      "minToolHeight": 0.27309273209302792,
+      "minVoxelClearance": 0.048484818265390743,
+      "maxOrientationDeg": 154.18715981579535,
+      "denseStates": 1380
+    },
+    {
+      "task": 4,
+      "seed": 5419,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.046209850562554181,
+      "maxOrientationDeg": 151.7008913283924,
+      "denseStates": 1544
+    },
+    {
+      "task": 5,
+      "seed": 5400,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.036533140764189113,
+      "maxOrientationDeg": 0.90118202581042994,
+      "denseStates": 1206
+    },
+    {
+      "task": 5,
+      "seed": 5401,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.037679912191369153,
+      "maxOrientationDeg": 0.99662061482810294,
+      "denseStates": 1231
+    },
+    {
+      "task": 5,
+      "seed": 5402,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.035225437209558834,
+      "maxOrientationDeg": 0.82259186245494387,
+      "denseStates": 939
+    },
+    {
+      "task": 5,
+      "seed": 5403,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.039823752385796787,
+      "maxOrientationDeg": 0.85241122923005808,
+      "denseStates": 1638
+    },
+    {
+      "task": 5,
+      "seed": 5404,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.037864589346390545,
+      "maxOrientationDeg": 0.81054035382798739,
+      "denseStates": 975
+    },
+    {
+      "task": 5,
+      "seed": 5405,
+      "minToolHeight": 0.326066085525742,
+      "minVoxelClearance": 0.04470345489735638,
+      "maxOrientationDeg": 0.87877970777005177,
+      "denseStates": 1041
+    },
+    {
+      "task": 5,
+      "seed": 5406,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.037431896851015438,
+      "maxOrientationDeg": 0.64052926532184629,
+      "denseStates": 977
+    },
+    {
+      "task": 5,
+      "seed": 5407,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.035906703398180355,
+      "maxOrientationDeg": 0.88116000453613519,
+      "denseStates": 1166
+    },
+    {
+      "task": 5,
+      "seed": 5408,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.046769873425913204,
+      "maxOrientationDeg": 0.47607942534773096,
+      "denseStates": 926
+    },
+    {
+      "task": 5,
+      "seed": 5409,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.045446173888184643,
+      "maxOrientationDeg": 0.93930067454861055,
+      "denseStates": 1455
+    },
+    {
+      "task": 5,
+      "seed": 5410,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.041049019620371212,
+      "maxOrientationDeg": 0.98181965853203446,
+      "denseStates": 1157
+    },
+    {
+      "task": 5,
+      "seed": 5411,
+      "minToolHeight": 0.31787090655549594,
+      "minVoxelClearance": 0.042135210376717663,
+      "maxOrientationDeg": 0.87178711167156475,
+      "denseStates": 1062
+    },
+    {
+      "task": 5,
+      "seed": 5412,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.045528614176255047,
+      "maxOrientationDeg": 0.79946034438023528,
+      "denseStates": 1027
+    },
+    {
+      "task": 5,
+      "seed": 5413,
+      "minToolHeight": 0.28090482827624808,
+      "minVoxelClearance": 0.0443339433798607,
+      "maxOrientationDeg": 0.974324002635369,
+      "denseStates": 965
+    },
+    {
+      "task": 5,
+      "seed": 5414,
+      "minToolHeight": 0.32691069373825993,
+      "minVoxelClearance": 0.045858324692201961,
+      "maxOrientationDeg": 0.99509862052501785,
+      "denseStates": 1060
+    },
+    {
+      "task": 5,
+      "seed": 5415,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.037302957516648388,
+      "maxOrientationDeg": 0.93624325744682779,
+      "denseStates": 1210
+    },
+    {
+      "task": 5,
+      "seed": 5416,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.045124964457490063,
+      "maxOrientationDeg": 0.91730860963910665,
+      "denseStates": 1031
+    },
+    {
+      "task": 5,
+      "seed": 5417,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.036728748334389508,
+      "maxOrientationDeg": 0.735744431340535,
+      "denseStates": 1029
+    },
+    {
+      "task": 5,
+      "seed": 5418,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.048484818265390743,
+      "maxOrientationDeg": 0.8303718838057258,
+      "denseStates": 1156
+    },
+    {
+      "task": 5,
+      "seed": 5419,
+      "minToolHeight": 0.34970380803803713,
+      "minVoxelClearance": 0.043009014055681576,
+      "maxOrientationDeg": 0.81531453435440027,
+      "denseStates": 1021
+    }
+  ]
+}

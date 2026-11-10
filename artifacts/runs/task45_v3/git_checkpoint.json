@@ -1,0 +1,8 @@
+{
+  "checkpointCommit": "91890e9b113b3afffcc41e2facb4aba61547ded2",
+  "frozenConfigCommit": "9490df569bc1b16b4d1c7e3c6ef8d375a153251c",
+  "sourceFingerprint": "706012af20ab4dfda4b995858a25ef723cad55ef39dd648e2d75caed17b2585a",
+  "frozenMatlabFilesUnchanged": true,
+  "note": "Git checkpoint created during the held-out study. Per-run metadata records actual HEAD at run start; frozen executable-source bytes and parameters are unchanged.",
+  "recordedAt": "2026-11-09T05:22:24.216325+00:00"
+}

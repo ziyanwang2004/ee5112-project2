@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "slides": 4,
+  "nativeEditableTables": 1,
+  "chineseNotes": 4,
+  "parsedXML": 53,
+  "relationships": 56,
+  "pdfPages": {
+    "task45_v2_report.pdf": 4,
+    "task45_v2_slides.pdf": 4
+  },
+  "tableSourceMatched": true,
+  "renderedForVisualReview": true
+}

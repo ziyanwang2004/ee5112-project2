@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "manifests": [
+    {
+      "manifest": "TASK45_FILES_SHA256.csv",
+      "verifiedEntries": 6458,
+      "sha256": "5b561645169000dd2546c7a2d6663f08291feb5cbe89723477d93a0065088e53"
+    },
+    {
+      "manifest": "TASK45_V2_FILES_SHA256.csv",
+      "verifiedEntries": 3057,
+      "sha256": "8ec075e57deddf750d76d870850ea43441384cdd04c3753857f6db70923c9e99"
+    },
+    {
+      "manifest": "TASK45_V3_FILES_SHA256.csv",
+      "verifiedEntries": 1572,
+      "sha256": "55c870262864548ea8e6b29c8c61e6bd460bf52035eb7c06ca2a44afd1fdb7a9"
+    }
+  ],
+  "verifiedEntries": 11087
+}

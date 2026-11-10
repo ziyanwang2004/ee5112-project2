@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "reportPagesInspected": 3,
+  "slidesInspected": 4,
+  "scientificFigureImagesInspected": 4,
+  "pairedAnimationFramesInspected": [
+    1,
+    75,
+    150
+  ],
+  "observations": "Readable labels and native result table; no clipping or overlap in the inspected pages. Mount/table are visible. Paired video starts and ends at shared upright endpoints and shows the contrasting mid-path orientations. All 450 frames were separately decoded by MATLAB and the Python decoder.",
+  "scope": "Agent visual inspection of rendered pages, figure images and selected paired video frames; automated package checks are separate."
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "interruptedAttempts": 1,
+  "replayedCheckpoints": 288,
+  "details": [
+    {
+      "seed": 5122,
+      "mode": "penalty",
+      "checkpoints": 288,
+      "maxAcceptedReplayError": 0,
+      "retryCommonCheckpoints": 288,
+      "retryMaxThetaDifference": 0,
+      "retryRandomStatesIdentical": true,
+      "completePlanningResult": false
+    }
+  ]
+}

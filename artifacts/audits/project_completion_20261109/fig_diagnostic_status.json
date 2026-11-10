@@ -1,0 +1,9 @@
+﻿{
+    "status":  "repair_attempt_not_accepted",
+    "originalsUnchanged":  true,
+    "verifiedCopiesBeforeFailure":  3,
+    "failure":  "Full plot-data fingerprint changed after serializing a robot comparison FIG; no repaired copy is approved for delivery.",
+    "partialCopies":  "portable_task123_figs",
+    "source":  "fig_diagnostics/repair_attempt_source.m.txt",
+    "recommendedAction":  "Re-export selected figures under the presentation MATLAB environment; use original PNG/AVI for current review."
+}

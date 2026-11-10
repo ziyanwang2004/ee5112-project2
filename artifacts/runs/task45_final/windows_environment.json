@@ -1,0 +1,16 @@
+﻿{
+    "matlabExecutable":  "D:\\Program Files\\MATLAB\\bin\\matlab.exe",
+    "processor":  {
+                      "Name":  "11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz",
+                      "NumberOfCores":  4,
+                      "NumberOfLogicalProcessors":  8,
+                      "MaxClockSpeed":  2803
+                  },
+    "operatingSystem":  {
+                            "Caption":  "Microsoft Windows 11 家庭版 中文版",
+                            "Version":  "10.0.26200",
+                            "BuildNumber":  "26200",
+                            "TotalVisibleMemorySize":  33249396
+                        },
+    "timestampUtc":  "2026-11-05T16:42:07.5059924Z"
+}

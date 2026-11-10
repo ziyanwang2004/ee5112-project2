@@ -1,0 +1,4 @@
+TASK4 main seed 5204 mode none weight 1000 noise 0.55
+restart 1 iteration 1 cost 239.3735 waypoint gap -0.02490 elapsed 1.6 s
+restart 1 iteration 10 cost 10.77352 waypoint gap 0.04838 elapsed 29.1 s
+RESULT success=1 voxel=0.048383 m tilt=137.6979 deg iterations=10 time=33.15 s

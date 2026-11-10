@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "scenarios": [
+    "workcell",
+    "endpoints",
+    "layout"
+  ],
+  "variants": [
+    "ambient",
+    "energy_control",
+    "fixed50",
+    "fixed75",
+    "adaptive"
+  ],
+  "successes": [
+    [
+      1,
+      2,
+      2,
+      1,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  ],
+  "commonAdaptiveFixed50Workcell": [
+    true,
+    true
+  ]
+}

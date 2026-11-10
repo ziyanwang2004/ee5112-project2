@@ -1,0 +1,28 @@
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\development\workcell\energy_control\Task5\seed_5700 success=1 replay=21 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\development\workcell\energy_control\Task5\seed_5701 success=1 replay=17 passed
+V5 EXTRA AUDIT workcell energy_control seed 5700 nominal=1 study=1 passed
+V5 EXTRA AUDIT workcell energy_control seed 5701 nominal=1 study=1 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\development\workcell\fixed75\Task5\seed_5700 success=1 replay=22 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\development\workcell\fixed75\Task5\seed_5701 success=0 replay=115 passed
+V5 EXTRA AUDIT workcell fixed75 seed 5700 nominal=1 study=1 passed
+V5 EXTRA AUDIT workcell fixed75 seed 5701 nominal=0 study=0 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\development\endpoints\ambient\Task5\seed_5700 success=1 replay=21 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\development\endpoints\ambient\Task5\seed_5701 success=1 replay=72 passed
+V5 EXTRA AUDIT endpoints ambient seed 5700 nominal=1 study=1 passed
+V5 EXTRA AUDIT endpoints ambient seed 5701 nominal=1 study=1 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\development\endpoints\fixed50\Task5\seed_5700 success=1 replay=22 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\development\endpoints\fixed50\Task5\seed_5701 success=1 replay=19 passed
+V5 EXTRA AUDIT endpoints fixed50 seed 5700 nominal=1 study=1 passed
+V5 EXTRA AUDIT endpoints fixed50 seed 5701 nominal=1 study=1 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\development\endpoints\adaptive\Task5\seed_5700 success=1 replay=22 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\development\endpoints\adaptive\Task5\seed_5701 success=1 replay=18 passed
+V5 EXTRA AUDIT endpoints adaptive seed 5700 nominal=1 study=1 passed
+V5 EXTRA AUDIT endpoints adaptive seed 5701 nominal=1 study=1 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\development\layout\energy_control\Task5\seed_5700 success=1 replay=20 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\development\layout\energy_control\Task5\seed_5701 success=1 replay=31 passed
+V5 EXTRA AUDIT layout energy_control seed 5700 nominal=1 study=1 passed
+V5 EXTRA AUDIT layout energy_control seed 5701 nominal=1 study=1 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\development\layout\fixed75\Task5\seed_5700 success=1 replay=22 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\development\layout\fixed75\Task5\seed_5701 success=1 replay=25 passed
+V5 EXTRA AUDIT layout fixed75 seed 5700 nominal=1 study=1 passed
+V5 EXTRA AUDIT layout fixed75 seed 5701 nominal=1 study=1 passed

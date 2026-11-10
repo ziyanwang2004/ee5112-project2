@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "formalCases": 40,
+  "formalSuccesses": 40,
+  "replayedFormalCheckpoints": 804,
+  "fineJointStep": 0.00625,
+  "sourceFingerprint": "706012af20ab4dfda4b995858a25ef723cad55ef39dd648e2d75caed17b2585a",
+  "priorReleaseEntriesVerified": 9515,
+  "manifests": [
+    {
+      "path": "docs/TASK45_V3_FILES_SHA256.csv",
+      "files": 1572,
+      "bytes": 367462151,
+      "sha256": "55c870262864548ea8e6b29c8c61e6bd460bf52035eb7c06ca2a44afd1fdb7a9"
+    },
+    {
+      "path": "docs/TASK45_V3_GIT_FILES_SHA256.csv",
+      "files": 550,
+      "bytes": 102162292,
+      "sha256": "2f40f61198f552a7989eba09229594d0f2b81fdaa2ffc13c952c9740270feaa5"
+    }
+  ],
+  "archiveScope": "Complete local release and smaller Git subset have separate manifests. Formal raw checkpoints remain local; demonstration replay data is included in Git."
+}

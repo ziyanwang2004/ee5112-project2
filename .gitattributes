@@ -5,3 +5,11 @@
 *.rar binary
 provenance/received_baseline/** -text
 matlab/** -text
+# Preserve Task 4-5 evidence and checksums across Windows/Linux checkouts.
+artifacts/runs/task45_final/** -text
+scripts/** -text
+docs/TASK45* -text
+README.md -text
+docs/METHODS.md -text
+.gitattributes -text
+.gitignore -text

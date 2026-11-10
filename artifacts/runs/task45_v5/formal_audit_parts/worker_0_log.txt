@@ -1,0 +1,80 @@
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\workcell\ambient\Task5\seed_5800 success=0 replay=99 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\workcell\ambient\Task5\seed_5801 success=1 replay=23 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\workcell\ambient\Task5\seed_5802 success=1 replay=45 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\workcell\ambient\Task5\seed_5803 success=1 replay=45 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\workcell\ambient\Task5\seed_5804 success=1 replay=58 passed
+V5 EXTRA AUDIT workcell ambient seed 5800 nominal=0 study=0 passed
+V5 EXTRA AUDIT workcell ambient seed 5801 nominal=1 study=1 passed
+V5 EXTRA AUDIT workcell ambient seed 5802 nominal=1 study=1 passed
+V5 EXTRA AUDIT workcell ambient seed 5803 nominal=1 study=1 passed
+V5 EXTRA AUDIT workcell ambient seed 5804 nominal=1 study=1 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\workcell\fixed50\Task5\seed_5800 success=1 replay=25 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\workcell\fixed50\Task5\seed_5801 success=1 replay=62 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\workcell\fixed50\Task5\seed_5802 success=1 replay=42 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\workcell\fixed50\Task5\seed_5803 success=1 replay=23 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\workcell\fixed50\Task5\seed_5804 success=1 replay=97 passed
+V5 EXTRA AUDIT workcell fixed50 seed 5800 nominal=1 study=1 passed
+V5 EXTRA AUDIT workcell fixed50 seed 5801 nominal=1 study=1 passed
+V5 EXTRA AUDIT workcell fixed50 seed 5802 nominal=1 study=1 passed
+V5 EXTRA AUDIT workcell fixed50 seed 5803 nominal=1 study=1 passed
+V5 EXTRA AUDIT workcell fixed50 seed 5804 nominal=1 study=1 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\workcell\adaptive\Task5\seed_5800 success=1 replay=62 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\workcell\adaptive\Task5\seed_5801 success=0 replay=110 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\workcell\adaptive\Task5\seed_5802 success=1 replay=42 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\workcell\adaptive\Task5\seed_5803 success=1 replay=20 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\workcell\adaptive\Task5\seed_5804 success=1 replay=23 passed
+V5 EXTRA AUDIT workcell adaptive seed 5800 nominal=1 study=1 passed
+V5 EXTRA AUDIT workcell adaptive seed 5801 nominal=0 study=0 passed
+V5 EXTRA AUDIT workcell adaptive seed 5802 nominal=1 study=1 passed
+V5 EXTRA AUDIT workcell adaptive seed 5803 nominal=1 study=1 passed
+V5 EXTRA AUDIT workcell adaptive seed 5804 nominal=1 study=1 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\endpoints\energy_control\Task5\seed_5800 success=1 replay=20 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\endpoints\energy_control\Task5\seed_5801 success=1 replay=23 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\endpoints\energy_control\Task5\seed_5802 success=1 replay=21 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\endpoints\energy_control\Task5\seed_5803 success=1 replay=23 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\endpoints\energy_control\Task5\seed_5804 success=1 replay=27 passed
+V5 EXTRA AUDIT endpoints energy_control seed 5800 nominal=1 study=1 passed
+V5 EXTRA AUDIT endpoints energy_control seed 5801 nominal=1 study=1 passed
+V5 EXTRA AUDIT endpoints energy_control seed 5802 nominal=1 study=1 passed
+V5 EXTRA AUDIT endpoints energy_control seed 5803 nominal=1 study=1 passed
+V5 EXTRA AUDIT endpoints energy_control seed 5804 nominal=1 study=1 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\endpoints\fixed75\Task5\seed_5800 success=1 replay=21 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\endpoints\fixed75\Task5\seed_5801 success=1 replay=27 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\endpoints\fixed75\Task5\seed_5802 success=1 replay=21 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\endpoints\fixed75\Task5\seed_5803 success=1 replay=31 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\endpoints\fixed75\Task5\seed_5804 success=1 replay=23 passed
+V5 EXTRA AUDIT endpoints fixed75 seed 5800 nominal=1 study=1 passed
+V5 EXTRA AUDIT endpoints fixed75 seed 5801 nominal=1 study=1 passed
+V5 EXTRA AUDIT endpoints fixed75 seed 5802 nominal=1 study=1 passed
+V5 EXTRA AUDIT endpoints fixed75 seed 5803 nominal=1 study=1 passed
+V5 EXTRA AUDIT endpoints fixed75 seed 5804 nominal=1 study=1 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\layout\ambient\Task5\seed_5800 success=1 replay=68 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\layout\ambient\Task5\seed_5801 success=1 replay=26 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\layout\ambient\Task5\seed_5802 success=1 replay=21 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\layout\ambient\Task5\seed_5803 success=1 replay=72 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\layout\ambient\Task5\seed_5804 success=1 replay=26 passed
+V5 EXTRA AUDIT layout ambient seed 5800 nominal=1 study=1 passed
+V5 EXTRA AUDIT layout ambient seed 5801 nominal=1 study=1 passed
+V5 EXTRA AUDIT layout ambient seed 5802 nominal=1 study=1 passed
+V5 EXTRA AUDIT layout ambient seed 5803 nominal=1 study=1 passed
+V5 EXTRA AUDIT layout ambient seed 5804 nominal=1 study=1 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\layout\fixed50\Task5\seed_5800 success=1 replay=43 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\layout\fixed50\Task5\seed_5801 success=1 replay=28 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\layout\fixed50\Task5\seed_5802 success=1 replay=72 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\layout\fixed50\Task5\seed_5803 success=1 replay=24 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\layout\fixed50\Task5\seed_5804 success=1 replay=27 passed
+V5 EXTRA AUDIT layout fixed50 seed 5800 nominal=1 study=1 passed
+V5 EXTRA AUDIT layout fixed50 seed 5801 nominal=1 study=1 passed
+V5 EXTRA AUDIT layout fixed50 seed 5802 nominal=1 study=1 passed
+V5 EXTRA AUDIT layout fixed50 seed 5803 nominal=1 study=1 passed
+V5 EXTRA AUDIT layout fixed50 seed 5804 nominal=1 study=1 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\layout\adaptive\Task5\seed_5800 success=1 replay=44 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\layout\adaptive\Task5\seed_5801 success=1 replay=27 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\layout\adaptive\Task5\seed_5802 success=1 replay=46 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\layout\adaptive\Task5\seed_5803 success=1 replay=24 passed
+AUDIT D:\Users\NUS-courses\EE5112_Project_2\ee5112-project2\artifacts\runs\task45_v5\formal\layout\adaptive\Task5\seed_5804 success=1 replay=31 passed
+V5 EXTRA AUDIT layout adaptive seed 5800 nominal=1 study=1 passed
+V5 EXTRA AUDIT layout adaptive seed 5801 nominal=1 study=1 passed
+V5 EXTRA AUDIT layout adaptive seed 5802 nominal=1 study=1 passed
+V5 EXTRA AUDIT layout adaptive seed 5803 nominal=1 study=1 passed
+V5 EXTRA AUDIT layout adaptive seed 5804 nominal=1 study=1 passed
